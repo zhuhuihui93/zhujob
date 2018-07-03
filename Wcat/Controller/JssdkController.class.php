@@ -522,7 +522,7 @@ class JssdkController extends Controller{
         }
     }
     public function index(){
-        var_dump(date('Y-m-d H:i:s',1530590130+(60*60*4)));
+        var_dump(111);
     }
     function appReturn($status,$code,$msg,$result,$pageCode){
         if(!$status) $status = "fail";
