@@ -1,0 +1,1 @@
+a:4:{i:0;s:6:"roleid";i:1;s:1:"c";i:2;s:1:"a";s:5:"_type";a:3:{s:6:"roleid";s:19:"tinyint(3) unsigned";s:1:"c";s:11:"varchar(20)";s:1:"a";s:11:"varchar(20)";}}

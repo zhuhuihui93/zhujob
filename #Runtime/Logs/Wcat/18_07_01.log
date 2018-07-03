@@ -1,0 +1,48 @@
+[ 2018-07-01T23:59:18+08:00 ] 47.92.130.50 /Wcat/Jssdk/makeSign
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.006144s ]
+INFO: [ app_init ] --END-- [ RunTime:0.007052s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000844s ]
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.000470s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001392s ]
+SQL: SHOW COLUMNS FROM `orders` [ RunTime:0.0277s ]
+SQL: SELECT * FROM `orders` WHERE `order_status` = 2  [ RunTime:0.0264s ]
+SQL: SELECT * FROM `orders` WHERE `order_status` = 1 AND `read` = 0  [ RunTime:0.0350s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001498s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001593s ]
+
+[ 2018-07-01T23:59:18+08:00 ] 47.92.130.50 /Wcat/Jssdk/makeSign
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.006164s ]
+INFO: [ app_init ] --END-- [ RunTime:0.007028s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001006s ]
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.000665s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001777s ]
+SQL: SHOW COLUMNS FROM `orders` [ RunTime:0.0182s ]
+SQL: SELECT * FROM `orders` WHERE `order_status` = 2  [ RunTime:0.0175s ]
+SQL: SELECT * FROM `orders` WHERE `order_status` = 1 AND `read` = 0  [ RunTime:0.0183s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001403s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001510s ]
+
+[ 2018-07-01T23:59:20+08:00 ] 47.92.130.50 /Wcat/Jssdk/makeSign
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.005340s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006100s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001063s ]
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.000972s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002156s ]
+SQL: SHOW COLUMNS FROM `orders` [ RunTime:0.0292s ]
+SQL: SELECT * FROM `orders` WHERE `order_status` = 2  [ RunTime:0.0277s ]
+SQL: SELECT * FROM `orders` WHERE `order_status` = 1 AND `read` = 0  [ RunTime:0.0273s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001421s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001493s ]
+

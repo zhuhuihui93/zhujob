@@ -1,0 +1,43 @@
+<!--datagrid列表-->
+<table id="{:html_id('datagrid')}" data-menu="#{:html_id('datagrid-menu')}" data-toolbar="#{:html_id('datagrid-toolbar')}" data-title="{$title}" data-url="{:U(CONTROLLER_NAME . '/' . ACTION_NAME, array('grid'=>'datagrid'))}">
+	<thead>
+		<tr>
+			<th data-options="field:'user_name',width:100,sortable:true">用户名</th>
+			<th data-options="field:'integral',width:100,sortable:true">用户积分</th>
+			<th data-options="field:'creation_time',width:250,sortable:true">关注时间</th>
+			<th data-options="field:'charge_count',width:250,sortable:true">充电次数</th>
+			<th data-options="field:'charge_name',width:100,sortable:true">入口充电桩</th>
+		</tr>
+	</thead>
+</table>
+
+<!--工具栏-->
+<div id="{:html_id('datagrid-toolbar')}">
+	<!--搜索-->
+	<!--操作项-->
+	<foreach name="toolbars" item="li">
+		<a class="easyui-linkbutton toolbar-action" data-action="{$li.a}" iconCls="{$li.icon}" plain="true" data-href="{:U($li['c'] . '/' . $li['a'] . '?' . $li['data'])}">{$li.name}</a>
+	</foreach>
+	<div>
+		<a class="easyui-linkbutton di1 toolbar-action iconCls="fa fa-search" plain="true""><span class="sp1">用户统计总数(人)</span></br><span class="sp2">{$users_count}</span></br><span class="sp3">用户统计总数</span></a>
+	</div>
+	
+
+</div>
+
+
+<!--右键菜单-->
+<if condition="count($toolbars) gt 0">
+	<div id="{:html_id('datagrid-menu')}" class="easyui-menu">
+		<foreach name="toolbars" item="li">
+			<div class="menu-action" data-action="{$li.a}" data-href="{:U($li['c'] . '/' . $li['a'] . '?' . $li['data'])}" iconCls="{$li.icon}">{$li.name}</div>
+		</foreach>
+	</div>
+</if>
+
+<script type="text/javascript">
+	require(['cduser/cduser'], function(module){
+
+		module.init("#{:html_id('datagrid')}");
+	});
+</script>

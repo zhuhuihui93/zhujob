@@ -1,0 +1,290 @@
+<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <!-- <title>充电中</title> -->
+    <link href="/Public/Wcat/css/clear.css" rel="stylesheet"/>
+    <link href="/Public/Wcat/css/mui.min.css" rel="stylesheet"/>
+    <link href="/Public/Wcat/css/style.css" rel="stylesheet"/>
+    <script src="/Public/Wcat/js/self-adaption.js"></script>
+</head>
+<body>
+	<header class="mui-bar mui-bar-nav">
+	    <a class="mui-action-back mui-icon mui-icon-left-nav mui-pull-left"></a>
+	    <h1 class="mui-title">充电中</h1>
+	</header>
+	<div class="mui-content" style="position: relative;">
+		<h5 class="Remaining-time-tit" id="Remaining-time-tit">充电剩余时间</h5>
+		<ul class="Remaining-time-cont mui-clearfix">
+			<li class="mui-pull-left">
+				<div>
+					<span id="time_h">01</span>
+				</div>
+				<p>时</p>
+			</li>
+			<li class="mui-pull-left">
+				<div>
+					<span id="time_m">01</span>
+				</div>
+				<p>分</p>
+			</li>
+			<li class="mui-pull-left">
+				<div>
+					<span id="time_s">01</span>
+				</div>
+				<p>秒</p>
+			</li>
+		</ul>
+		<img src="/Public/Wcat/images/bolang.gif" class="Remaining-time-bolang"/>
+		<ul class="Remaining-time-bar">
+			<li class="mui-pull-left">
+				<p>充电时长 :&nbsp;&nbsp;<span id="Total_time">5</span><i>/小时</i></p>
+			</li>
+			<li class="mui-pull-right">
+				<p>充电状态 :&nbsp;&nbsp;  <i id="state">正常</i></p>
+			</li>
+		</ul>
+	</div>
+	<input type="hidden" name="order_sn" value="<?php echo ($orders['order_sn']); ?>" id='order_sn'/>
+	<script src="/Public/Wcat/js/mui.min.js"></script>
+    <script type="text/javascript" charset="utf-8">
+      	mui.init();
+      	window.onload=function(){
+      		var oTotal_time=document.getElementById('Total_time');
+      		var oSate=document.getElementById('state');
+      		var oTime_h=document.getElementById('time_h');
+      		var oTime_m=document.getElementById('time_m');
+      		var oTime_s=document.getElementById('time_s');
+      		var oRemaininge_tit=document.getElementById('Remaining-time-tit');
+      		var oEnd_time=null;     //时间差
+      		var oOrder_sn=document.getElementById('order_sn').value;    //订单号
+      		var oState_2=null;		//订单状态
+      		var oCharge_time=null;	//充电时长
+      		//var aState=null;
+      		var timer2=null;
+      		var timer=null;
+      		mui.ajax('http://www.bjyilongxiang.com/Wcat/Charge/now_charge_json',{
+      			data:{
+						order_sn:oOrder_sn,
+					},
+				dataType:'json',
+				type:'post',
+				success:function(data){
+					console.log('走进来');
+					if(data.code == 102)
+					{
+						oTime_h.innerHTML=0;
+						oTime_m.innerHTML=0;
+						oTime_s.innerHTML=0;
+						oRemaininge_tit.innerHTML='暂无充电数据';
+						console.log(102);
+					}
+					else{
+						console.log('请求成功');
+						oState_2=data.data.charge_status;
+						oEnd_time=data.data.end_time;
+						oOrder_sn=data.data.order_sn;
+						oCharge_time=data.data.charge_time;
+						console.log(data.data.charge_status);
+						if( oState_2== 1)
+						{
+							
+							tick(oEnd_time);
+							oTotal_time.innerHTML=oCharge_time;
+							oSate.innerHTML='正常';
+							console.log(102-1);
+							
+						}
+						else if(oState_2== 2)
+						{
+							console.log('充电完成');
+							oTime_h.innerHTML=0;
+							oTime_m.innerHTML=0;
+							oTime_s.innerHTML=0;
+							oRemaininge_tit.innerHTML='此次充电已完成';
+							clearInterval(timer2);
+
+						}
+						else if(oState_2== 3)
+						{
+							clearInterval(timer2);
+							clearInterval(timer);
+							oTime_h.innerHTML=0;
+							oTime_m.innerHTML=0;
+							oTime_s.innerHTML=0;
+							oRemaininge_tit.innerHTML='此次充电已充满';
+							console.log(102-3);
+						}
+						else if(oState_2== 4)
+						{
+							clearInterval(timer2);
+							clearInterval(timer);
+							oTime_h.innerHTML=0;
+							oTime_m.innerHTML=0;
+							oTime_s.innerHTML=0;
+							oRemaininge_tit.innerHTML='电源连接有误，请检查！';
+							console.log(102-4);
+						}
+						else if(oState_2== 5)
+						{clearInterval(timer2);
+							clearInterval(timer);
+							
+							oTime_h.innerHTML=0;
+							oTime_m.innerHTML=0;
+							oTime_s.innerHTML=0;
+							oRemaininge_tit.innerHTML='您的电池功率过载，暂不支持充电！';
+							console.log(102-5);
+						}
+						console.log(oEnd_time);
+						
+					}
+				},
+				error:function(xhr,type,errorThrown){
+					console.log('失败')
+				}
+			});
+			timer2=setInterval(function (){
+				mui.ajax('http://www.bjyilongxiang.com/Wcat/Charge/now_charge_json',{
+					data:{
+						order_sn:oOrder_sn,
+					},
+					dataType:'json',
+					type:'post',
+					success:function(data){
+						if(data.code == 102)
+						{
+							clearInterval(timer2);
+							clearInterval(timer);
+							oTime_h.innerHTML=0;
+							oTime_m.innerHTML=0;
+							oTime_s.innerHTML=0;
+							oRemaininge_tit.innerHTML='暂无充电数据';
+						}
+						else{
+							console.log('请求成功');
+							oState_2=data.data.charge_status;
+							oEnd_time=data.data.end_time;
+							oOrder_sn=data.data.order_sn;
+							oCharge_time=data.data.charge_time;
+							if( oState_2== 1)
+							{
+								
+								//tick(oEnd_time);
+								oTotal_time.innerHTML=oCharge_time;
+								oSate.innerHTML='正常';
+								
+							}
+							else if(oState_2== 2)
+							{
+								console.log('充电完成');
+								oTime_h.innerHTML=0;
+								oTime_m.innerHTML=0;
+								oTime_s.innerHTML=0;
+								oRemaininge_tit.innerHTML='此次充电已完成';
+								clearInterval(timer2);
+	
+							}
+							else if(oState_2== 3)
+							{
+								clearInterval(timer2);
+								clearInterval(timer);
+								oTime_h.innerHTML=0;
+								oTime_m.innerHTML=0;
+								oTime_s.innerHTML=0;
+								oRemaininge_tit.innerHTML='此次充电已充满';
+								//myState(oState_2);
+							}
+							else if(oState_2== 4)
+							{
+								clearInterval(timer2);
+								clearInterval(timer);
+								oTime_h.innerHTML=0;
+								oTime_m.innerHTML=0;
+								oTime_s.innerHTML=0;
+								oRemaininge_tit.innerHTML='电源连接有误，请检查！';
+							}
+							else if(oState_2== 5)
+							{
+								clearInterval(timer2);
+								clearInterval(timer);
+								oTime_h.innerHTML=0;
+								oTime_m.innerHTML=0;
+								oTime_s.innerHTML=0;
+								oRemaininge_tit.innerHTML='您的电池功率过载，暂不支持充电！';
+							}
+							console.log(oEnd_time);
+							
+						}
+					},
+					error:function(xhr,type,errorThrown){
+						console.log('失败2')
+					}
+				});
+			}, 60000)
+
+
+      		function tick(obj_time)
+			{				
+				var obj_t=obj_time;
+				 //创建补0函数
+			    function toDub(s) {
+			        return s < 10 ? '0' + s: s;
+			    }
+				timer=setInterval(function (){
+					obj_t--; // 0	
+					var total=obj_t;
+					var h=Math.floor(total/3600);
+					total%=3600;	
+					var m=Math.floor(total/60);
+					total%=60;
+					var s=total;
+					oTime_h.innerHTML=toDub(h);
+					oTime_m.innerHTML=toDub(m);
+					oTime_s.innerHTML=toDub(s);
+					if(obj_t<=0)
+					{
+//						mui.ajax('http://www.bjyilongxiang.com/Wcat/Charge/close_charge',{
+//							data:{
+//								status:oState_2,  //1,充电完成
+//								order_sn:oOrder_sn,
+//							},
+//							dataType:'json',//服务器返回json格式数据
+//							type:'post',//HTTP请求类型	              
+//							success:function(data){
+//								console.log('发送成功');
+//							},
+//							error:function(xhr,type,errorThrown){
+//								console.log('发送失败');
+//							}
+//						});
+//						//myState(oState_2);
+						clearInterval(timer);
+	
+					}
+				}, 1000);
+		
+			}
+      	
+//    		function myState(obj_oState)
+//    		{
+//    				mui.ajax('http://www.bjyilongxiang.com/Wcat/Charge/close_charge',{
+//					data:{
+//						status:obj_oState,//1,充电完成
+//						order_sn:oOrder_sn,
+//					},
+//					dataType:'json',//服务器返回json格式数据
+//					type:'post',//HTTP请求类型	              
+//					success:function(data){
+//						console.log('发送成功');
+//					},
+//					error:function(xhr,type,errorThrown){
+//						console.log('发送失败');
+//					}
+//				});
+//    		}
+      	
+      	}
+    </script>
+</body>
+</html>

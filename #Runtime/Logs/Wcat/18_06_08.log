@@ -1,0 +1,25 @@
+[ 2018-06-08T13:53:54+08:00 ] 207.46.13.45 /robots.txt
+ERR: 无法加载控制器:Robots.txt
+
+[ 2018-06-08T15:23:06+08:00 ] 128.57.146.153 /plus/download.php?open=1&arrs1%5B%5D=99&arrs1%5B%5D=102&arrs1%5B%5D=103&arrs1%5B%5D=95&arrs1%5B%5D=100&arrs1%5B%5D=98&arrs1%5B%5D=112&arrs1%5B%5D=114&arrs1%5B%5D=101&arrs1%5B%5D=102&arrs1%5B%5D=105&arrs1%5B%5D=120&arrs2%5B%5D=109&arrs2%5B%5D=121&arrs2%5B%5D=97&arrs2%5B%5D=100&arrs2%5B%5D=96&arrs2%5B%5D=32&arrs2%5B%5D=83&arrs2%5B%5D=69&arrs2%5B%5D=84&arrs2%5B%5D=32&arrs2%5B%5D=96&arrs2%5B%5D=110&arrs2%5B%5D=111&arrs2%5B%5D=114&arrs2%5B%5D=109&arrs2%5B%5D=98&arrs2%5B%5D=111&arrs2%5B%5D=100&arrs2%5B%5D=121&arrs2%5B%5D=96&arrs2%5B%5D=32&arrs2%5B%5D=61&arrs2%5B%5D=32&arrs2%5B%5D=39&arrs2%5B%5D=60&arrs2%5B%5D=63&arrs2%5B%5D=112&arrs2%5B%5D=104&arrs2%5B%5D=112&arrs2%5B%5D=32&arrs2%5B%5D=102&arrs2%5B%5D=105&arrs2%5B%5D=108&arrs2%5B%5D=101&arrs2%5B%5D=95&arrs2%5B%5D=112&arrs2%5B%5D=117&arrs2%5B%5D=116&arrs2%5B%5D=95&arrs2%5B%5D=99&arrs2%5B%5D=111&arrs2%5B%5D=110&arrs2%5B%5D=116&arrs2%5B%5D=101&arrs2%5B%5D=110&arrs2%5B%5D=116&arrs2%5B%5D=115&arrs2%5B%5D=40&arrs2%5B%5D=39&arrs2%5B%5D=39&arrs2%5B%5D=109&arrs2%5B%5D=111&arrs2%5B%5D=111&arrs2%5B%5D=110&arrs2%5B%5D=46&arrs2%5B%5D=112&arrs2%5B%5D=104&arrs2%5B%5D=112&arrs2%5B%5D=39&arrs2%5B%5D=39&arrs2%5B%5D=44&arrs2%5B%5D=39&arrs2%5B%5D=39&arrs2%5B%5D=60&arrs2%5B%5D=63&arrs2%5B%5D=112&arrs2%5B%5D=104&arrs2%5B%5D=112&arrs2%5B%5D=32&arrs2%5B%5D=101&arrs2%5B%5D=118&arrs2%5B%5D=97&arrs2%5B%5D=108&arrs2%5B%5D=40&ar
+ERR: 无法加载控制器:Plus
+
+[ 2018-06-08T15:23:06+08:00 ] 141.200.119.236 /plus/moon.php
+ERR: 无法加载控制器:Plus
+
+[ 2018-06-08T15:23:07+08:00 ] 196.241.224.15 /plus/download.php
+ERR: 无法加载控制器:Plus
+
+[ 2018-06-08T15:23:07+08:00 ] 109.221.132.190 /plus/download.php?open=1&arrs1%5B%5D=99&arrs1%5B%5D=102&arrs1%5B%5D=103&arrs1%5B%5D=95&arrs1%5B%5D=100&arrs1%5B%5D=98&arrs1%5B%5D=112&arrs1%5B%5D=114&arrs1%5B%5D=101&arrs1%5B%5D=102&arrs1%5B%5D=105&arrs1%5B%5D=120&arrs2%5B%5D=97&arrs2%5B%5D=100&arrs2%5B%5D=109&arrs2%5B%5D=105&arrs2%5B%5D=110&arrs2%5B%5D=96&arrs2%5B%5D=32&arrs2%5B%5D=83&arrs2%5B%5D=69&arrs2%5B%5D=84&arrs2%5B%5D=32&arrs2%5B%5D=96&arrs2%5B%5D=117&arrs2%5B%5D=115&arrs2%5B%5D=101&arrs2%5B%5D=114&arrs2%5B%5D=105&arrs2%5B%5D=100&arrs2%5B%5D=96&arrs2%5B%5D=61&arrs2%5B%5D=39&arrs2%5B%5D=115&arrs2%5B%5D=112&arrs2%5B%5D=105&arrs2%5B%5D=100&arrs2%5B%5D=101&arrs2%5B%5D=114&arrs2%5B%5D=39&arrs2%5B%5D=44&arrs2%5B%5D=32&arrs2%5B%5D=96&arrs2%5B%5D=112&arrs2%5B%5D=119&arrs2%5B%5D=100&arrs2%5B%5D=96&arrs2%5B%5D=61&arrs2%5B%5D=39&arrs2%5B%5D=102&arrs2%5B%5D=50&arrs2%5B%5D=57&arrs2%5B%5D=55&arrs2%5B%5D=97&arrs2%5B%5D=53&arrs2%5B%5D=55&arrs2%5B%5D=97&arrs2%5B%5D=53&arrs2%5B%5D=97&arrs2%5B%5D=55&arrs2%5B%5D=52&arrs2%5B%5D=51&arrs2%5B%5D=56&arrs2%5B%5D=57&arrs2%5B%5D=52&arrs2%5B%5D=97&arrs2%5B%5D=48&arrs2%5B%5D=101&arrs2%5B%5D=52&arrs2%5B%5D=39&arrs2%5B%5D=32&arrs2%5B%5D=119&arrs2%5B%5D=104&arrs2%5B%5D=101&arrs2%5B%5D=114&arrs2%5B%5D=101&arrs2%5B%5D=32&arrs2%5B%5D=105&arrs2%5B%5D=100&arrs2%5B%5D=61&arrs2%5B%5D=49&arrs2%5B%5D=32&arrs2%5B%5D=35
+ERR: 无法加载控制器:Plus
+
+[ 2018-06-08T15:23:07+08:00 ] 123.110.106.19 /plus/recommend.php
+ERR: 无法加载控制器:Plus
+
+[ 2018-06-08T15:23:07+08:00 ] 227.175.126.208 /plus/search.php?keyword=as&typeArr%5B%20uNion%20%5D=a
+ERR: 无法加载控制器:Plus
+
+[ 2018-06-08T19:47:27+08:00 ] 61.158.190.148 /Wcat/Index/getcode?code=021xdrNi0eErOn12mSLi0jIrNi0xdrNZ&state=STATE
+ERR: 1048:Column 'openid' cannot be null
+ [ SQL语句 ] : INSERT INTO `users` (`openid`,`user_name`,`sex`,`province`,`city`,`country`,`user_img`,`subscribe`,`creation_time`,`user_type`) VALUES (NULL,'null',NULL,NULL,NULL,NULL,NULL,'1','1528458447','1')
+

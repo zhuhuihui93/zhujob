@@ -1,0 +1,1 @@
+<?php if (!defined('THINK_PATH')) exit();?><ul class="easyui-tree" data-options='data:<?php echo (json_encode($data)); ?>,animate:true,checkbox:true,lines:true'></ul>

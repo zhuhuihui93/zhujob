@@ -1,0 +1,1962 @@
+[ 2018-05-31T23:30:36+08:00 ] 127.0.0.1 /admin/index/public_sessionlife.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000831s ]
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.001523s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002431s ]
+
+[ 2018-05-31T23:30:40+08:00 ] 127.0.0.1 /admin/index/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001394s ]
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.002781s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004442s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000354s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000457s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013148s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013244s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001414s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001485s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001593s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001673s ]
+
+[ 2018-05-31T23:30:40+08:00 ] 127.0.0.1 /admin/index/code/code_len/4/font_size/15/width/120/height/40/code/1527780640.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000794s ]
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.001340s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002256s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000889s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000985s ]
+
+[ 2018-05-31T23:32:12+08:00 ] 127.0.0.1 /admin/index/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000423s ]
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.000680s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001163s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000056s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000095s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004634s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004686s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000275s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000304s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000410s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000443s ]
+
+[ 2018-05-31T23:32:12+08:00 ] 127.0.0.1 /admin/index/code/code_len/4/font_size/15/width/120/height/40/code/1527780732.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000401s ]
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.000661s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001121s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000639s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000710s ]
+
+[ 2018-05-31T23:32:14+08:00 ] 127.0.0.1 /admin/index/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000450s ]
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.000654s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001162s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000078s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000148s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005099s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005139s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000281s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000310s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000413s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000442s ]
+
+[ 2018-05-31T23:32:14+08:00 ] 127.0.0.1 /admin/index/code/code_len/4/font_size/15/width/120/height/40/code/1527780734.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000420s ]
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.000668s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001148s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000693s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000801s ]
+
+[ 2018-05-31T23:32:14+08:00 ] 127.0.0.1 /admin/index/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000646s ]
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.001116s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001878s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000056s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000093s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004466s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004507s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000260s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000288s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000409s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000439s ]
+
+[ 2018-05-31T23:32:14+08:00 ] 127.0.0.1 /admin/index/code/code_len/4/font_size/15/width/120/height/40/code/1527780734.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000502s ]
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.000775s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001355s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000471s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000517s ]
+
+[ 2018-05-31T23:32:23+08:00 ] 127.0.0.1 /admin/index/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000398s ]
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.000668s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001123s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0255s ]
+SQL: SHOW COLUMNS FROM `times` [ RunTime:0.0320s ]
+SQL: SELECT * FROM `admin` WHERE `username` = 'Super' AND `status` = 1 LIMIT 1   [ RunTime:0.0248s ]
+SQL: SELECT * FROM `times` WHERE `username` = 'Super' AND `type` = 0 LIMIT 1   [ RunTime:0.0246s ]
+NOTIC: [2] Illegal offset type in isset or empty C:\WORKSPANCE_PHP\adminphp\ThinkPHP\Library\Think\Model.class.php 第 511 行.
+SQL: DELETE FROM `times` WHERE `username` = 'Super' AND `type` = 0 [ RunTime:0.0243s ]
+SQL: UPDATE `admin` SET `lastloginip`='127.0.0.1',`lastlogintime`='1527780743' WHERE `userid` = 1 [ RunTime:0.0338s ]
+SQL: SHOW COLUMNS FROM `admin_log` [ RunTime:0.0253s ]
+SQL: INSERT INTO `admin_log` (`userid`,`username`,`httpuseragent`,`ip`,`time`,`type`,`sessionid`) VALUES ('1','Super','Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36','127.0.0.1','2018-05-31 23:32:23','login','7gl9bd2btbmbruijni84mh1en2') [ RunTime:0.0245s ]
+SQL: SHOW COLUMNS FROM `admin_role` [ RunTime:0.0264s ]
+SQL: SELECT `rolename`,`roleid` FROM `admin_role` WHERE `roleid` = 1 AND `status` = 1 LIMIT 1   [ RunTime:0.0256s ]
+
+[ 2018-05-31T23:32:23+08:00 ] 127.0.0.1 /admin/index/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000418s ]
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.000917s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001417s ]
+SQL: SHOW COLUMNS FROM `log` [ RunTime:0.0263s ]
+SQL: INSERT INTO `log` (`username`,`userid`,`controller`,`action`,`querystring`,`time`,`ip`) VALUES ('Super','1','Index','index','array (
+  \'GET\' => 
+  array (
+  ),
+)','2018-05-31 23-32-23','127.0.0.1') [ RunTime:0.0252s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0267s ]
+SQL: SELECT * FROM `menu` WHERE `parentid` = 0 AND `display` = 1 ORDER BY listorder ASC LIMIT 1000   [ RunTime:0.0251s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000072s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000114s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008884s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008927s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000271s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000298s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000402s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000434s ]
+
+[ 2018-05-31T23:32:24+08:00 ] 127.0.0.1 /admin/index/public_welcome.html?_=1527780743915
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000662s ]
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.000991s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001747s ]
+SQL: SHOW COLUMNS FROM `admin_log` [ RunTime:0.0256s ]
+SQL: SELECT * FROM `admin_log` WHERE `userid` = 1 ORDER BY time desc LIMIT 5   [ RunTime:0.0254s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000036s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000071s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006837s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006876s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000358s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000383s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000581s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000612s ]
+
+[ 2018-05-31T23:32:24+08:00 ] 127.0.0.1 /admin/index/public_left/menuid/63.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000616s ]
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.001166s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001874s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0242s ]
+SQL: SELECT * FROM `menu` WHERE `parentid` = 63 AND `display` = 1 ORDER BY listorder ASC LIMIT 1000   [ RunTime:0.0239s ]
+
+[ 2018-05-31T23:32:24+08:00 ] 127.0.0.1 /admin/index/public_leftdefault/id/64.html?_=1527780743916
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000609s ]
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.001063s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001766s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0272s ]
+SQL: SELECT * FROM `menu` WHERE `parentid` = 64 AND `display` = 1 ORDER BY listorder ASC LIMIT 1000   [ RunTime:0.0287s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000033s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000077s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005620s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005663s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000489s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000516s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000607s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000640s ]
+
+[ 2018-05-31T23:32:24+08:00 ] 127.0.0.1 /admin/index/public_leftdefault/id/70.html?_=1527780743917
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000572s ]
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.000984s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001649s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0253s ]
+SQL: SELECT * FROM `menu` WHERE `parentid` = 70 AND `display` = 1 ORDER BY listorder ASC LIMIT 1000   [ RunTime:0.0263s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000034s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000074s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005815s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005970s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000325s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000352s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000633s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000662s ]
+
+[ 2018-05-31T23:32:24+08:00 ] 127.0.0.1 /admin/index/public_leftdefault/id/75.html?_=1527780743918
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000599s ]
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.000787s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001480s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0241s ]
+SQL: SELECT * FROM `menu` WHERE `parentid` = 75 AND `display` = 1 ORDER BY listorder ASC LIMIT 1000   [ RunTime:0.0255s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000030s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000066s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003983s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004028s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000559s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000613s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000477s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000507s ]
+
+[ 2018-05-31T23:32:25+08:00 ] 127.0.0.1 /admin/index/public_leftdefault/id/76.html?_=1527780743919
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001169s ]
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.001207s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002526s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0308s ]
+SQL: SELECT * FROM `menu` WHERE `parentid` = 76 AND `display` = 1 ORDER BY listorder ASC LIMIT 1000   [ RunTime:0.0250s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000032s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000067s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004887s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004923s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000444s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000469s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000574s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000602s ]
+
+[ 2018-05-31T23:32:25+08:00 ] 127.0.0.1 /admin/index/public_leftdefault/id/77.html?_=1527780743920
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000864s ]
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.001158s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002136s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0279s ]
+SQL: SELECT * FROM `menu` WHERE `parentid` = 77 AND `display` = 1 ORDER BY listorder ASC LIMIT 1000   [ RunTime:0.0367s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000033s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000069s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005327s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005367s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000550s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000576s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000635s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000669s ]
+
+[ 2018-05-31T23:32:25+08:00 ] 127.0.0.1 /admin/index/public_leftdefault/id/78.html?_=1527780743921
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000406s ]
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.000684s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001149s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0317s ]
+SQL: SELECT * FROM `menu` WHERE `parentid` = 78 AND `display` = 1 ORDER BY listorder ASC LIMIT 1000   [ RunTime:0.0258s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000033s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000072s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005063s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005104s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000320s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000345s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000589s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000618s ]
+
+[ 2018-05-31T23:32:27+08:00 ] 127.0.0.1 /admin/cduser/cduser/menuid/100.html?_=1527780743922
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000474s ]
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.000802s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001358s ]
+SQL: SHOW COLUMNS FROM `log` [ RunTime:0.0268s ]
+SQL: INSERT INTO `log` (`username`,`userid`,`controller`,`action`,`querystring`,`time`,`ip`) VALUES ('Super','1','Cduser','cduser','array (
+  \'GET\' => 
+  array (
+    \'menuid\' => \'100\',
+    \'_\' => \'1527780743922\',
+  ),
+)','2018-05-31 23-32-27','127.0.0.1') [ RunTime:0.0238s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0268s ]
+SQL: SELECT * FROM `menu` WHERE `id` = 100 LIMIT 1   [ RunTime:0.0239s ]
+SQL: SELECT * FROM `menu` WHERE `id` = 76 LIMIT 1   [ RunTime:0.0253s ]
+SQL: SELECT * FROM `menu` WHERE `id` = 63 LIMIT 1   [ RunTime:0.0290s ]
+SQL: SELECT * FROM `menu` WHERE `parentid` = 100 AND `display` = 1 AND `toolbar` = 1 ORDER BY listorder ASC LIMIT 1000   [ RunTime:0.0316s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000038s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000075s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007867s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007912s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000360s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000387s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000625s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000653s ]
+
+[ 2018-05-31T23:32:27+08:00 ] 127.0.0.1 /admin/cduser/cduser/grid/datagrid.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000564s ]
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.000840s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001475s ]
+SQL: SHOW COLUMNS FROM `log` [ RunTime:0.0246s ]
+SQL: INSERT INTO `log` (`username`,`userid`,`controller`,`action`,`querystring`,`time`,`ip`) VALUES ('Super','1','Cduser','cduser','array (
+  \'GET\' => 
+  array (
+    \'grid\' => \'datagrid\',
+  ),
+  \'POST\' => 
+  array (
+    \'page\' => \'1\',
+    \'rows\' => \'20\',
+  ),
+)','2018-05-31 23-32-27','127.0.0.1') [ RunTime:0.0237s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0263s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `users` WHERE ( 1 ) LIMIT 1   [ RunTime:0.0236s ]
+NOTIC: [8] Undefined variable: id C:\WORKSPANCE_PHP\adminphp\Admin\Controller\CduserController.class.php 第 50 行.
+SQL: SELECT * FROM `users` WHERE ( 1 ) ORDER BY `creation_time` desc LIMIT 0,20   [ RunTime:0.0249s ]
+NOTIC: [8] iconv(): Detected an illegal character in input string C:\WORKSPANCE_PHP\adminphp\Admin\Common\function.php 第 242 行.
+NOTIC: [8] iconv(): Detected an illegal character in input string C:\WORKSPANCE_PHP\adminphp\Admin\Common\function.php 第 242 行.
+NOTIC: [8] Undefined variable: id C:\WORKSPANCE_PHP\adminphp\Admin\Controller\CduserController.class.php 第 60 行.
+
+[ 2018-05-31T23:32:32+08:00 ] 127.0.0.1 /admin/cduser/cduseredit.html?id=23&_=1527780743923
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000403s ]
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.000688s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001150s ]
+SQL: SHOW COLUMNS FROM `log` [ RunTime:0.0257s ]
+SQL: INSERT INTO `log` (`username`,`userid`,`controller`,`action`,`querystring`,`time`,`ip`) VALUES ('Super','1','Cduser','cduseredit','array (
+  \'GET\' => 
+  array (
+    \'id\' => \'23\',
+    \'_\' => \'1527780743923\',
+  ),
+)','2018-05-31 23-32-32','127.0.0.1') [ RunTime:0.0272s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0262s ]
+SQL: SELECT * FROM `users` WHERE `id` = 23 LIMIT 1   [ RunTime:0.0251s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000049s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000101s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005727s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005807s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000387s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000417s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000608s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000638s ]
+
+[ 2018-05-31T23:32:36+08:00 ] 127.0.0.1 /admin/cduser/cduseredit.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000395s ]
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.000641s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001088s ]
+SQL: SHOW COLUMNS FROM `log` [ RunTime:0.0275s ]
+SQL: INSERT INTO `log` (`username`,`userid`,`controller`,`action`,`querystring`,`time`,`ip`) VALUES ('Super','1','Cduser','cduseredit','array (
+  \'GET\' => 
+  array (
+  ),
+  \'POST\' => 
+  array (
+    \'info\' => 
+    array (
+      \'integral\' => \'30\',
+      \'id\' => \'23\',
+    ),
+  ),
+)','2018-05-31 23-32-36','127.0.0.1') [ RunTime:0.0246s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0258s ]
+SQL: UPDATE `users` SET `integral`='30' WHERE `id` = 23 [ RunTime:0.0248s ]
+
+[ 2018-05-31T23:32:37+08:00 ] 127.0.0.1 /admin/cduser/cduser/grid/datagrid.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000421s ]
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.000702s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001179s ]
+SQL: SHOW COLUMNS FROM `log` [ RunTime:0.0252s ]
+SQL: INSERT INTO `log` (`username`,`userid`,`controller`,`action`,`querystring`,`time`,`ip`) VALUES ('Super','1','Cduser','cduser','array (
+  \'GET\' => 
+  array (
+    \'grid\' => \'datagrid\',
+  ),
+  \'POST\' => 
+  array (
+    \'page\' => \'1\',
+    \'rows\' => \'20\',
+  ),
+)','2018-05-31 23-32-36','127.0.0.1') [ RunTime:0.0253s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0256s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `users` WHERE ( 1 ) LIMIT 1   [ RunTime:0.0249s ]
+NOTIC: [8] Undefined variable: id C:\WORKSPANCE_PHP\adminphp\Admin\Controller\CduserController.class.php 第 50 行.
+SQL: SELECT * FROM `users` WHERE ( 1 ) ORDER BY `creation_time` desc LIMIT 0,20   [ RunTime:0.0271s ]
+NOTIC: [8] iconv(): Detected an illegal character in input string C:\WORKSPANCE_PHP\adminphp\Admin\Common\function.php 第 242 行.
+NOTIC: [8] iconv(): Detected an illegal character in input string C:\WORKSPANCE_PHP\adminphp\Admin\Common\function.php 第 242 行.
+NOTIC: [8] Undefined variable: id C:\WORKSPANCE_PHP\adminphp\Admin\Controller\CduserController.class.php 第 60 行.
+
+[ 2018-05-31T23:32:39+08:00 ] 127.0.0.1 /admin/index/public_sessionlife.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000446s ]
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.000767s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001277s ]
+
+[ 2018-05-31T23:32:55+08:00 ] 127.0.0.1 /admin/index/public_sessionlife.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000432s ]
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.000705s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001195s ]
+
+[ 2018-05-31T23:33:10+08:00 ] 127.0.0.1 /admin/index/public_sessionlife.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000372s ]
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.000601s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001022s ]
+
+[ 2018-05-31T23:33:25+08:00 ] 127.0.0.1 /admin/index/public_sessionlife.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000390s ]
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.000682s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001130s ]
+
+[ 2018-05-31T23:33:40+08:00 ] 127.0.0.1 /admin/index/public_sessionlife.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000450s ]
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.000696s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001207s ]
+
+[ 2018-05-31T23:33:55+08:00 ] 127.0.0.1 /admin/index/public_sessionlife.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000586s ]
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.001015s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001683s ]
+
+[ 2018-05-31T23:34:10+08:00 ] 127.0.0.1 /admin/index/public_sessionlife.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000402s ]
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.000680s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001139s ]
+
+[ 2018-05-31T23:34:25+08:00 ] 127.0.0.1 /admin/index/public_sessionlife.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000470s ]
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.000731s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001250s ]
+
+[ 2018-05-31T23:34:40+08:00 ] 127.0.0.1 /admin/index/public_sessionlife.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000385s ]
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.000652s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001095s ]
+
+[ 2018-05-31T23:34:55+08:00 ] 127.0.0.1 /admin/index/public_sessionlife.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000423s ]
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.000657s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001134s ]
+
+[ 2018-05-31T23:35:10+08:00 ] 127.0.0.1 /admin/index/public_sessionlife.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000420s ]
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.000644s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001118s ]
+
+[ 2018-05-31T23:35:25+08:00 ] 127.0.0.1 /admin/index/public_sessionlife.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000838s ]
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.001267s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002207s ]
+
+[ 2018-05-31T23:35:40+08:00 ] 127.0.0.1 /admin/index/public_sessionlife.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000360s ]
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.000641s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001051s ]
+
+[ 2018-05-31T23:35:55+08:00 ] 127.0.0.1 /admin/index/public_sessionlife.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000377s ]
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.000700s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001137s ]
+
+[ 2018-05-31T23:36:10+08:00 ] 127.0.0.1 /admin/index/public_sessionlife.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000376s ]
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.000641s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001069s ]
+
+[ 2018-05-31T23:36:25+08:00 ] 127.0.0.1 /admin/index/public_sessionlife.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000359s ]
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.000603s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001016s ]
+
+[ 2018-05-31T23:36:40+08:00 ] 127.0.0.1 /admin/index/public_sessionlife.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000599s ]
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.000883s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001546s ]
+
+[ 2018-05-31T23:36:55+08:00 ] 127.0.0.1 /admin/index/public_sessionlife.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000425s ]
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.000676s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001162s ]
+
+[ 2018-05-31T23:37:10+08:00 ] 127.0.0.1 /admin/index/public_sessionlife.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000364s ]
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.000610s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001024s ]
+
+[ 2018-05-31T23:37:25+08:00 ] 127.0.0.1 /admin/index/public_sessionlife.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000345s ]
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.000581s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000974s ]
+
+[ 2018-05-31T23:37:38+08:00 ] 127.0.0.1 /admin/quick/menu77/menuid/87.html?_=1527780743924
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000428s ]
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.000718s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001211s ]
+SQL: SHOW COLUMNS FROM `log` [ RunTime:0.0257s ]
+SQL: INSERT INTO `log` (`username`,`userid`,`controller`,`action`,`querystring`,`time`,`ip`) VALUES ('Super','1','Quick','menu77','array (
+  \'GET\' => 
+  array (
+    \'menuid\' => \'87\',
+    \'_\' => \'1527780743924\',
+  ),
+)','2018-05-31 23-37-38','127.0.0.1') [ RunTime:0.0252s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000032s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000069s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005666s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005712s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000436s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000466s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000595s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000624s ]
+
+[ 2018-05-31T23:37:39+08:00 ] 127.0.0.1 /admin/index/public_sessionlife.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000390s ]
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.000706s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001155s ]
+
+[ 2018-05-31T23:37:39+08:00 ] 127.0.0.1 /admin/index/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000408s ]
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.000683s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001154s ]
+SQL: SHOW COLUMNS FROM `log` [ RunTime:0.0261s ]
+SQL: INSERT INTO `log` (`username`,`userid`,`controller`,`action`,`querystring`,`time`,`ip`) VALUES ('Super','1','Index','index','array (
+  \'GET\' => 
+  array (
+  ),
+)','2018-05-31 23-37-39','127.0.0.1') [ RunTime:0.0405s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0281s ]
+SQL: SELECT * FROM `menu` WHERE `parentid` = 0 AND `display` = 1 ORDER BY listorder ASC LIMIT 1000   [ RunTime:0.0259s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000075s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000114s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008043s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008168s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000675s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000726s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000712s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000747s ]
+
+[ 2018-05-31T23:37:40+08:00 ] 127.0.0.1 /admin/index/public_welcome.html?_=1527781059930
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000581s ]
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.001287s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001940s ]
+SQL: SHOW COLUMNS FROM `admin_log` [ RunTime:0.0340s ]
+SQL: SELECT * FROM `admin_log` WHERE `userid` = 1 ORDER BY time desc LIMIT 5   [ RunTime:0.0278s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000042s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000085s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008555s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008620s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000554s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000588s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000726s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000758s ]
+
+[ 2018-05-31T23:37:40+08:00 ] 127.0.0.1 /admin/index/public_left/menuid/63.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000556s ]
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.000944s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001567s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0255s ]
+SQL: SELECT * FROM `menu` WHERE `parentid` = 63 AND `display` = 1 ORDER BY listorder ASC LIMIT 1000   [ RunTime:0.0254s ]
+
+[ 2018-05-31T23:37:40+08:00 ] 127.0.0.1 /admin/index/public_leftdefault/id/64.html?_=1527781059931
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000495s ]
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.000791s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001352s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0342s ]
+SQL: SELECT * FROM `menu` WHERE `parentid` = 64 AND `display` = 1 ORDER BY listorder ASC LIMIT 1000   [ RunTime:0.0251s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000080s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000171s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007619s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007677s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000549s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000585s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000660s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000709s ]
+
+[ 2018-05-31T23:37:40+08:00 ] 127.0.0.1 /admin/index/public_leftdefault/id/70.html?_=1527781059932
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000729s ]
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.001303s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002159s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0281s ]
+SQL: SELECT * FROM `menu` WHERE `parentid` = 70 AND `display` = 1 ORDER BY listorder ASC LIMIT 1000   [ RunTime:0.0267s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000034s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000077s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007050s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007090s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000284s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000311s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000631s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000662s ]
+
+[ 2018-05-31T23:37:41+08:00 ] 127.0.0.1 /admin/index/public_leftdefault/id/75.html?_=1527781059933
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000884s ]
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.001446s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002418s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0258s ]
+SQL: SELECT * FROM `menu` WHERE `parentid` = 75 AND `display` = 1 ORDER BY listorder ASC LIMIT 1000   [ RunTime:0.0250s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000033s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000073s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005593s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005630s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000562s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000590s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000605s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000635s ]
+
+[ 2018-05-31T23:37:41+08:00 ] 127.0.0.1 /admin/index/public_leftdefault/id/76.html?_=1527781059934
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001019s ]
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.001244s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002357s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0231s ]
+SQL: SELECT * FROM `menu` WHERE `parentid` = 76 AND `display` = 1 ORDER BY listorder ASC LIMIT 1000   [ RunTime:0.0228s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000054s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000119s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005225s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005271s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000578s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000608s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000599s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000630s ]
+
+[ 2018-05-31T23:37:41+08:00 ] 127.0.0.1 /admin/index/public_leftdefault/id/77.html?_=1527781059935
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000602s ]
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.001177s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001882s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0262s ]
+SQL: SELECT * FROM `menu` WHERE `parentid` = 77 AND `display` = 1 ORDER BY listorder ASC LIMIT 1000   [ RunTime:0.0258s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000033s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000074s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005174s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005219s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000629s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000661s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000621s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000651s ]
+
+[ 2018-05-31T23:37:41+08:00 ] 127.0.0.1 /admin/index/public_leftdefault/id/78.html?_=1527781059936
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000626s ]
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.002081s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002844s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0343s ]
+SQL: SELECT * FROM `menu` WHERE `parentid` = 78 AND `display` = 1 ORDER BY listorder ASC LIMIT 1000   [ RunTime:0.0254s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000040s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000090s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005574s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005620s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000258s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000280s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000548s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000578s ]
+
+[ 2018-05-31T23:37:43+08:00 ] 127.0.0.1 /admin/fault/index/menuid/87.html?_=1527781059937
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000743s ]
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.000785s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001618s ]
+SQL: SHOW COLUMNS FROM `log` [ RunTime:0.0252s ]
+SQL: INSERT INTO `log` (`username`,`userid`,`controller`,`action`,`querystring`,`time`,`ip`) VALUES ('Super','1','Fault','index','array (
+  \'GET\' => 
+  array (
+    \'menuid\' => \'87\',
+    \'_\' => \'1527781059937\',
+  ),
+)','2018-05-31 23-37-43','127.0.0.1') [ RunTime:0.0271s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0251s ]
+SQL: SELECT * FROM `menu` WHERE `id` = 87 LIMIT 1   [ RunTime:0.0245s ]
+SQL: SELECT * FROM `menu` WHERE `id` = 77 LIMIT 1   [ RunTime:0.0243s ]
+SQL: SELECT * FROM `menu` WHERE `id` = 63 LIMIT 1   [ RunTime:0.0250s ]
+SQL: SELECT * FROM `menu` WHERE `parentid` = 87 AND `display` = 1 AND `toolbar` = 1 ORDER BY listorder ASC LIMIT 1000   [ RunTime:0.0311s ]
+ERR: 模板不存在:C:\WORKSPANCE_PHP\adminphp\\Admin/View/Fault/index.html
+
+[ 2018-05-31T23:37:55+08:00 ] 127.0.0.1 /admin/index/public_sessionlife.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000494s ]
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.000790s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001351s ]
+
+[ 2018-05-31T23:38:10+08:00 ] 127.0.0.1 /admin/index/public_sessionlife.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000393s ]
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.000717s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001164s ]
+
+[ 2018-05-31T23:38:14+08:00 ] 127.0.0.1 /admin/index/public_welcome.html?_=1527781059938
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000444s ]
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.001050s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001579s ]
+SQL: SHOW COLUMNS FROM `admin_log` [ RunTime:0.0264s ]
+SQL: SELECT * FROM `admin_log` WHERE `userid` = 1 ORDER BY time desc LIMIT 5   [ RunTime:0.0272s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000038s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000073s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006368s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006409s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000298s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000328s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000600s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000628s ]
+
+[ 2018-05-31T23:38:14+08:00 ] 127.0.0.1 /admin/fault/index/menuid/87.html?_=1527781059939
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000413s ]
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.000671s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001139s ]
+SQL: SHOW COLUMNS FROM `log` [ RunTime:0.0264s ]
+SQL: INSERT INTO `log` (`username`,`userid`,`controller`,`action`,`querystring`,`time`,`ip`) VALUES ('Super','1','Fault','index','array (
+  \'GET\' => 
+  array (
+    \'menuid\' => \'87\',
+    \'_\' => \'1527781059939\',
+  ),
+)','2018-05-31 23-38-14','127.0.0.1') [ RunTime:0.0261s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0286s ]
+SQL: SELECT * FROM `menu` WHERE `id` = 87 LIMIT 1   [ RunTime:0.0247s ]
+SQL: SELECT * FROM `menu` WHERE `id` = 77 LIMIT 1   [ RunTime:0.0244s ]
+SQL: SELECT * FROM `menu` WHERE `id` = 63 LIMIT 1   [ RunTime:0.0250s ]
+SQL: SELECT * FROM `menu` WHERE `parentid` = 87 AND `display` = 1 AND `toolbar` = 1 ORDER BY listorder ASC LIMIT 1000   [ RunTime:0.0247s ]
+ERR: 模板不存在:C:\WORKSPANCE_PHP\adminphp\\Admin/View/Fault/index.html
+
+[ 2018-05-31T23:38:19+08:00 ] 127.0.0.1 /admin/fault/index/menuid/87.html?_=1527781059937
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000554s ]
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.000939s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001625s ]
+SQL: SHOW COLUMNS FROM `log` [ RunTime:0.0248s ]
+SQL: INSERT INTO `log` (`username`,`userid`,`controller`,`action`,`querystring`,`time`,`ip`) VALUES ('Super','1','Fault','index','array (
+  \'GET\' => 
+  array (
+    \'menuid\' => \'87\',
+    \'_\' => \'1527781059937\',
+  ),
+)','2018-05-31 23-38-19','127.0.0.1') [ RunTime:0.0246s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0286s ]
+SQL: SELECT * FROM `menu` WHERE `id` = 87 LIMIT 1   [ RunTime:0.0235s ]
+SQL: SELECT * FROM `menu` WHERE `id` = 77 LIMIT 1   [ RunTime:0.0231s ]
+SQL: SELECT * FROM `menu` WHERE `id` = 63 LIMIT 1   [ RunTime:0.0254s ]
+SQL: SELECT * FROM `menu` WHERE `parentid` = 87 AND `display` = 1 AND `toolbar` = 1 ORDER BY listorder ASC LIMIT 1000   [ RunTime:0.0296s ]
+ERR: 模板不存在:C:\WORKSPANCE_PHP\adminphp\\Admin/View/Fault/index.html
+
+[ 2018-05-31T23:38:26+08:00 ] 127.0.0.1 /admin/index/public_sessionlife.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000361s ]
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.000633s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001043s ]
+
+[ 2018-05-31T23:38:41+08:00 ] 127.0.0.1 /admin/index/public_sessionlife.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000596s ]
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.001015s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001704s ]
+
+[ 2018-05-31T23:38:56+08:00 ] 127.0.0.1 /admin/index/public_sessionlife.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000400s ]
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.000600s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001051s ]
+
+[ 2018-05-31T23:39:11+08:00 ] 127.0.0.1 /admin/fault/index/menuid/87.html?_=1527781059937
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000550s ]
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.001173s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001821s ]
+SQL: SHOW COLUMNS FROM `log` [ RunTime:0.0253s ]
+SQL: INSERT INTO `log` (`username`,`userid`,`controller`,`action`,`querystring`,`time`,`ip`) VALUES ('Super','1','Fault','index','array (
+  \'GET\' => 
+  array (
+    \'menuid\' => \'87\',
+    \'_\' => \'1527781059937\',
+  ),
+)','2018-05-31 23-39-10','127.0.0.1') [ RunTime:0.0249s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0271s ]
+SQL: SELECT * FROM `menu` WHERE `id` = 87 LIMIT 1   [ RunTime:0.0247s ]
+SQL: SELECT * FROM `menu` WHERE `id` = 77 LIMIT 1   [ RunTime:0.0242s ]
+SQL: SELECT * FROM `menu` WHERE `id` = 63 LIMIT 1   [ RunTime:0.0256s ]
+SQL: SELECT * FROM `menu` WHERE `parentid` = 87 AND `display` = 1 AND `toolbar` = 1 ORDER BY listorder ASC LIMIT 1000   [ RunTime:0.0271s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000036s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000071s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005874s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005929s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000409s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000438s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000559s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000591s ]
+
+[ 2018-05-31T23:39:11+08:00 ] 127.0.0.1 /admin/index/public_sessionlife.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000396s ]
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.000648s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001099s ]
+
+[ 2018-05-31T23:39:15+08:00 ] 127.0.0.1 /admin/index/public_welcome.html?_=1527781059940
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000417s ]
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.000703s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001180s ]
+SQL: SHOW COLUMNS FROM `admin_log` [ RunTime:0.0257s ]
+SQL: SELECT * FROM `admin_log` WHERE `userid` = 1 ORDER BY time desc LIMIT 5   [ RunTime:0.0265s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000043s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000085s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005539s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005577s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000407s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000433s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000531s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000557s ]
+
+[ 2018-05-31T23:39:15+08:00 ] 127.0.0.1 /admin/fault/index/menuid/87.html?_=1527781059941
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000422s ]
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.000818s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001317s ]
+SQL: SHOW COLUMNS FROM `log` [ RunTime:0.0257s ]
+SQL: INSERT INTO `log` (`username`,`userid`,`controller`,`action`,`querystring`,`time`,`ip`) VALUES ('Super','1','Fault','index','array (
+  \'GET\' => 
+  array (
+    \'menuid\' => \'87\',
+    \'_\' => \'1527781059941\',
+  ),
+)','2018-05-31 23-39-15','127.0.0.1') [ RunTime:0.0241s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0253s ]
+SQL: SELECT * FROM `menu` WHERE `id` = 87 LIMIT 1   [ RunTime:0.0259s ]
+SQL: SELECT * FROM `menu` WHERE `id` = 77 LIMIT 1   [ RunTime:0.0255s ]
+SQL: SELECT * FROM `menu` WHERE `id` = 63 LIMIT 1   [ RunTime:0.0405s ]
+SQL: SELECT * FROM `menu` WHERE `parentid` = 87 AND `display` = 1 AND `toolbar` = 1 ORDER BY listorder ASC LIMIT 1000   [ RunTime:0.0316s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000039s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000078s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006697s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006743s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000422s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000448s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000653s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000683s ]
+
+[ 2018-05-31T23:39:15+08:00 ] 127.0.0.1 /admin/fault/index/grid/datagrid.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000750s ]
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.000943s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001799s ]
+SQL: SHOW COLUMNS FROM `log` [ RunTime:0.0261s ]
+SQL: INSERT INTO `log` (`username`,`userid`,`controller`,`action`,`querystring`,`time`,`ip`) VALUES ('Super','1','Fault','index','array (
+  \'GET\' => 
+  array (
+    \'grid\' => \'datagrid\',
+  ),
+  \'POST\' => 
+  array (
+    \'page\' => \'1\',
+    \'rows\' => \'20\',
+  ),
+)','2018-05-31 23-39-15','127.0.0.1') [ RunTime:0.0263s ]
+SQL: SHOW COLUMNS FROM `fault_log` [ RunTime:0.0253s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `fault_log` WHERE ( 1 ) LIMIT 1   [ RunTime:0.0333s ]
+NOTIC: [8] Undefined variable: id C:\WORKSPANCE_PHP\adminphp\Admin\Controller\FaultController.class.php 第 50 行.
+SQL: SELECT * FROM `fault_log` WHERE ( 1 ) ORDER BY `add_time` desc LIMIT 0,20   [ RunTime:0.0246s ]
+NOTIC: [8] Undefined variable: id C:\WORKSPANCE_PHP\adminphp\Admin\Controller\FaultController.class.php 第 60 行.
+
+[ 2018-05-31T23:39:25+08:00 ] 127.0.0.1 /admin/index/public_sessionlife.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000471s ]
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.000792s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001362s ]
+
+[ 2018-05-31T23:39:40+08:00 ] 127.0.0.1 /admin/index/public_sessionlife.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000399s ]
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.000697s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001153s ]
+
+[ 2018-05-31T23:39:41+08:00 ] 127.0.0.1 /admin/index/public_welcome.html?_=1527781059942
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000819s ]
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.001324s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002234s ]
+SQL: SHOW COLUMNS FROM `admin_log` [ RunTime:0.0242s ]
+SQL: SELECT * FROM `admin_log` WHERE `userid` = 1 ORDER BY time desc LIMIT 5   [ RunTime:0.0221s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000040s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000077s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006958s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000388s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000419s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000617s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000646s ]
+
+[ 2018-05-31T23:39:41+08:00 ] 127.0.0.1 /admin/fault/index/menuid/87.html?_=1527781059943
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000754s ]
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.001358s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002214s ]
+SQL: SHOW COLUMNS FROM `log` [ RunTime:0.0205s ]
+SQL: INSERT INTO `log` (`username`,`userid`,`controller`,`action`,`querystring`,`time`,`ip`) VALUES ('Super','1','Fault','index','array (
+  \'GET\' => 
+  array (
+    \'menuid\' => \'87\',
+    \'_\' => \'1527781059943\',
+  ),
+)','2018-05-31 23-39-41','127.0.0.1') [ RunTime:0.0218s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0210s ]
+SQL: SELECT * FROM `menu` WHERE `id` = 87 LIMIT 1   [ RunTime:0.0246s ]
+SQL: SELECT * FROM `menu` WHERE `id` = 77 LIMIT 1   [ RunTime:0.0210s ]
+SQL: SELECT * FROM `menu` WHERE `id` = 63 LIMIT 1   [ RunTime:0.0227s ]
+SQL: SELECT * FROM `menu` WHERE `parentid` = 87 AND `display` = 1 AND `toolbar` = 1 ORDER BY listorder ASC LIMIT 1000   [ RunTime:0.0257s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000037s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000071s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006757s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006817s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000570s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000603s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000625s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000653s ]
+
+[ 2018-05-31T23:39:41+08:00 ] 127.0.0.1 /admin/fault/index/grid/datagrid.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000742s ]
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.001183s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002053s ]
+SQL: SHOW COLUMNS FROM `log` [ RunTime:0.0283s ]
+SQL: INSERT INTO `log` (`username`,`userid`,`controller`,`action`,`querystring`,`time`,`ip`) VALUES ('Super','1','Fault','index','array (
+  \'GET\' => 
+  array (
+    \'grid\' => \'datagrid\',
+  ),
+  \'POST\' => 
+  array (
+    \'page\' => \'1\',
+    \'rows\' => \'20\',
+  ),
+)','2018-05-31 23-39-41','127.0.0.1') [ RunTime:0.0237s ]
+SQL: SHOW COLUMNS FROM `fault_log` [ RunTime:0.0211s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `fault_log` WHERE ( 1 ) LIMIT 1   [ RunTime:0.0206s ]
+NOTIC: [8] Undefined variable: id C:\WORKSPANCE_PHP\adminphp\Admin\Controller\FaultController.class.php 第 50 行.
+SQL: SELECT * FROM `fault_log` WHERE ( 1 ) ORDER BY `add_time` desc LIMIT 0,20   [ RunTime:0.0208s ]
+NOTIC: [8] Undefined variable: id C:\WORKSPANCE_PHP\adminphp\Admin\Controller\FaultController.class.php 第 60 行.
+
+[ 2018-05-31T23:39:55+08:00 ] 127.0.0.1 /admin/index/public_sessionlife.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000417s ]
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.000921s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001402s ]
+
+[ 2018-05-31T23:40:07+08:00 ] 127.0.0.1 /admin/fault/index/grid/datagrid.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000475s ]
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.001084s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001647s ]
+SQL: SHOW COLUMNS FROM `log` [ RunTime:0.0206s ]
+SQL: INSERT INTO `log` (`username`,`userid`,`controller`,`action`,`querystring`,`time`,`ip`) VALUES ('Super','1','Fault','index','array (
+  \'GET\' => 
+  array (
+    \'grid\' => \'datagrid\',
+  ),
+  \'POST\' => 
+  array (
+    \'page\' => \'1\',
+    \'rows\' => \'20\',
+  ),
+)','2018-05-31 23-40-07','127.0.0.1') [ RunTime:0.0207s ]
+SQL: SHOW COLUMNS FROM `fault_log` [ RunTime:0.0218s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `fault_log` WHERE ( 1 ) LIMIT 1   [ RunTime:0.0192s ]
+NOTIC: [8] Undefined variable: id C:\WORKSPANCE_PHP\adminphp\Admin\Controller\FaultController.class.php 第 50 行.
+SQL: SELECT * FROM `fault_log` WHERE ( 1 ) ORDER BY `add_time` desc LIMIT 0,20   [ RunTime:0.0202s ]
+NOTIC: [8] Undefined variable: id C:\WORKSPANCE_PHP\adminphp\Admin\Controller\FaultController.class.php 第 60 行.
+
+[ 2018-05-31T23:40:10+08:00 ] 127.0.0.1 /admin/index/public_sessionlife.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000401s ]
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.000689s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001147s ]
+
+[ 2018-05-31T23:40:25+08:00 ] 127.0.0.1 /admin/index/public_sessionlife.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000415s ]
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.000733s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001210s ]
+
+[ 2018-05-31T23:40:38+08:00 ] 127.0.0.1 /admin/cduser/cduser/menuid/100.html?_=1527781059944
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000401s ]
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.000691s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001149s ]
+SQL: SHOW COLUMNS FROM `log` [ RunTime:0.0213s ]
+SQL: INSERT INTO `log` (`username`,`userid`,`controller`,`action`,`querystring`,`time`,`ip`) VALUES ('Super','1','Cduser','cduser','array (
+  \'GET\' => 
+  array (
+    \'menuid\' => \'100\',
+    \'_\' => \'1527781059944\',
+  ),
+)','2018-05-31 23-40-38','127.0.0.1') [ RunTime:0.0203s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0205s ]
+SQL: SELECT * FROM `menu` WHERE `id` = 100 LIMIT 1   [ RunTime:0.0247s ]
+SQL: SELECT * FROM `menu` WHERE `id` = 76 LIMIT 1   [ RunTime:0.0199s ]
+SQL: SELECT * FROM `menu` WHERE `id` = 63 LIMIT 1   [ RunTime:0.0212s ]
+SQL: SELECT * FROM `menu` WHERE `parentid` = 100 AND `display` = 1 AND `toolbar` = 1 ORDER BY listorder ASC LIMIT 1000   [ RunTime:0.0198s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000056s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000112s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008217s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008262s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000637s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000670s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000704s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000737s ]
+
+[ 2018-05-31T23:40:39+08:00 ] 127.0.0.1 /admin/cduser/cduser/grid/datagrid.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000920s ]
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.001373s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002458s ]
+SQL: SHOW COLUMNS FROM `log` [ RunTime:0.0239s ]
+SQL: INSERT INTO `log` (`username`,`userid`,`controller`,`action`,`querystring`,`time`,`ip`) VALUES ('Super','1','Cduser','cduser','array (
+  \'GET\' => 
+  array (
+    \'grid\' => \'datagrid\',
+  ),
+  \'POST\' => 
+  array (
+    \'page\' => \'1\',
+    \'rows\' => \'20\',
+  ),
+)','2018-05-31 23-40-38','127.0.0.1') [ RunTime:0.0217s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0219s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `users` WHERE ( 1 ) LIMIT 1   [ RunTime:0.0225s ]
+NOTIC: [8] Undefined variable: id C:\WORKSPANCE_PHP\adminphp\Admin\Controller\CduserController.class.php 第 50 行.
+SQL: SELECT * FROM `users` WHERE ( 1 ) ORDER BY `creation_time` desc LIMIT 0,20   [ RunTime:0.0216s ]
+NOTIC: [8] iconv(): Detected an illegal character in input string C:\WORKSPANCE_PHP\adminphp\Admin\Common\function.php 第 242 行.
+NOTIC: [8] iconv(): Detected an illegal character in input string C:\WORKSPANCE_PHP\adminphp\Admin\Common\function.php 第 242 行.
+NOTIC: [8] Undefined variable: id C:\WORKSPANCE_PHP\adminphp\Admin\Controller\CduserController.class.php 第 60 行.
+
+[ 2018-05-31T23:40:40+08:00 ] 127.0.0.1 /admin/index/public_sessionlife.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000534s ]
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.000831s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001445s ]
+
+[ 2018-05-31T23:40:56+08:00 ] 127.0.0.1 /admin/index/public_sessionlife.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000346s ]
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.000579s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000975s ]
+
+[ 2018-05-31T23:41:01+08:00 ] 127.0.0.1 /admin/fault/index/grid/datagrid.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000728s ]
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.000893s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001767s ]
+SQL: SHOW COLUMNS FROM `log` [ RunTime:0.0265s ]
+SQL: INSERT INTO `log` (`username`,`userid`,`controller`,`action`,`querystring`,`time`,`ip`) VALUES ('Super','1','Fault','index','array (
+  \'GET\' => 
+  array (
+    \'grid\' => \'datagrid\',
+  ),
+)','2018-05-31 23-41-01','127.0.0.1') [ RunTime:0.0302s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0286s ]
+SQL: SELECT * FROM `menu` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0287s ]
+SQL: SELECT * FROM `menu` WHERE `parentid` = 0 AND `display` = 1 AND `toolbar` = 1 ORDER BY listorder ASC LIMIT 1000   [ RunTime:0.0378s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000036s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000073s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006116s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006156s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000535s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000568s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000598s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000632s ]
+
+[ 2018-05-31T23:41:07+08:00 ] 127.0.0.1 /admin/fault/index/menuid/87.html?_=1527781059937
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000415s ]
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.000708s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001183s ]
+SQL: SHOW COLUMNS FROM `log` [ RunTime:0.0240s ]
+SQL: INSERT INTO `log` (`username`,`userid`,`controller`,`action`,`querystring`,`time`,`ip`) VALUES ('Super','1','Fault','index','array (
+  \'GET\' => 
+  array (
+    \'menuid\' => \'87\',
+    \'_\' => \'1527781059937\',
+  ),
+)','2018-05-31 23-41-07','127.0.0.1') [ RunTime:0.0214s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0219s ]
+SQL: SELECT * FROM `menu` WHERE `id` = 87 LIMIT 1   [ RunTime:0.0214s ]
+SQL: SELECT * FROM `menu` WHERE `id` = 77 LIMIT 1   [ RunTime:0.0222s ]
+SQL: SELECT * FROM `menu` WHERE `id` = 63 LIMIT 1   [ RunTime:0.0219s ]
+SQL: SELECT * FROM `menu` WHERE `parentid` = 87 AND `display` = 1 AND `toolbar` = 1 ORDER BY listorder ASC LIMIT 1000   [ RunTime:0.0218s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000040s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000071s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006075s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006114s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000242s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000267s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000557s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000583s ]
+
+[ 2018-05-31T23:41:09+08:00 ] 127.0.0.1 /admin/fault/index/grid/datagrid.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000430s ]
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.000696s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001188s ]
+SQL: SHOW COLUMNS FROM `log` [ RunTime:0.0211s ]
+SQL: INSERT INTO `log` (`username`,`userid`,`controller`,`action`,`querystring`,`time`,`ip`) VALUES ('Super','1','Fault','index','array (
+  \'GET\' => 
+  array (
+    \'grid\' => \'datagrid\',
+  ),
+)','2018-05-31 23-41-09','127.0.0.1') [ RunTime:0.0205s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0204s ]
+SQL: SELECT * FROM `menu` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0206s ]
+SQL: SELECT * FROM `menu` WHERE `parentid` = 0 AND `display` = 1 AND `toolbar` = 1 ORDER BY listorder ASC LIMIT 1000   [ RunTime:0.0202s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000050s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000086s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006624s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006669s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000285s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000319s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000678s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000710s ]
+
+[ 2018-05-31T23:41:11+08:00 ] 127.0.0.1 /admin/index/public_sessionlife.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000378s ]
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.000654s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001082s ]
+
+[ 2018-05-31T23:41:26+08:00 ] 127.0.0.1 /admin/index/public_sessionlife.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000492s ]
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.000742s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001286s ]
+
+[ 2018-05-31T23:41:41+08:00 ] 127.0.0.1 /admin/index/public_sessionlife.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000357s ]
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.000597s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001003s ]
+
+[ 2018-05-31T23:41:56+08:00 ] 127.0.0.1 /admin/index/public_sessionlife.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000380s ]
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.000710s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001143s ]
+
+[ 2018-05-31T23:42:01+08:00 ] 127.0.0.1 /admin/fault/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000482s ]
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.000815s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001374s ]
+SQL: SHOW COLUMNS FROM `log` [ RunTime:0.0255s ]
+SQL: INSERT INTO `log` (`username`,`userid`,`controller`,`action`,`querystring`,`time`,`ip`) VALUES ('Super','1','Fault','index','array (
+  \'GET\' => 
+  array (
+  ),
+)','2018-05-31 23-42-00','127.0.0.1') [ RunTime:0.0258s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0269s ]
+SQL: SELECT * FROM `menu` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0248s ]
+SQL: SELECT * FROM `menu` WHERE `parentid` = 0 AND `display` = 1 AND `toolbar` = 1 ORDER BY listorder ASC LIMIT 1000   [ RunTime:0.0255s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000036s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000075s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006944s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006984s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000385s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000415s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000602s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000638s ]
+
+[ 2018-05-31T23:42:03+08:00 ] 127.0.0.1 /admin/fault/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000446s ]
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.000744s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001254s ]
+SQL: SHOW COLUMNS FROM `log` [ RunTime:0.0265s ]
+SQL: INSERT INTO `log` (`username`,`userid`,`controller`,`action`,`querystring`,`time`,`ip`) VALUES ('Super','1','Fault','index','array (
+  \'GET\' => 
+  array (
+  ),
+)','2018-05-31 23-42-03','127.0.0.1') [ RunTime:0.0265s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0269s ]
+SQL: SELECT * FROM `menu` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0261s ]
+SQL: SELECT * FROM `menu` WHERE `parentid` = 0 AND `display` = 1 AND `toolbar` = 1 ORDER BY listorder ASC LIMIT 1000   [ RunTime:0.0275s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000043s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000099s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007950s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000325s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000359s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000673s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000710s ]
+
+[ 2018-05-31T23:42:08+08:00 ] 127.0.0.1 /admin/fault/index/menuid/87.html?_=1527781059945
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000819s ]
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.001287s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002381s ]
+SQL: SHOW COLUMNS FROM `log` [ RunTime:0.0255s ]
+SQL: INSERT INTO `log` (`username`,`userid`,`controller`,`action`,`querystring`,`time`,`ip`) VALUES ('Super','1','Fault','index','array (
+  \'GET\' => 
+  array (
+    \'menuid\' => \'87\',
+    \'_\' => \'1527781059945\',
+  ),
+)','2018-05-31 23-42-08','127.0.0.1') [ RunTime:0.0254s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0249s ]
+SQL: SELECT * FROM `menu` WHERE `id` = 87 LIMIT 1   [ RunTime:0.0246s ]
+SQL: SELECT * FROM `menu` WHERE `id` = 77 LIMIT 1   [ RunTime:0.0241s ]
+SQL: SELECT * FROM `menu` WHERE `id` = 63 LIMIT 1   [ RunTime:0.0243s ]
+SQL: SELECT * FROM `menu` WHERE `parentid` = 87 AND `display` = 1 AND `toolbar` = 1 ORDER BY listorder ASC LIMIT 1000   [ RunTime:0.0246s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000048s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000091s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008427s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008475s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000346s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000379s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001038s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001102s ]
+
+[ 2018-05-31T23:42:08+08:00 ] 127.0.0.1 /admin/cduser/cduser/menuid/100.html?_=1527781059946
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000821s ]
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.001791s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002753s ]
+SQL: SHOW COLUMNS FROM `log` [ RunTime:0.0244s ]
+SQL: INSERT INTO `log` (`username`,`userid`,`controller`,`action`,`querystring`,`time`,`ip`) VALUES ('Super','1','Cduser','cduser','array (
+  \'GET\' => 
+  array (
+    \'menuid\' => \'100\',
+    \'_\' => \'1527781059946\',
+  ),
+)','2018-05-31 23-42-08','127.0.0.1') [ RunTime:0.0236s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0236s ]
+SQL: SELECT * FROM `menu` WHERE `id` = 100 LIMIT 1   [ RunTime:0.0230s ]
+SQL: SELECT * FROM `menu` WHERE `id` = 76 LIMIT 1   [ RunTime:0.0269s ]
+SQL: SELECT * FROM `menu` WHERE `id` = 63 LIMIT 1   [ RunTime:0.0247s ]
+SQL: SELECT * FROM `menu` WHERE `parentid` = 100 AND `display` = 1 AND `toolbar` = 1 ORDER BY listorder ASC LIMIT 1000   [ RunTime:0.0227s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000044s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000085s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008928s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008985s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000504s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000539s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000765s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000801s ]
+
+[ 2018-05-31T23:42:08+08:00 ] 127.0.0.1 /admin/fault/index/grid/datagrid.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000581s ]
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.000886s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001558s ]
+SQL: SHOW COLUMNS FROM `log` [ RunTime:0.0287s ]
+SQL: INSERT INTO `log` (`username`,`userid`,`controller`,`action`,`querystring`,`time`,`ip`) VALUES ('Super','1','Fault','index','array (
+  \'GET\' => 
+  array (
+    \'grid\' => \'datagrid\',
+  ),
+  \'POST\' => 
+  array (
+    \'page\' => \'1\',
+    \'rows\' => \'20\',
+  ),
+)','2018-05-31 23-42-08','127.0.0.1') [ RunTime:0.0245s ]
+SQL: SHOW COLUMNS FROM `fault_log` [ RunTime:0.0250s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `fault_log` WHERE ( 1 ) LIMIT 1   [ RunTime:0.0273s ]
+NOTIC: [8] Undefined variable: id C:\WORKSPANCE_PHP\adminphp\Admin\Controller\FaultController.class.php 第 50 行.
+SQL: SELECT * FROM `fault_log` WHERE ( 1 ) ORDER BY `add_time` desc LIMIT 0,20   [ RunTime:0.0242s ]
+NOTIC: [8] Undefined variable: id C:\WORKSPANCE_PHP\adminphp\Admin\Controller\FaultController.class.php 第 60 行.
+
+[ 2018-05-31T23:42:09+08:00 ] 127.0.0.1 /admin/cduser/cduser/grid/datagrid.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000691s ]
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.001156s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001936s ]
+SQL: SHOW COLUMNS FROM `log` [ RunTime:0.0254s ]
+SQL: INSERT INTO `log` (`username`,`userid`,`controller`,`action`,`querystring`,`time`,`ip`) VALUES ('Super','1','Cduser','cduser','array (
+  \'GET\' => 
+  array (
+    \'grid\' => \'datagrid\',
+  ),
+  \'POST\' => 
+  array (
+    \'page\' => \'1\',
+    \'rows\' => \'20\',
+  ),
+)','2018-05-31 23-42-08','127.0.0.1') [ RunTime:0.0275s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0233s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `users` WHERE ( 1 ) LIMIT 1   [ RunTime:0.0233s ]
+NOTIC: [8] Undefined variable: id C:\WORKSPANCE_PHP\adminphp\Admin\Controller\CduserController.class.php 第 50 行.
+SQL: SELECT * FROM `users` WHERE ( 1 ) ORDER BY `creation_time` desc LIMIT 0,20   [ RunTime:0.0247s ]
+NOTIC: [8] iconv(): Detected an illegal character in input string C:\WORKSPANCE_PHP\adminphp\Admin\Common\function.php 第 242 行.
+NOTIC: [8] iconv(): Detected an illegal character in input string C:\WORKSPANCE_PHP\adminphp\Admin\Common\function.php 第 242 行.
+NOTIC: [8] Undefined variable: id C:\WORKSPANCE_PHP\adminphp\Admin\Controller\CduserController.class.php 第 60 行.
+
+[ 2018-05-31T23:42:10+08:00 ] 127.0.0.1 /admin/index/public_sessionlife.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000491s ]
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.000892s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001451s ]
+
+[ 2018-05-31T23:42:13+08:00 ] 127.0.0.1 /admin/fault/index/menuid/87.html?_=1527781059947
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000547s ]
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.000929s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001553s ]
+SQL: SHOW COLUMNS FROM `log` [ RunTime:0.0292s ]
+SQL: INSERT INTO `log` (`username`,`userid`,`controller`,`action`,`querystring`,`time`,`ip`) VALUES ('Super','1','Fault','index','array (
+  \'GET\' => 
+  array (
+    \'menuid\' => \'87\',
+    \'_\' => \'1527781059947\',
+  ),
+)','2018-05-31 23-42-13','127.0.0.1') [ RunTime:0.0267s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0271s ]
+SQL: SELECT * FROM `menu` WHERE `id` = 87 LIMIT 1   [ RunTime:0.0305s ]
+SQL: SELECT * FROM `menu` WHERE `id` = 77 LIMIT 1   [ RunTime:0.0362s ]
+SQL: SELECT * FROM `menu` WHERE `id` = 63 LIMIT 1   [ RunTime:0.0434s ]
+SQL: SELECT * FROM `menu` WHERE `parentid` = 87 AND `display` = 1 AND `toolbar` = 1 ORDER BY listorder ASC LIMIT 1000   [ RunTime:0.0316s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000075s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000151s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010110s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010160s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000418s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000452s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000855s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000896s ]
+
+[ 2018-05-31T23:42:14+08:00 ] 127.0.0.1 /admin/fault/index/grid/datagrid.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000792s ]
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.001226s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002143s ]
+SQL: SHOW COLUMNS FROM `log` [ RunTime:0.0265s ]
+SQL: INSERT INTO `log` (`username`,`userid`,`controller`,`action`,`querystring`,`time`,`ip`) VALUES ('Super','1','Fault','index','array (
+  \'GET\' => 
+  array (
+    \'grid\' => \'datagrid\',
+  ),
+  \'POST\' => 
+  array (
+    \'page\' => \'1\',
+    \'rows\' => \'20\',
+  ),
+)','2018-05-31 23-42-14','127.0.0.1') [ RunTime:0.0257s ]
+SQL: SHOW COLUMNS FROM `fault_log` [ RunTime:0.0263s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `fault_log` WHERE ( 1 ) LIMIT 1   [ RunTime:0.0250s ]
+NOTIC: [8] Undefined variable: id C:\WORKSPANCE_PHP\adminphp\Admin\Controller\FaultController.class.php 第 50 行.
+SQL: SELECT * FROM `fault_log` WHERE ( 1 ) ORDER BY `add_time` desc LIMIT 0,20   [ RunTime:0.0251s ]
+NOTIC: [8] Undefined variable: id C:\WORKSPANCE_PHP\adminphp\Admin\Controller\FaultController.class.php 第 60 行.
+
+[ 2018-05-31T23:42:24+08:00 ] 127.0.0.1 /admin/fault/index/grid/datagrid.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000740s ]
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.001350s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002207s ]
+SQL: SHOW COLUMNS FROM `log` [ RunTime:0.0248s ]
+SQL: INSERT INTO `log` (`username`,`userid`,`controller`,`action`,`querystring`,`time`,`ip`) VALUES ('Super','1','Fault','index','array (
+  \'GET\' => 
+  array (
+    \'grid\' => \'datagrid\',
+  ),
+  \'POST\' => 
+  array (
+    \'page\' => \'1\',
+    \'rows\' => \'20\',
+  ),
+)','2018-05-31 23-42-23','127.0.0.1') [ RunTime:0.0240s ]
+SQL: SHOW COLUMNS FROM `fault_log` [ RunTime:0.0243s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `fault_log` WHERE ( 1 ) LIMIT 1   [ RunTime:0.0268s ]
+NOTIC: [8] Undefined variable: id C:\WORKSPANCE_PHP\adminphp\Admin\Controller\FaultController.class.php 第 50 行.
+SQL: SELECT * FROM `fault_log` WHERE ( 1 ) ORDER BY `add_time` desc LIMIT 0,20   [ RunTime:0.0238s ]
+NOTIC: [8] Undefined variable: id C:\WORKSPANCE_PHP\adminphp\Admin\Controller\FaultController.class.php 第 60 行.
+
+[ 2018-05-31T23:42:25+08:00 ] 127.0.0.1 /admin/index/public_sessionlife.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000511s ]
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.000764s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001348s ]
+
+[ 2018-05-31T23:42:40+08:00 ] 127.0.0.1 /admin/index/public_sessionlife.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000470s ]
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.000718s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001252s ]
+
+[ 2018-05-31T23:42:55+08:00 ] 127.0.0.1 /admin/index/public_sessionlife.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000437s ]
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.000800s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001317s ]
+
+[ 2018-05-31T23:43:10+08:00 ] 127.0.0.1 /admin/index/public_sessionlife.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000849s ]
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.001472s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002455s ]
+
+[ 2018-05-31T23:43:25+08:00 ] 127.0.0.1 /admin/index/public_sessionlife.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000591s ]
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.000945s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001641s ]
+
+[ 2018-05-31T23:43:40+08:00 ] 127.0.0.1 /admin/index/public_sessionlife.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000829s ]
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.001372s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002334s ]
+
+[ 2018-05-31T23:43:55+08:00 ] 127.0.0.1 /admin/index/public_sessionlife.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000589s ]
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.000964s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001654s ]
+
+[ 2018-05-31T23:44:10+08:00 ] 127.0.0.1 /admin/index/public_sessionlife.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000775s ]
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.001784s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002666s ]
+
+[ 2018-05-31T23:44:25+08:00 ] 127.0.0.1 /admin/index/public_sessionlife.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000673s ]
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.001597s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002417s ]
+
+[ 2018-05-31T23:44:40+08:00 ] 127.0.0.1 /admin/index/public_sessionlife.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000813s ]
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.001240s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002168s ]
+
+[ 2018-05-31T23:44:55+08:00 ] 127.0.0.1 /admin/index/public_sessionlife.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000655s ]
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.001134s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001871s ]
+
+[ 2018-05-31T23:45:10+08:00 ] 127.0.0.1 /admin/index/public_sessionlife.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000652s ]
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.000918s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001673s ]
+
+[ 2018-05-31T23:45:25+08:00 ] 127.0.0.1 /admin/index/public_sessionlife.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000469s ]
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.000745s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001279s ]
+
+[ 2018-05-31T23:45:40+08:00 ] 127.0.0.1 /admin/index/public_sessionlife.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000539s ]
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.000945s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001562s ]
+
+[ 2018-05-31T23:45:56+08:00 ] 127.0.0.1 /admin/index/public_sessionlife.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000491s ]
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.000851s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001410s ]
+
+[ 2018-05-31T23:46:11+08:00 ] 127.0.0.1 /admin/index/public_sessionlife.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000752s ]
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.001256s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002085s ]
+
+[ 2018-05-31T23:46:26+08:00 ] 127.0.0.1 /admin/index/public_sessionlife.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000526s ]
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.000894s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001496s ]
+
+[ 2018-05-31T23:46:41+08:00 ] 127.0.0.1 /admin/index/public_sessionlife.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000497s ]
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.000865s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001431s ]
+
+[ 2018-05-31T23:46:56+08:00 ] 127.0.0.1 /admin/index/public_sessionlife.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000353s ]
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.000592s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000991s ]
+
+[ 2018-05-31T23:47:11+08:00 ] 127.0.0.1 /admin/index/public_sessionlife.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000425s ]
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.000733s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001218s ]
+
+[ 2018-05-31T23:47:26+08:00 ] 127.0.0.1 /admin/index/public_sessionlife.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000480s ]
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.000800s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001345s ]
+
+[ 2018-05-31T23:47:41+08:00 ] 127.0.0.1 /admin/index/public_sessionlife.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000390s ]
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.000665s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001110s ]
+
+[ 2018-05-31T23:47:56+08:00 ] 127.0.0.1 /admin/index/public_sessionlife.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000523s ]
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.000898s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001494s ]
+
+[ 2018-05-31T23:48:11+08:00 ] 127.0.0.1 /admin/index/public_sessionlife.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000485s ]
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.000837s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001388s ]
+
+[ 2018-05-31T23:48:26+08:00 ] 127.0.0.1 /admin/index/public_sessionlife.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000530s ]
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.000832s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001417s ]
+
+[ 2018-05-31T23:48:41+08:00 ] 127.0.0.1 /admin/index/public_sessionlife.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000492s ]
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.000850s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001406s ]
+
+[ 2018-05-31T23:48:56+08:00 ] 127.0.0.1 /admin/index/public_sessionlife.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000627s ]
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.001022s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001728s ]
+
+[ 2018-05-31T23:49:11+08:00 ] 127.0.0.1 /admin/index/public_sessionlife.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000455s ]
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.000708s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001221s ]
+
+[ 2018-05-31T23:49:26+08:00 ] 127.0.0.1 /admin/index/public_sessionlife.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000491s ]
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.000807s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001366s ]
+
+[ 2018-05-31T23:49:41+08:00 ] 127.0.0.1 /admin/index/public_sessionlife.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000539s ]
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.000802s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001411s ]
+
+[ 2018-05-31T23:49:56+08:00 ] 127.0.0.1 /admin/index/public_sessionlife.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000700s ]
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.001176s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001973s ]
+
+[ 2018-05-31T23:50:11+08:00 ] 127.0.0.1 /admin/index/public_sessionlife.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000561s ]
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.000818s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001449s ]
+
+[ 2018-05-31T23:50:26+08:00 ] 127.0.0.1 /admin/index/public_sessionlife.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000382s ]
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.000644s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001078s ]
+
+[ 2018-05-31T23:50:41+08:00 ] 127.0.0.1 /admin/index/public_sessionlife.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000569s ]
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.000863s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001489s ]
+
+[ 2018-05-31T23:50:56+08:00 ] 127.0.0.1 /admin/index/public_sessionlife.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000700s ]
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.001177s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001975s ]
+
+[ 2018-05-31T23:51:11+08:00 ] 127.0.0.1 /admin/index/public_sessionlife.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000708s ]
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.001203s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002012s ]
+
+[ 2018-05-31T23:51:26+08:00 ] 127.0.0.1 /admin/index/public_sessionlife.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000480s ]
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.000817s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001360s ]
+
+[ 2018-05-31T23:51:41+08:00 ] 127.0.0.1 /admin/index/public_sessionlife.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000571s ]
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.000957s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001606s ]
+
+[ 2018-05-31T23:51:56+08:00 ] 127.0.0.1 /admin/index/public_sessionlife.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000381s ]
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.000640s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001074s ]
+
+[ 2018-05-31T23:52:11+08:00 ] 127.0.0.1 /admin/index/public_sessionlife.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000525s ]
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.000971s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001568s ]
+
+[ 2018-05-31T23:52:26+08:00 ] 127.0.0.1 /admin/index/public_sessionlife.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000702s ]
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.001186s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001987s ]
+
+[ 2018-05-31T23:52:41+08:00 ] 127.0.0.1 /admin/index/public_sessionlife.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000542s ]
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.000834s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001446s ]
+
+[ 2018-05-31T23:52:56+08:00 ] 127.0.0.1 /admin/index/public_sessionlife.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000941s ]
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.001182s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002214s ]
+
+[ 2018-05-31T23:53:11+08:00 ] 127.0.0.1 /admin/index/public_sessionlife.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000481s ]
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.000681s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001218s ]
+
+[ 2018-05-31T23:53:26+08:00 ] 127.0.0.1 /admin/index/public_sessionlife.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000700s ]
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.001183s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001980s ]
+
+[ 2018-05-31T23:53:41+08:00 ] 127.0.0.1 /admin/index/public_sessionlife.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.000844s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001412s ]
+
+[ 2018-05-31T23:53:56+08:00 ] 127.0.0.1 /admin/index/public_sessionlife.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000421s ]
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.000710s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001192s ]
+
+[ 2018-05-31T23:54:11+08:00 ] 127.0.0.1 /admin/index/public_sessionlife.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000573s ]
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.001083s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001736s ]
+
+[ 2018-05-31T23:54:26+08:00 ] 127.0.0.1 /admin/index/public_sessionlife.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000579s ]
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.000972s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001630s ]
+
+[ 2018-05-31T23:54:41+08:00 ] 127.0.0.1 /admin/index/public_sessionlife.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000382s ]
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.000634s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001069s ]
+
+[ 2018-05-31T23:54:56+08:00 ] 127.0.0.1 /admin/index/public_sessionlife.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000396s ]
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.000662s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001111s ]
+
+[ 2018-05-31T23:55:11+08:00 ] 127.0.0.1 /admin/index/public_sessionlife.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000567s ]
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.000855s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001480s ]
+
+[ 2018-05-31T23:55:26+08:00 ] 127.0.0.1 /admin/index/public_sessionlife.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000406s ]
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.000678s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001140s ]
+
+[ 2018-05-31T23:55:41+08:00 ] 127.0.0.1 /admin/index/public_sessionlife.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000487s ]
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.000836s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001390s ]
+
+[ 2018-05-31T23:55:56+08:00 ] 127.0.0.1 /admin/index/public_sessionlife.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000387s ]
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.000645s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001085s ]
+
+[ 2018-05-31T23:56:11+08:00 ] 127.0.0.1 /admin/index/public_sessionlife.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000700s ]
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.001183s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001978s ]
+
+[ 2018-05-31T23:56:26+08:00 ] 127.0.0.1 /admin/index/public_sessionlife.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000405s ]
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.000681s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001141s ]
+
+[ 2018-05-31T23:56:41+08:00 ] 127.0.0.1 /admin/index/public_sessionlife.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000702s ]
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.001176s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001974s ]
+
+[ 2018-05-31T23:56:56+08:00 ] 127.0.0.1 /admin/index/public_sessionlife.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000694s ]
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.001173s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001963s ]
+
+[ 2018-05-31T23:57:11+08:00 ] 127.0.0.1 /admin/index/public_sessionlife.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000712s ]
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.001180s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001991s ]
+
+[ 2018-05-31T23:57:26+08:00 ] 127.0.0.1 /admin/index/public_sessionlife.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000533s ]
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.000804s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001391s ]
+
+[ 2018-05-31T23:57:41+08:00 ] 127.0.0.1 /admin/index/public_sessionlife.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000482s ]
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.000804s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001353s ]
+
+[ 2018-05-31T23:57:56+08:00 ] 127.0.0.1 /admin/index/public_sessionlife.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000571s ]
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.000954s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001604s ]
+
+[ 2018-05-31T23:58:11+08:00 ] 127.0.0.1 /admin/index/public_sessionlife.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000569s ]
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.000894s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001538s ]
+
+[ 2018-05-31T23:58:26+08:00 ] 127.0.0.1 /admin/index/public_sessionlife.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000719s ]
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.001073s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001874s ]
+
+[ 2018-05-31T23:58:41+08:00 ] 127.0.0.1 /admin/index/public_sessionlife.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000482s ]
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.000743s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001289s ]
+
+[ 2018-05-31T23:58:56+08:00 ] 127.0.0.1 /admin/index/public_sessionlife.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000406s ]
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.000675s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001135s ]
+
+[ 2018-05-31T23:59:11+08:00 ] 127.0.0.1 /admin/index/public_sessionlife.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000482s ]
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.000732s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001278s ]
+
+[ 2018-05-31T23:59:26+08:00 ] 127.0.0.1 /admin/index/public_sessionlife.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000570s ]
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.000974s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001627s ]
+
+[ 2018-05-31T23:59:41+08:00 ] 127.0.0.1 /admin/index/public_sessionlife.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000570s ]
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.000861s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001491s ]
+
+[ 2018-05-31T23:59:56+08:00 ] 127.0.0.1 /admin/index/public_sessionlife.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000419s ]
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.000689s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001162s ]
+

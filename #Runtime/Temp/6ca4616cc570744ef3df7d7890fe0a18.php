@@ -1,0 +1,3 @@
+<?php
+//000000000000a:5:{s:6:"sessid";s:26:"a51qe8vvhbr36sv34kv13sc3q5";s:4:"time";s:19:"2018-06-29 13:22:47";s:9:"useragent";s:250:"Mozilla/5.0 (Linux; Android 7.0; STF-AL10 Build/HUAWEISTF-AL10; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/57.0.2987.132 MQQBrowser/6.2 TBS/044109 Mobile Safari/537.36 MicroMessenger/6.6.7.1321(0x26060739) NetType/4G Language/zh_CN";s:2:"ip";s:13:"61.158.148.80";s:8:"identity";s:36:"1b96530e-78f7-11e8-910d-00163e000493";}
+?>

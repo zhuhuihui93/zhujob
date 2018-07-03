@@ -1,0 +1,76 @@
+<form class="dialog-form-page">
+	<input type="hidden" name="info[id]" value="{$info.id}"/>
+		<table cellspacing="0" cellpadding="0" border="0" width="100%">
+			<tr>
+				<td>设备编码：</td>
+				<td>
+					<input class="easyui-validatebox" value="{$info.charging_code}" data-options="required:true,validType:{length:[8,8]}" type="text" name="info[charging_code]"
+					 style="width:220px" />
+				</td>
+			</tr>
+			<tr>
+				<td>设备名称：</td>
+				<td>
+					<input class="easyui-validatebox" value="{$info.charging_name}" data-options="required:true,validType:{length:[0,20]}" type="text" name="info[charging_name]"
+					 style="width:220px" />
+				</td>
+			</tr>
+			<tr>
+				<td>代理商：</td>
+				<td>
+					<!-- <input class="easyui-validatebox" value="{$info.agent_name}" data-options="required:true,validType:{length:[0,20]}" type="text" name="info[agent_name]"
+					 style="width:220px" /> -->
+					<select class="easyui-combobox" data-options="editable:false,panelHeight:'auto'" name="info[admin_id]" style="width:230px;height:24px">
+					 	<volist name="agent" id="agent">
+					 			<?php 
+									if($info['admin_id'] == $agent['userid'])
+										$check='selected="selected"';
+									else
+										$check='';
+								?>
+								<option <?php echo $check; ?> value="{$agent['userid']}">{$agent['username']}</option>
+						</volist>
+					</select>
+				</td>
+			</tr>
+			<tr>
+				<td>收费模式：</td>
+				<td>
+					<select class="easyui-combobox" data-options="editable:false,panelHeight:'auto',value:{$info.is_free}" name="info[is_free]" style="width:230px;height:24px">
+						<option value="0" <eq name="info.is_free" value="0">selected</eq>>需支付</option>
+						<option value="1" <eq name="info.is_free" value="1">selected</eq>>免支付</option>
+					</select>
+				</td>
+			</tr>
+			<tr>
+				<td>插座个数：</td>
+				<td>
+					<input class="easyui-validatebox" value="{$info.socket_number}" data-options="required:true,validType:{length:[0,20]}" type="text" name="info[socket_number]"
+					 style="width:220px" />
+				</td>
+			</tr>
+			<tr>
+				<td>区域：</td>
+				<td>
+					<input class="easyui-validatebox" value="{$info.area}" data-options="required:true,validType:{length:[0,20]}" type="text" name="info[area]" style="width:220px"
+					/>
+				</td>
+			</tr>
+			<tr>
+				<td>地址：</td>
+				<td>
+					<textarea class="easyui-validatebox" data-options="validType:{length:[0,200]}" name="info[address]" style="width:220px;height:60px;font-size:12px">{$info.address}</textarea>
+				</td>
+			</tr>
+			<tr>
+				<td>经纬度：</td>
+				<td>
+					<input class="easyui-validatebox" value="{$info.latitude}" data-options="required:true,validType:{length:[0,20]}" type="text" name="info[latitude]" style="width:220px"
+					/></br>
+					<input class="easyui-validatebox" value="{$info.longitude}" data-options="required:true,validType:{length:[0,20]}" type="text" name="info[longitude]" style="width:220px"
+					/></br>
+					<input  class="easyui-button" data-href="{:U('Charge/a2lAjax')}" id="ajaxAds2l" type="button" value="获取"/>
+				</td>
+			</tr>
+		</table>
+	</form>

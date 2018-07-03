@@ -1,0 +1,54 @@
+<include file="Public/header"/>
+	<div class="mui-content">
+		<ul class="mui-table-view">
+	        <li class="mui-table-view-cell Recharge-record-tit">
+	           <i class="mui-pull-left"></i>
+	           <h6 class="mui-pull-left">{$name}</h6>
+	        </li>
+	    </ul>
+	    <ul class="mui-table-view Recharge-record-list">
+            <if condition="$list neq '' ">
+            <volist name="list" id="list">
+                <if condition="$list.recharge_type eq 1 ">
+                    <li class="mui-table-view-cell">
+                        <div class="mui-clearfix">
+                            <if condition = "$list.record_status eq 1 " >
+                            <h5 class="mui-pull-left">充值成功</h5>
+                            <h6 class="mui-pull-right RechargeRecordSuccess">+{$list['recharge_money']}</h6>
+                            <else />
+                            <h5 class="mui-pull-left">充值失败</h5>
+                            <h6 class="mui-pull-right RechargeRecordFail">-{$list['recharge_money']}</h6>
+                            </if>                       
+                        </div>
+                        <div class="mui-clearfix">
+                            <p class="mui-pull-left">{:date('Y-m-d H:s',$list['create_time'])}</p>
+                            <p class="mui-pull-right">余额 {$list['total_money']}</p>
+                        </div>
+                    </li>
+                <else />
+                    <li class="mui-table-view-cell">
+                        <div class="mui-clearfix">
+                            <if condition = "$list.record_status eq 1 " >
+                            <h5 class="mui-pull-left">充值成功</h5>
+                            <h6 class="mui-pull-right RechargeRecordSuccess">+{$list['integral']}</h6>
+                            <else />
+                            <h5 class="mui-pull-left">充值失败</h5>
+                            <h6 class="mui-pull-right RechargeRecordFail">-{$list['integral']}</h6>
+                            </if>    
+                        </div>
+                        <div class="mui-clearfix">
+                            <p class="mui-pull-left">{:date('Y-m-d H:s',$list['create_time'])}</p>
+                            <p class="mui-pull-right">积分 {$list['total_integral']}</p>
+                        </div>
+                    </li>
+                </if>
+            </volist>
+            <else />
+                <div class="No-position-box"></div>
+                <div class="No-position-btn">
+                    <a href="{:U('Users/users')}">返回个人中心</a>
+                </div>
+            </if>
+        </ul>
+	</div>
+<include file="Public/footer"/>

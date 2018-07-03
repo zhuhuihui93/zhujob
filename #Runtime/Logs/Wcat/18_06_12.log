@@ -1,0 +1,30 @@
+[ 2018-06-12T10:25:26+08:00 ] 223.104.3.194 /Wcat/Wechat/payment
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001230s ]
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.000865s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003107s ]
+NOTIC: [2] Missing argument 5 for Wcat\Controller\WechatController::appReturn(), called in /home/bjlongxingtang1b3jkl1oan2g9x6ixnjgktiatn3g/wwwroot/Wcat/Controller/WechatController.class.php on line 48 and defined /home/bjlongxingtang1b3jkl1oan2g9x6ixnjgktiatn3g/wwwroot/Wcat/Controller/WechatController.class.php 第 159 行.
+NOTIC: [8] Undefined index: deviceType /home/bjlongxingtang1b3jkl1oan2g9x6ixnjgktiatn3g/wwwroot/Wcat/Controller/WechatController.class.php 第 175 行.
+
+[ 2018-06-12T10:25:51+08:00 ] 223.104.3.194 /Wcat/Public/phonecode
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000878s ]
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.000623s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002065s ]
+SQL: SHOW COLUMNS FROM `sms_log` [ RunTime:0.0249s ]
+SQL: INSERT INTO `sms_log` (`status`,`phone`,`session_id`,`add_time`,`effective_time`,`code`,`msg`,`error_msg`) VALUES ('1','18701330726','gotpc7b6slke7f43voaaap8vl3','1528770351','1528773951','819707','【聚e充】您的验证码为819707，请您不要告诉他人！','发送短信成功') [ RunTime:0.0238s ]
+
+[ 2018-06-12T10:26:02+08:00 ] 223.104.3.194 /Wcat/Users/binding_phone
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001083s ]
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.000735s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002620s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0259s ]
+SQL: SELECT * FROM `users` WHERE `phone` = '18701330726' LIMIT 1   [ RunTime:0.0282s ]
+SQL: SHOW COLUMNS FROM `sms_log` [ RunTime:0.0256s ]
+SQL: SELECT * FROM `sms_log` WHERE `phone` = '18701330726' ORDER BY id desc LIMIT 1   [ RunTime:0.0254s ]
+SQL: UPDATE `users` SET `phone`='18701330726' WHERE `id` = 19 [ RunTime:0.0254s ]
+NOTIC: [2] Missing argument 4 for Wcat\Controller\PublicController::appReturn(), called in /home/bjlongxingtang1b3jkl1oan2g9x6ixnjgktiatn3g/wwwroot/Wcat/Controller/UsersController.class.php on line 80 and defined /home/bjlongxingtang1b3jkl1oan2g9x6ixnjgktiatn3g/wwwroot/Wcat/Controller/PublicController.class.php 第 17 行.
+NOTIC: [2] Missing argument 5 for Wcat\Controller\PublicController::appReturn(), called in /home/bjlongxingtang1b3jkl1oan2g9x6ixnjgktiatn3g/wwwroot/Wcat/Controller/UsersController.class.php on line 80 and defined /home/bjlongxingtang1b3jkl1oan2g9x6ixnjgktiatn3g/wwwroot/Wcat/Controller/PublicController.class.php 第 17 行.
+NOTIC: [8] Undefined index: deviceType /home/bjlongxingtang1b3jkl1oan2g9x6ixnjgktiatn3g/wwwroot/Wcat/Controller/PublicController.class.php 第 33 行.
+

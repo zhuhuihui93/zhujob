@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <title>{$name}</title>
+    <link href="__PUBLIC__/Wcat/css/clear.css" rel="stylesheet"/>
+    <link href="__PUBLIC__/Wcat/css/mui.min.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="__PUBLIC__/Wcat/css/style.css"/>
+    <script src="__PUBLIC__/Wcat/js/self-adaption.js"></script>
+</head>
+<body>
+	<header class="mui-bar mui-bar-nav">
+	    <a class="mui-action-back mui-icon mui-icon-left-nav mui-pull-left"></a>
+	    <h1 class="mui-title">附近电站</h1>
+	</header>
+	<div class="mui-content">
+		<ul class="mui-table-view nearby-ul">
+			<if condition="$info neq '' ">
+			<volist name="info" id="list">
+	        <li class="mui-table-view-cell nearby-li">
+	            <div class="mui-clearfix">
+	            	<h6 class="mui-pull-left">{$list['charging_name']}</h6>
+	            	<p class="mui-pull-right">可用插座：{$list['socket_number']}</p>
+	            </div>
+	            <div class="mui-clearfix">
+	            	<p class="mui-pull-left">{$list['address']}</p>
+	            	<p class="mui-pull-left">距您<span>{$list['km']}</span>km</p>
+	            </div>
+	            <div>
+	            	<button type="button" class="mui-btn mui-btn-outlined">导航</button>
+	            	<button type="button" class="mui-btn mui-btn-outlined">充电</button>
+	            </div>
+	        </li>
+	   	    </volist>
+	   	    <else />
+		   	    <div class="No-position-box"></div>
+				<div class="No-position-btn">
+					<a href="{:U('Users/users')}">返回个人中心</a>
+				</div>
+	   		</if>
+		</ul>
+	</div>
+	<script src="__PUBLIC__/Wcat/js/mui.min.js"></script>
+    <script type="text/javascript" charset="utf-8">
+      	mui.init();
+    </script>
+</body>
+</html>

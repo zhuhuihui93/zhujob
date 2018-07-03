@@ -1,0 +1,80 @@
+<include file="Public/header"/>
+	<div class="mui-content">
+		 <div class="mui-slider">
+		    <div class="mui-slider-indicator mui-segmented-control mui-segmented-control-inverted my-monthly-card-tit">
+		        <a href="#item1" class="mui-control-item myTabItem ">购买月卡</a>
+		        <a href="#item2" class="mui-control-item myTabItem mui-active">月卡列表</a>
+		    </div>
+	        <div class="mui-slider-group" style="width: 100%;">
+	            <div id="item1" class="mui-slider-item mui-control-content card-list ">
+	                <ul class="mui-table-view Buy-monthly-card">
+	                    <li class="mui-table-view-cell mui-clearfix">
+	                    	<p class="mui-pull-left">支付方式</p>
+	                    	<span class="mui-pull-left">：</span>
+	                    	<span class="mui-pull-right">微信支付</span>
+	                    </li>
+	                    <li class="mui-table-view-cell mui-clearfix">
+	                    	<p class="mui-pull-left">类型</p>
+	                    	<span class="mui-pull-left">：</span>
+	                    	<span class="mui-pull-right">月卡（45元/月）</span>
+	                    </li>
+	                </ul>
+	            	<div class="Buy-monthly-cont">
+	            		<h6>月卡使用规则</h6>
+	            		<p>1.充值满20元送200积分</p>
+	            	</div>
+	            	<div class="Buy-monthly-btn">
+	            		<button class="mui-btn mui-btn-outlined" id="oBtn">购买</button>
+	            	</div>
+	            </div>
+	            <div id="item2" class="mui-slider-item mui-control-content my-card-list card-list mui-active">
+	               <if condition="!empty($list) ">
+	                <ul class="mui-table-view">	                	
+                		<volist name="list" id="list">
+		                	<if condition="$list.is_expire eq '1' ">
+		                    <li class="mui-table-view-cell card-shixiao">
+		                    	<h6>聚E充月卡</h6>
+		                    	<p>有效期:<span>{:date('Y/m/d',$list['create_time'])}</span>至<span>{:date('Y/m/d',$list['end_time'])}</span></p>
+		                    </li>
+		                    <else />
+		                     <li class="mui-table-view-cell">
+		                    	<h6>聚E充月卡</h6>
+		                    	<p>有效期:<span>{:date('Y/m/d',$list['create_time'])}</span>至<span>{:date('Y/m/d',$list['end_time'])}</span></p>
+		                    </li>
+		                	</if>
+	                	</volist>
+	                </ul>
+	                <else />
+                    	<div class="mui-content">
+							<div class="monthly-card-no"></div>
+							<p class="monthly-card-no-txt">您还没有月卡哦，前去<a href="{:U('Users/buy_month_card')}">购买</a></p>
+						</div>
+                	</if>
+	            </div>
+	        </div>
+	    </div>
+		       
+	</div>
+<include file="Public/footer"/>
+<script type="text/javascript">
+
+	var btn = document.getElementById('oBtn');
+	btn.onclick = function()
+	{
+		//步骤一:创建异步对象
+		var ajax = new XMLHttpRequest();
+		//步骤二:设置请求的url参数,参数一是请求的类型,参数二是请求的url,可以带参数,动态的传递参数starName到服务端
+		ajax.open('get','/Wcat/Wechat/payment?money=45&type=3');
+		//步骤三:发送请求
+		ajax.send();
+		//步骤四:注册事件 onreadystatechange 状态改变就会调用
+		ajax.onreadystatechange = function () {
+		   if (ajax.readyState==4 &&ajax.status==200) {
+		    //步骤五 如果能够进到这个判断 说明 数据 完美的回来了,并且请求的页面是存在的
+		　　　　alert(12);//输入相应的内容
+		  　　}
+		}
+	}
+	
+
+</script>

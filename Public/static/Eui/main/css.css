@@ -1,0 +1,44 @@
+
+body{ background:#f3f5f5;}
+.layui-layout-admin .layui-header{background-color: #fafbfb; height: 110px;}
+.layui-layout-admin .layui-side { top: 108px; overflow: hidden; background-color: #026086 !important;}
+.layui-layout-admin .layui-body{ top:108px;}
+.layui-nav-itemed{
+    color:#4d515f;
+    color:#fcfdfe;
+    background-color: #05597e;
+}
+.layui-layout-admin .layui-logo{ font-size: 45px; line-height: 112px; color: #303546;}
+.layui-side .layui-nav {background-color: #026086 !important;    text-indent: 44px;}
+.layui-nav-tree .layui-nav-more {
+    right: 10px;
+    border-color: #f46593 transparent transparent;
+}
+.layui-nav-itemed .layui-nav-child {
+    display: block;
+    padding: 0;
+    background-color: #026086 !important;
+}
+.layui-nav-tree .layui-nav-item a:hover {
+    color:#4d515f;
+    background-color: #05597e;
+}
+
+.layui-nav .layui-nav-item a{color:#50cdff;}
+.layui-nav .layui-nav-item a:hover{color:#fcfdfe;}
+
+.layui-nav-tree .layui-nav-bar {
+    background-color: #f46593;
+}
+.layui-nav-tree .layui-nav-child dd.layui-this, .layui-nav-tree .layui-nav-child dd.layui-this a, .layui-nav-tree .layui-this, .layui-nav-tree .layui-this>a, .layui-nav-tree .layui-this>a:hover {
+    background-color: #05597e;
+    color:#fcfdfe;
+}
+.layui-nav-item .icon{ display: block; }
+.icon_47{ background: url(./bg-1.png) 26px 12px #026086 no-repeat;}
+.icon_48{ background: url(./bg-2.png) 26px 12px #026086 no-repeat;}
+.icon_49{ background: url(./bg-3.png) 26px 12px #026086 no-repeat;}
+.icon_50{ background: url(./bg-4.png) 26px 12px #026086 no-repeat;}
+.icon_51{ background: url(./bg-5.png) 26px 12px #026086 no-repeat;}
+.icon_52{ background: url(./bg-6.png) 26px 12px #026086 no-repeat;}
+.icon_53{ background: url(./bg-7.png) 26px 12px #026086 no-repeat;}

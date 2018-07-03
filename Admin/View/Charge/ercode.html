@@ -1,0 +1,15 @@
+<!--datagrid列表-->
+<style>
+#ercodes{display: block;}
+div.ercode{ float: left;}
+div.ercode img {width: 160px; height: 160px; cursor: pointer;}
+</style>
+<div id="ercodes">
+	<foreach name="ercodes" item="er">
+		<div class="ercode"><img data-fid="{$er.charging_code}-{$er.scene_id}-{$er.number}" data-id="{$er['scene_id']}" data-url="{$er.tiket}" data-href="{:U('Charge/syncercode')}" src="/Public/Ercodes/{$er.charging_code}-{$er.scene_id}-{$er.number}.jpg"/>
+		<p><font>设备:{$er.charging_code}</font></br>
+			<font>端口:{$er.number}</font>
+			<font>参数:{$er.scene_id}</font></p>
+		</div>
+	</foreach>
+</div>

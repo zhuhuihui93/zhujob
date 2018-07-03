@@ -1,0 +1,701 @@
+[ 2018-06-05T00:02:41+08:00 ] 127.0.0.1 /plus/mytag_js.php?dopost=saveedit&arrs1%5B%5D=99&arrs1%5B%5D=102&arrs1%5B%5D=103&arrs1%5B%5D=95&arrs1%5B%5D=100&arrs1%5B%5D=98&arrs1%5B%5D=112&arrs1%5B%5D=114&arrs1%5B%5D=101&arrs1%5B%5D=102&arrs1%5B%5D=105&arrs1%5B%5D=120&arrs2%5B%5D=109&arrs2%5B%5D=121&arrs2%5B%5D=116&arrs2%5B%5D=97&arrs2%5B%5D=103&arrs2%5B%5D=96&arrs2%5B%5D=32&arrs2%5B%5D=40&arrs2%5B%5D=97&arrs2%5B%5D=105&arrs2%5B%5D=100&arrs2%5B%5D=44&arrs2%5B%5D=110&arrs2%5B%5D=111&arrs2%5B%5D=114&arrs2%5B%5D=109&arrs2%5B%5D=98&arrs2%5B%5D=111&arrs2%5B%5D=100&arrs2%5B%5D=121&arrs2%5B%5D=41&arrs2%5B%5D=32&arrs2%5B%5D=86&arrs2%5B%5D=65&arrs2%5B%5D=76&arrs2%5B%5D=85&arrs2%5B%5D=69&arrs2%5B%5D=83&arrs2%5B%5D=40&arrs2%5B%5D=57&arrs2%5B%5D=48&arrs2%5B%5D=57&arrs2%5B%5D=48&arrs2%5B%5D=44&arrs2%5B%5D=39&arrs2%5B%5D=60&arrs2%5B%5D=63&arrs2%5B%5D=112&arrs2%5B%5D=104&arrs2%5B%5D=112&arrs2%5B%5D=32&arrs2%5B%5D=101&arrs2%5B%5D=99&arrs2%5B%5D=104&arrs2%5B%5D=111&arrs2%5B%5D=32&arrs2%5B%5D=39&arrs2%5B%5D=39&arrs2%5B%5D=100&arrs2%5B%5D=101&arrs2%5B%5D=100&arrs2%5B%5D=101&arrs2%5B%5D=99&arrs2%5B%5D=109&arrs2%5B%5D=115&arrs2%5B%5D=32&arrs2%5B%5D=53&arrs2%5B%5D=46&arrs2%5B%5D=55&arrs2%5B%5D=32&arrs2%5B%5D=48&arrs2%5B%5D=100&arrs2%5B%5D=97&arrs2%5B%5D=121&arrs2%5B%5D=60&arrs2%5B%5D=98&arrs2%5B%5D=114&arrs2%5B%5D=62&arrs2%5B%5D=103&arrs2%5B%5D=117&arrs2%5B%5D=105&arrs2%5B%5D=103&arrs2%5B%5D=101&arrs2%5B%5D=44&
+ERR: 无法加载控制器:Plus
+
+[ 2018-06-05T00:02:42+08:00 ] 127.0.0.1 /plus/recommend.php
+ERR: 无法加载控制器:Plus
+
+[ 2018-06-05T00:02:42+08:00 ] 127.0.0.1 /plus/search.php?keyword=as&typeArr%5B%20uNion%20%5D=a
+ERR: 无法加载控制器:Plus
+
+[ 2018-06-05T00:02:44+08:00 ] 127.0.0.1 /plus/search.php?keyword=as&typeArr%5B%20uNion%20%5D=a
+ERR: 无法加载控制器:Plus
+
+[ 2018-06-05T00:02:45+08:00 ] 127.0.0.1 /utility/convert/index.php
+ERR: 无法加载控制器:Utility
+
+[ 2018-06-05T00:02:45+08:00 ] 127.0.0.1 /api.php
+ERR: 无法加载控制器:Api.php
+
+[ 2018-06-05T00:02:45+08:00 ] 127.0.0.1 /news/html
+ERR: 无法加载控制器:News
+
+[ 2018-06-05T00:02:46+08:00 ] 127.0.0.1 /search/index.php
+ERR: 无法加载控制器:Search
+
+[ 2018-06-05T00:02:46+08:00 ] 127.0.0.1 /shopadmin/index.php
+ERR: 无法加载控制器:Shopadmin
+
+[ 2018-06-05T00:02:46+08:00 ] 127.0.0.1 /login.action
+ERR: 无法加载控制器:Login.action
+
+[ 2018-06-05T00:02:46+08:00 ] 127.0.0.1 /NewsType.asp
+ERR: 无法加载控制器:NewsType.asp
+
+[ 2018-06-05T09:16:46+08:00 ] 127.0.0.1 /Wcat/Jssdk/orders
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000285s ]
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.001261s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001919s ]
+SQL: SHOW COLUMNS FROM `charge_code` [ RunTime:0.0211s ]
+SQL: SELECT `charge_status` FROM `charge_code` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0203s ]
+SQL: SHOW COLUMNS FROM `orders` [ RunTime:0.0216s ]
+SQL: SELECT `charge_status` FROM `orders` WHERE `user_id` = 13  [ RunTime:0.0202s ]
+NOTIC: [8] Undefined index: charge_statuss D:\wwwroot\bjlongxingtang\wwwroot\Wcat\Controller\JssdkController.class.php 第 258 行.
+NOTIC: [8] Undefined index: charge_statuss D:\wwwroot\bjlongxingtang\wwwroot\Wcat\Controller\JssdkController.class.php 第 258 行.
+SQL: INSERT INTO `orders` (`user_id`,`charge_id`,`code_id`,`power`,`charge_time`,`order_sn`,`user_name`,`phone`,`order_status`,`create_time`) VALUES ('13','1','1','0','1','76583806691','龙神','','1','1528161406') [ RunTime:0.0202s ]
+SQL: SELECT `order_sn` FROM `orders` ORDER BY id desc LIMIT 1   [ RunTime:0.0205s ]
+NOTIC: [2] Missing argument 5 for Wcat\Controller\JssdkController::appReturn(), called in D:\wwwroot\bjlongxingtang\wwwroot\Wcat\Controller\JssdkController.class.php on line 272 and defined D:\wwwroot\bjlongxingtang\wwwroot\Wcat\Controller\JssdkController.class.php 第 280 行.
+NOTIC: [8] Undefined index: deviceType D:\wwwroot\bjlongxingtang\wwwroot\Wcat\Controller\JssdkController.class.php 第 296 行.
+
+[ 2018-06-05T09:16:46+08:00 ] 127.0.0.1 /Wcat/Jssdk/users_account
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000255s ]
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.000750s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001500s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0282s ]
+SQL: SELECT `integral` FROM `users` WHERE `id` = 13 LIMIT 1   [ RunTime:0.0274s ]
+NOTIC: [2] Missing argument 5 for Wcat\Controller\JssdkController::appReturn(), called in D:\wwwroot\bjlongxingtang\wwwroot\Wcat\Controller\JssdkController.class.php on line 134 and defined D:\wwwroot\bjlongxingtang\wwwroot\Wcat\Controller\JssdkController.class.php 第 280 行.
+NOTIC: [8] Undefined index: deviceType D:\wwwroot\bjlongxingtang\wwwroot\Wcat\Controller\JssdkController.class.php 第 296 行.
+
+[ 2018-06-05T09:16:48+08:00 ] 127.0.0.1 /Wcat/Jssdk/users_account
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000267s ]
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.000742s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001474s ]
+NOTIC: [2] Missing argument 5 for Wcat\Controller\JssdkController::appReturn(), called in D:\wwwroot\bjlongxingtang\wwwroot\Wcat\Controller\JssdkController.class.php on line 154 and defined D:\wwwroot\bjlongxingtang\wwwroot\Wcat\Controller\JssdkController.class.php 第 280 行.
+NOTIC: [8] Undefined index: deviceType D:\wwwroot\bjlongxingtang\wwwroot\Wcat\Controller\JssdkController.class.php 第 296 行.
+
+[ 2018-06-05T09:16:49+08:00 ] 127.0.0.1 /Wcat/Jssdk/order_payment
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000292s ]
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.000704s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001509s ]
+SQL: SHOW COLUMNS FROM `orders` [ RunTime:0.0210s ]
+SQL: SELECT `charge_id`,`code_id`,`order_status` FROM `orders` WHERE `order_sn` = '76583806691' LIMIT 1   [ RunTime:0.0207s ]
+SQL: SHOW COLUMNS FROM `charge` [ RunTime:0.0220s ]
+SQL: SELECT `charging_code` FROM `charge` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0204s ]
+SQL: SHOW COLUMNS FROM `charge_code` [ RunTime:0.0212s ]
+SQL: SELECT `number` FROM `charge_code` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0204s ]
+NOTIC: [2] Missing argument 4 for Wcat\Controller\JssdkController::appReturn(), called in D:\wwwroot\bjlongxingtang\wwwroot\Wcat\Controller\JssdkController.class.php on line 231 and defined D:\wwwroot\bjlongxingtang\wwwroot\Wcat\Controller\JssdkController.class.php 第 280 行.
+NOTIC: [2] Missing argument 5 for Wcat\Controller\JssdkController::appReturn(), called in D:\wwwroot\bjlongxingtang\wwwroot\Wcat\Controller\JssdkController.class.php on line 231 and defined D:\wwwroot\bjlongxingtang\wwwroot\Wcat\Controller\JssdkController.class.php 第 280 行.
+NOTIC: [8] Undefined index: deviceType D:\wwwroot\bjlongxingtang\wwwroot\Wcat\Controller\JssdkController.class.php 第 296 行.
+
+[ 2018-06-05T09:16:50+08:00 ] 127.0.0.1 /Wcat/Wechat/payment
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000352s ]
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.000717s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001697s ]
+SQL: SHOW COLUMNS FROM `orders` [ RunTime:0.0204s ]
+SQL: SELECT * FROM `orders` WHERE `order_sn` = '76583806691' LIMIT 1   [ RunTime:0.0197s ]
+NOTIC: [2] fopen(../logs/2018-06-05.log): failed to open stream: No such file or directory D:\wwwroot\bjlongxingtang\wwwroot\Wcat\wxpay\payment\log.php 第 16 行.
+NOTIC: [2] Missing argument 5 for Wcat\Controller\WechatController::appReturn(), called in D:\wwwroot\bjlongxingtang\wwwroot\Wcat\Controller\WechatController.class.php on line 48 and defined D:\wwwroot\bjlongxingtang\wwwroot\Wcat\Controller\WechatController.class.php 第 159 行.
+NOTIC: [8] Undefined index: deviceType D:\wwwroot\bjlongxingtang\wwwroot\Wcat\Controller\WechatController.class.php 第 175 行.
+
+[ 2018-06-05T09:16:58+08:00 ] 127.0.0.1 /Wcat/Charge/now_charge_json
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000256s ]
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.000667s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001409s ]
+SQL: SHOW COLUMNS FROM `orders` [ RunTime:0.0211s ]
+SQL: SELECT `code_id`,`order_sn`,`start_time`,`charge_time`,`charge_status` FROM `orders` WHERE `user_id` = 13 AND `order_status` = 2 LIMIT 1   [ RunTime:0.0206s ]
+NOTIC: [2] Missing argument 5 for Wcat\Controller\PublicController::appReturn(), called in D:\wwwroot\bjlongxingtang\wwwroot\Wcat\Controller\ChargeController.class.php on line 138 and defined D:\wwwroot\bjlongxingtang\wwwroot\Wcat\Controller\PublicController.class.php 第 17 行.
+NOTIC: [8] Undefined index: deviceType D:\wwwroot\bjlongxingtang\wwwroot\Wcat\Controller\PublicController.class.php 第 33 行.
+
+[ 2018-06-05T09:17:58+08:00 ] 127.0.0.1 /Wcat/Charge/now_charge_json
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000300s ]
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.000741s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001517s ]
+SQL: SHOW COLUMNS FROM `orders` [ RunTime:0.0284s ]
+SQL: SELECT `code_id`,`order_sn`,`start_time`,`charge_time`,`charge_status` FROM `orders` WHERE `user_id` = 13 AND `order_status` = 2 LIMIT 1   [ RunTime:0.0278s ]
+NOTIC: [2] Missing argument 5 for Wcat\Controller\PublicController::appReturn(), called in D:\wwwroot\bjlongxingtang\wwwroot\Wcat\Controller\ChargeController.class.php on line 138 and defined D:\wwwroot\bjlongxingtang\wwwroot\Wcat\Controller\PublicController.class.php 第 17 行.
+NOTIC: [8] Undefined index: deviceType D:\wwwroot\bjlongxingtang\wwwroot\Wcat\Controller\PublicController.class.php 第 33 行.
+
+[ 2018-06-05T09:17:59+08:00 ] 127.0.0.1 /Wcat/Charge/close_charge
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000237s ]
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.000813s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001610s ]
+SQL: SHOW COLUMNS FROM `orders` [ RunTime:0.0283s ]
+SQL: SELECT `charge_id`,`code_id` FROM `orders` WHERE `order_sn` = '76583806691' LIMIT 1   [ RunTime:0.0273s ]
+SQL: SHOW COLUMNS FROM `charge` [ RunTime:0.0277s ]
+SQL: SELECT `charging_code` FROM `charge` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0271s ]
+SQL: SHOW COLUMNS FROM `charge_code` [ RunTime:0.0278s ]
+SQL: SELECT `number` FROM `charge_code` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0271s ]
+SQL: SHOW COLUMNS FROM `charge` [ RunTime:0.0281s ]
+NOTIC: [8] Undefined variable: curl D:\wwwroot\bjlongxingtang\wwwroot\Wcat\Model\ChargeModel.class.php 第 116 行.
+NOTIC: [2] curl_setopt() expects parameter 1 to be resource, null given D:\wwwroot\bjlongxingtang\wwwroot\Wcat\Model\ChargeModel.class.php 第 116 行.
+SQL: UPDATE `orders` SET `charge_status`='4',`order_status`='3',`end_time`='1528161479' WHERE `order_sn` = '76583806691' [ RunTime:0.0276s ]
+NOTIC: [2] Illegal string offset 'charge_status' D:\wwwroot\bjlongxingtang\wwwroot\Wcat\Model\ChargeModel.class.php 第 68 行.
+NOTIC: [8] Undefined variable: orders D:\wwwroot\bjlongxingtang\wwwroot\Wcat\Model\ChargeModel.class.php 第 69 行.
+SQL: UPDATE `charge_code` SET `number`='1' WHERE `id` = null [ RunTime:0.0271s ]
+NOTIC: [2] Missing argument 4 for Wcat\Controller\PublicController::appReturn(), called in D:\wwwroot\bjlongxingtang\wwwroot\Wcat\Controller\ChargeController.class.php on line 155 and defined D:\wwwroot\bjlongxingtang\wwwroot\Wcat\Controller\PublicController.class.php 第 17 行.
+NOTIC: [2] Missing argument 5 for Wcat\Controller\PublicController::appReturn(), called in D:\wwwroot\bjlongxingtang\wwwroot\Wcat\Controller\ChargeController.class.php on line 155 and defined D:\wwwroot\bjlongxingtang\wwwroot\Wcat\Controller\PublicController.class.php 第 17 行.
+NOTIC: [8] Undefined index: deviceType D:\wwwroot\bjlongxingtang\wwwroot\Wcat\Controller\PublicController.class.php 第 33 行.
+
+[ 2018-06-05T09:20:20+08:00 ] 127.0.0.1 /Wcat/Jssdk/orders
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000285s ]
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.000677s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001326s ]
+SQL: SHOW COLUMNS FROM `charge_code` [ RunTime:0.0280s ]
+SQL: SELECT `charge_status` FROM `charge_code` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0273s ]
+SQL: SHOW COLUMNS FROM `orders` [ RunTime:0.0282s ]
+SQL: SELECT `charge_status` FROM `orders` WHERE `user_id` = 11  [ RunTime:0.0271s ]
+ERR: 1366:Incorrect string value: '\xF0\x9F\x92\x9E\xE5\x85...' for column 'user_name' at row 1
+ [ SQL语句 ] : INSERT INTO `orders` (`user_id`,`charge_id`,`code_id`,`power`,`charge_time`,`order_sn`,`user_name`,`phone`,`order_status`,`create_time`) VALUES ('11','1','1','75','1','76584020042','💞全世界最好ｄｅ武姑娘','','1','1528161620')
+ERR: 1366:Incorrect string value: '\xF0\x9F\x92\x9E\xE5\x85...' for column 'user_name' at row 1
+ [ SQL语句 ] : INSERT INTO `orders` (`user_id`,`charge_id`,`code_id`,`power`,`charge_time`,`order_sn`,`user_name`,`phone`,`order_status`,`create_time`) VALUES ('11','1','1','75','1','76584020042','💞全世界最好ｄｅ武姑娘','','1','1528161620')
+
+[ 2018-06-05T09:20:20+08:00 ] 127.0.0.1 /Wcat/Jssdk/users_account
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000252s ]
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.000658s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001350s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0213s ]
+SQL: SELECT `integral` FROM `users` WHERE `id` = 11 LIMIT 1   [ RunTime:0.0201s ]
+NOTIC: [2] Missing argument 5 for Wcat\Controller\JssdkController::appReturn(), called in D:\wwwroot\bjlongxingtang\wwwroot\Wcat\Controller\JssdkController.class.php on line 134 and defined D:\wwwroot\bjlongxingtang\wwwroot\Wcat\Controller\JssdkController.class.php 第 280 行.
+NOTIC: [8] Undefined index: deviceType D:\wwwroot\bjlongxingtang\wwwroot\Wcat\Controller\JssdkController.class.php 第 296 行.
+
+[ 2018-06-05T09:20:22+08:00 ] 127.0.0.1 /Wcat/Jssdk/users_account
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000260s ]
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.000683s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001443s ]
+NOTIC: [2] Missing argument 5 for Wcat\Controller\JssdkController::appReturn(), called in D:\wwwroot\bjlongxingtang\wwwroot\Wcat\Controller\JssdkController.class.php on line 154 and defined D:\wwwroot\bjlongxingtang\wwwroot\Wcat\Controller\JssdkController.class.php 第 280 行.
+NOTIC: [8] Undefined index: deviceType D:\wwwroot\bjlongxingtang\wwwroot\Wcat\Controller\JssdkController.class.php 第 296 行.
+
+[ 2018-06-05T09:20:24+08:00 ] 127.0.0.1 /Wcat/Jssdk/order_payment
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000298s ]
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.000718s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001496s ]
+SQL: SHOW COLUMNS FROM `orders` [ RunTime:0.0280s ]
+SQL: SELECT `charge_id`,`code_id`,`order_status` FROM `orders` WHERE `order_sn` = 'null' LIMIT 1   [ RunTime:0.0274s ]
+SQL: SHOW COLUMNS FROM `charge` [ RunTime:0.0277s ]
+SQL: SELECT `charging_code` FROM `charge` WHERE `id` = null LIMIT 1   [ RunTime:0.0274s ]
+SQL: SHOW COLUMNS FROM `charge_code` [ RunTime:0.0276s ]
+SQL: SELECT `number` FROM `charge_code` WHERE `id` = null LIMIT 1   [ RunTime:0.0275s ]
+NOTIC: [2] Missing argument 4 for Wcat\Controller\JssdkController::appReturn(), called in D:\wwwroot\bjlongxingtang\wwwroot\Wcat\Controller\JssdkController.class.php on line 231 and defined D:\wwwroot\bjlongxingtang\wwwroot\Wcat\Controller\JssdkController.class.php 第 280 行.
+NOTIC: [2] Missing argument 5 for Wcat\Controller\JssdkController::appReturn(), called in D:\wwwroot\bjlongxingtang\wwwroot\Wcat\Controller\JssdkController.class.php on line 231 and defined D:\wwwroot\bjlongxingtang\wwwroot\Wcat\Controller\JssdkController.class.php 第 280 行.
+NOTIC: [8] Undefined index: deviceType D:\wwwroot\bjlongxingtang\wwwroot\Wcat\Controller\JssdkController.class.php 第 296 行.
+
+[ 2018-06-05T09:20:24+08:00 ] 127.0.0.1 /Wcat/Wechat/payment
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000349s ]
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.000722s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001691s ]
+SQL: SHOW COLUMNS FROM `orders` [ RunTime:0.2684s ]
+SQL: SELECT * FROM `orders` WHERE `order_sn` = 'null' LIMIT 1   [ RunTime:0.0208s ]
+NOTIC: [2] Missing argument 4 for Wcat\Controller\WechatController::appReturn(), called in D:\wwwroot\bjlongxingtang\wwwroot\Wcat\Controller\WechatController.class.php on line 32 and defined D:\wwwroot\bjlongxingtang\wwwroot\Wcat\Controller\WechatController.class.php 第 159 行.
+NOTIC: [2] Missing argument 5 for Wcat\Controller\WechatController::appReturn(), called in D:\wwwroot\bjlongxingtang\wwwroot\Wcat\Controller\WechatController.class.php on line 32 and defined D:\wwwroot\bjlongxingtang\wwwroot\Wcat\Controller\WechatController.class.php 第 159 行.
+NOTIC: [8] Undefined index: deviceType D:\wwwroot\bjlongxingtang\wwwroot\Wcat\Controller\WechatController.class.php 第 175 行.
+
+[ 2018-06-05T09:21:47+08:00 ] 127.0.0.1 /Wcat/Jssdk/orders
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000270s ]
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.000729s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001452s ]
+SQL: SHOW COLUMNS FROM `charge_code` [ RunTime:0.0210s ]
+SQL: SELECT `charge_status` FROM `charge_code` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0199s ]
+SQL: SHOW COLUMNS FROM `orders` [ RunTime:0.0213s ]
+SQL: SELECT `charge_status` FROM `orders` WHERE `user_id` = 11  [ RunTime:0.0200s ]
+ERR: 1366:Incorrect string value: '\xF0\x9F\x92\x9E\xE5\x85...' for column 'user_name' at row 1
+ [ SQL语句 ] : INSERT INTO `orders` (`user_id`,`charge_id`,`code_id`,`power`,`charge_time`,`order_sn`,`user_name`,`phone`,`order_status`,`create_time`) VALUES ('11','1','1','74','1','76584107103','💞全世界最好ｄｅ武姑娘','','1','1528161707')
+ERR: 1366:Incorrect string value: '\xF0\x9F\x92\x9E\xE5\x85...' for column 'user_name' at row 1
+ [ SQL语句 ] : INSERT INTO `orders` (`user_id`,`charge_id`,`code_id`,`power`,`charge_time`,`order_sn`,`user_name`,`phone`,`order_status`,`create_time`) VALUES ('11','1','1','74','1','76584107103','💞全世界最好ｄｅ武姑娘','','1','1528161707')
+
+[ 2018-06-05T09:21:48+08:00 ] 127.0.0.1 /Wcat/Jssdk/users_account
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000276s ]
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.000798s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001543s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0282s ]
+SQL: SELECT `integral` FROM `users` WHERE `id` = 11 LIMIT 1   [ RunTime:0.0277s ]
+NOTIC: [2] Missing argument 5 for Wcat\Controller\JssdkController::appReturn(), called in D:\wwwroot\bjlongxingtang\wwwroot\Wcat\Controller\JssdkController.class.php on line 134 and defined D:\wwwroot\bjlongxingtang\wwwroot\Wcat\Controller\JssdkController.class.php 第 280 行.
+NOTIC: [8] Undefined index: deviceType D:\wwwroot\bjlongxingtang\wwwroot\Wcat\Controller\JssdkController.class.php 第 296 行.
+
+[ 2018-06-05T09:21:48+08:00 ] 127.0.0.1 /Wcat/Jssdk/users_account
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000284s ]
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.000692s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001440s ]
+NOTIC: [2] Missing argument 5 for Wcat\Controller\JssdkController::appReturn(), called in D:\wwwroot\bjlongxingtang\wwwroot\Wcat\Controller\JssdkController.class.php on line 154 and defined D:\wwwroot\bjlongxingtang\wwwroot\Wcat\Controller\JssdkController.class.php 第 280 行.
+NOTIC: [8] Undefined index: deviceType D:\wwwroot\bjlongxingtang\wwwroot\Wcat\Controller\JssdkController.class.php 第 296 行.
+
+[ 2018-06-05T09:21:49+08:00 ] 127.0.0.1 /Wcat/Jssdk/order_payment
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000243s ]
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.000647s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001333s ]
+SQL: SHOW COLUMNS FROM `orders` [ RunTime:0.0216s ]
+SQL: SELECT `charge_id`,`code_id`,`order_status` FROM `orders` WHERE `order_sn` = 'null' LIMIT 1   [ RunTime:0.0207s ]
+SQL: SHOW COLUMNS FROM `charge` [ RunTime:0.0214s ]
+SQL: SELECT `charging_code` FROM `charge` WHERE `id` = null LIMIT 1   [ RunTime:0.0207s ]
+SQL: SHOW COLUMNS FROM `charge_code` [ RunTime:0.0212s ]
+SQL: SELECT `number` FROM `charge_code` WHERE `id` = null LIMIT 1   [ RunTime:0.0207s ]
+NOTIC: [2] Missing argument 4 for Wcat\Controller\JssdkController::appReturn(), called in D:\wwwroot\bjlongxingtang\wwwroot\Wcat\Controller\JssdkController.class.php on line 231 and defined D:\wwwroot\bjlongxingtang\wwwroot\Wcat\Controller\JssdkController.class.php 第 280 行.
+NOTIC: [2] Missing argument 5 for Wcat\Controller\JssdkController::appReturn(), called in D:\wwwroot\bjlongxingtang\wwwroot\Wcat\Controller\JssdkController.class.php on line 231 and defined D:\wwwroot\bjlongxingtang\wwwroot\Wcat\Controller\JssdkController.class.php 第 280 行.
+NOTIC: [8] Undefined index: deviceType D:\wwwroot\bjlongxingtang\wwwroot\Wcat\Controller\JssdkController.class.php 第 296 行.
+
+[ 2018-06-05T09:21:50+08:00 ] 127.0.0.1 /Wcat/Wechat/payment
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000333s ]
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.000713s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001526s ]
+SQL: SHOW COLUMNS FROM `orders` [ RunTime:0.0267s ]
+SQL: SELECT * FROM `orders` WHERE `order_sn` = 'null' LIMIT 1   [ RunTime:0.0251s ]
+NOTIC: [2] Missing argument 4 for Wcat\Controller\WechatController::appReturn(), called in D:\wwwroot\bjlongxingtang\wwwroot\Wcat\Controller\WechatController.class.php on line 32 and defined D:\wwwroot\bjlongxingtang\wwwroot\Wcat\Controller\WechatController.class.php 第 159 行.
+NOTIC: [2] Missing argument 5 for Wcat\Controller\WechatController::appReturn(), called in D:\wwwroot\bjlongxingtang\wwwroot\Wcat\Controller\WechatController.class.php on line 32 and defined D:\wwwroot\bjlongxingtang\wwwroot\Wcat\Controller\WechatController.class.php 第 159 行.
+NOTIC: [8] Undefined index: deviceType D:\wwwroot\bjlongxingtang\wwwroot\Wcat\Controller\WechatController.class.php 第 175 行.
+
+[ 2018-06-05T09:22:44+08:00 ] 127.0.0.1 /Wcat/Jssdk/orders
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000426s ]
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002070s ]
+SQL: SHOW COLUMNS FROM `charge_code` [ RunTime:0.0204s ]
+SQL: SELECT `charge_status` FROM `charge_code` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0192s ]
+SQL: SHOW COLUMNS FROM `orders` [ RunTime:0.0198s ]
+SQL: SELECT `charge_status` FROM `orders` WHERE `user_id` = 11  [ RunTime:0.0192s ]
+ERR: 1366:Incorrect string value: '\xF0\x9F\x92\x9E\xE5\x85...' for column 'user_name' at row 1
+ [ SQL语句 ] : INSERT INTO `orders` (`user_id`,`charge_id`,`code_id`,`power`,`charge_time`,`order_sn`,`user_name`,`phone`,`order_status`,`create_time`) VALUES ('11','1','1','74','1','76584164951','💞全世界最好ｄｅ武姑娘','','1','1528161764')
+ERR: 1366:Incorrect string value: '\xF0\x9F\x92\x9E\xE5\x85...' for column 'user_name' at row 1
+ [ SQL语句 ] : INSERT INTO `orders` (`user_id`,`charge_id`,`code_id`,`power`,`charge_time`,`order_sn`,`user_name`,`phone`,`order_status`,`create_time`) VALUES ('11','1','1','74','1','76584164951','💞全世界最好ｄｅ武姑娘','','1','1528161764')
+
+[ 2018-06-05T09:22:44+08:00 ] 127.0.0.1 /Wcat/Jssdk/users_account
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000407s ]
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.000892s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001892s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0206s ]
+SQL: SELECT `integral` FROM `users` WHERE `id` = 11 LIMIT 1   [ RunTime:0.0196s ]
+NOTIC: [2] Missing argument 5 for Wcat\Controller\JssdkController::appReturn(), called in D:\wwwroot\bjlongxingtang\wwwroot\Wcat\Controller\JssdkController.class.php on line 134 and defined D:\wwwroot\bjlongxingtang\wwwroot\Wcat\Controller\JssdkController.class.php 第 280 行.
+NOTIC: [8] Undefined index: deviceType D:\wwwroot\bjlongxingtang\wwwroot\Wcat\Controller\JssdkController.class.php 第 296 行.
+
+[ 2018-06-05T09:22:45+08:00 ] 127.0.0.1 /Wcat/Jssdk/users_account
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000297s ]
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.000751s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002434s ]
+NOTIC: [2] Missing argument 5 for Wcat\Controller\JssdkController::appReturn(), called in D:\wwwroot\bjlongxingtang\wwwroot\Wcat\Controller\JssdkController.class.php on line 154 and defined D:\wwwroot\bjlongxingtang\wwwroot\Wcat\Controller\JssdkController.class.php 第 280 行.
+NOTIC: [8] Undefined index: deviceType D:\wwwroot\bjlongxingtang\wwwroot\Wcat\Controller\JssdkController.class.php 第 296 行.
+
+[ 2018-06-05T09:22:46+08:00 ] 127.0.0.1 /Wcat/Jssdk/order_payment
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000250s ]
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.000664s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001257s ]
+SQL: SHOW COLUMNS FROM `orders` [ RunTime:0.0271s ]
+SQL: SELECT `charge_id`,`code_id`,`order_status` FROM `orders` WHERE `order_sn` = 'null' LIMIT 1   [ RunTime:0.0264s ]
+SQL: SHOW COLUMNS FROM `charge` [ RunTime:0.0272s ]
+SQL: SELECT `charging_code` FROM `charge` WHERE `id` = null LIMIT 1   [ RunTime:0.0261s ]
+SQL: SHOW COLUMNS FROM `charge_code` [ RunTime:0.0270s ]
+SQL: SELECT `number` FROM `charge_code` WHERE `id` = null LIMIT 1   [ RunTime:0.0265s ]
+NOTIC: [2] Missing argument 4 for Wcat\Controller\JssdkController::appReturn(), called in D:\wwwroot\bjlongxingtang\wwwroot\Wcat\Controller\JssdkController.class.php on line 231 and defined D:\wwwroot\bjlongxingtang\wwwroot\Wcat\Controller\JssdkController.class.php 第 280 行.
+NOTIC: [2] Missing argument 5 for Wcat\Controller\JssdkController::appReturn(), called in D:\wwwroot\bjlongxingtang\wwwroot\Wcat\Controller\JssdkController.class.php on line 231 and defined D:\wwwroot\bjlongxingtang\wwwroot\Wcat\Controller\JssdkController.class.php 第 280 行.
+NOTIC: [8] Undefined index: deviceType D:\wwwroot\bjlongxingtang\wwwroot\Wcat\Controller\JssdkController.class.php 第 296 行.
+
+[ 2018-06-05T09:22:47+08:00 ] 127.0.0.1 /Wcat/Wechat/payment
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000272s ]
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.000682s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001312s ]
+SQL: SHOW COLUMNS FROM `orders` [ RunTime:0.0214s ]
+SQL: SELECT * FROM `orders` WHERE `order_sn` = 'null' LIMIT 1   [ RunTime:0.0205s ]
+NOTIC: [2] Missing argument 4 for Wcat\Controller\WechatController::appReturn(), called in D:\wwwroot\bjlongxingtang\wwwroot\Wcat\Controller\WechatController.class.php on line 32 and defined D:\wwwroot\bjlongxingtang\wwwroot\Wcat\Controller\WechatController.class.php 第 159 行.
+NOTIC: [2] Missing argument 5 for Wcat\Controller\WechatController::appReturn(), called in D:\wwwroot\bjlongxingtang\wwwroot\Wcat\Controller\WechatController.class.php on line 32 and defined D:\wwwroot\bjlongxingtang\wwwroot\Wcat\Controller\WechatController.class.php 第 159 行.
+NOTIC: [8] Undefined index: deviceType D:\wwwroot\bjlongxingtang\wwwroot\Wcat\Controller\WechatController.class.php 第 175 行.
+
+[ 2018-06-05T09:23:11+08:00 ] 127.0.0.1 /Wcat/Jssdk/orders
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000403s ]
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.000956s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002345s ]
+SQL: SHOW COLUMNS FROM `charge_code` [ RunTime:0.0209s ]
+SQL: SELECT `charge_status` FROM `charge_code` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0197s ]
+SQL: SHOW COLUMNS FROM `orders` [ RunTime:0.0461s ]
+SQL: SELECT `charge_status` FROM `orders` WHERE `user_id` = 11  [ RunTime:0.2415s ]
+ERR: 1366:Incorrect string value: '\xF0\x9F\x92\x9E\xE5\x85...' for column 'user_name' at row 1
+ [ SQL语句 ] : INSERT INTO `orders` (`user_id`,`charge_id`,`code_id`,`power`,`charge_time`,`order_sn`,`user_name`,`phone`,`order_status`,`create_time`) VALUES ('11','1','1','74','1','76584191040','💞全世界最好ｄｅ武姑娘','','1','1528161791')
+ERR: 1366:Incorrect string value: '\xF0\x9F\x92\x9E\xE5\x85...' for column 'user_name' at row 1
+ [ SQL语句 ] : INSERT INTO `orders` (`user_id`,`charge_id`,`code_id`,`power`,`charge_time`,`order_sn`,`user_name`,`phone`,`order_status`,`create_time`) VALUES ('11','1','1','74','1','76584191040','💞全世界最好ｄｅ武姑娘','','1','1528161791')
+
+[ 2018-06-05T09:23:11+08:00 ] 127.0.0.1 /Wcat/Jssdk/users_account
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000353s ]
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.000842s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001780s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0283s ]
+SQL: SELECT `integral` FROM `users` WHERE `id` = 11 LIMIT 1   [ RunTime:0.0274s ]
+NOTIC: [2] Missing argument 5 for Wcat\Controller\JssdkController::appReturn(), called in D:\wwwroot\bjlongxingtang\wwwroot\Wcat\Controller\JssdkController.class.php on line 134 and defined D:\wwwroot\bjlongxingtang\wwwroot\Wcat\Controller\JssdkController.class.php 第 280 行.
+NOTIC: [8] Undefined index: deviceType D:\wwwroot\bjlongxingtang\wwwroot\Wcat\Controller\JssdkController.class.php 第 296 行.
+
+[ 2018-06-05T09:23:12+08:00 ] 127.0.0.1 /Wcat/Jssdk/users_account
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000302s ]
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.000713s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001370s ]
+NOTIC: [2] Missing argument 5 for Wcat\Controller\JssdkController::appReturn(), called in D:\wwwroot\bjlongxingtang\wwwroot\Wcat\Controller\JssdkController.class.php on line 154 and defined D:\wwwroot\bjlongxingtang\wwwroot\Wcat\Controller\JssdkController.class.php 第 280 行.
+NOTIC: [8] Undefined index: deviceType D:\wwwroot\bjlongxingtang\wwwroot\Wcat\Controller\JssdkController.class.php 第 296 行.
+
+[ 2018-06-05T09:23:13+08:00 ] 127.0.0.1 /Wcat/Jssdk/order_payment
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000390s ]
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.001188s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002252s ]
+SQL: SHOW COLUMNS FROM `orders` [ RunTime:0.0284s ]
+SQL: SELECT `charge_id`,`code_id`,`order_status` FROM `orders` WHERE `order_sn` = 'null' LIMIT 1   [ RunTime:0.0280s ]
+SQL: SHOW COLUMNS FROM `charge` [ RunTime:0.0280s ]
+SQL: SELECT `charging_code` FROM `charge` WHERE `id` = null LIMIT 1   [ RunTime:0.0282s ]
+SQL: SHOW COLUMNS FROM `charge_code` [ RunTime:0.0318s ]
+SQL: SELECT `number` FROM `charge_code` WHERE `id` = null LIMIT 1   [ RunTime:0.0281s ]
+NOTIC: [2] Missing argument 4 for Wcat\Controller\JssdkController::appReturn(), called in D:\wwwroot\bjlongxingtang\wwwroot\Wcat\Controller\JssdkController.class.php on line 231 and defined D:\wwwroot\bjlongxingtang\wwwroot\Wcat\Controller\JssdkController.class.php 第 280 行.
+NOTIC: [2] Missing argument 5 for Wcat\Controller\JssdkController::appReturn(), called in D:\wwwroot\bjlongxingtang\wwwroot\Wcat\Controller\JssdkController.class.php on line 231 and defined D:\wwwroot\bjlongxingtang\wwwroot\Wcat\Controller\JssdkController.class.php 第 280 行.
+NOTIC: [8] Undefined index: deviceType D:\wwwroot\bjlongxingtang\wwwroot\Wcat\Controller\JssdkController.class.php 第 296 行.
+
+[ 2018-06-05T09:23:13+08:00 ] 127.0.0.1 /Wcat/Wechat/payment
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000274s ]
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.000721s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001365s ]
+SQL: SHOW COLUMNS FROM `orders` [ RunTime:0.0288s ]
+SQL: SELECT * FROM `orders` WHERE `order_sn` = 'null' LIMIT 1   [ RunTime:0.0287s ]
+NOTIC: [2] Missing argument 4 for Wcat\Controller\WechatController::appReturn(), called in D:\wwwroot\bjlongxingtang\wwwroot\Wcat\Controller\WechatController.class.php on line 32 and defined D:\wwwroot\bjlongxingtang\wwwroot\Wcat\Controller\WechatController.class.php 第 159 行.
+NOTIC: [2] Missing argument 5 for Wcat\Controller\WechatController::appReturn(), called in D:\wwwroot\bjlongxingtang\wwwroot\Wcat\Controller\WechatController.class.php on line 32 and defined D:\wwwroot\bjlongxingtang\wwwroot\Wcat\Controller\WechatController.class.php 第 159 行.
+NOTIC: [8] Undefined index: deviceType D:\wwwroot\bjlongxingtang\wwwroot\Wcat\Controller\WechatController.class.php 第 175 行.
+
+[ 2018-06-05T09:24:00+08:00 ] 127.0.0.1 /Wcat/Jssdk/orders
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000448s ]
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.001161s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002406s ]
+SQL: SHOW COLUMNS FROM `charge_code` [ RunTime:0.0202s ]
+SQL: SELECT `charge_status` FROM `charge_code` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0194s ]
+SQL: SHOW COLUMNS FROM `orders` [ RunTime:0.0200s ]
+SQL: SELECT `charge_status` FROM `orders` WHERE `user_id` = 11  [ RunTime:0.0210s ]
+ERR: 1366:Incorrect string value: '\xF0\x9F\x92\x9E\xE5\x85...' for column 'user_name' at row 1
+ [ SQL语句 ] : INSERT INTO `orders` (`user_id`,`charge_id`,`code_id`,`power`,`charge_time`,`order_sn`,`user_name`,`phone`,`order_status`,`create_time`) VALUES ('11','1','1','75','1','76584240980','💞全世界最好ｄｅ武姑娘','','1','1528161840')
+ERR: 1366:Incorrect string value: '\xF0\x9F\x92\x9E\xE5\x85...' for column 'user_name' at row 1
+ [ SQL语句 ] : INSERT INTO `orders` (`user_id`,`charge_id`,`code_id`,`power`,`charge_time`,`order_sn`,`user_name`,`phone`,`order_status`,`create_time`) VALUES ('11','1','1','75','1','76584240980','💞全世界最好ｄｅ武姑娘','','1','1528161840')
+
+[ 2018-06-05T09:24:01+08:00 ] 127.0.0.1 /Wcat/Jssdk/users_account
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000305s ]
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.000892s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001587s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0288s ]
+SQL: SELECT `integral` FROM `users` WHERE `id` = 11 LIMIT 1   [ RunTime:0.0310s ]
+NOTIC: [2] Missing argument 5 for Wcat\Controller\JssdkController::appReturn(), called in D:\wwwroot\bjlongxingtang\wwwroot\Wcat\Controller\JssdkController.class.php on line 134 and defined D:\wwwroot\bjlongxingtang\wwwroot\Wcat\Controller\JssdkController.class.php 第 280 行.
+NOTIC: [8] Undefined index: deviceType D:\wwwroot\bjlongxingtang\wwwroot\Wcat\Controller\JssdkController.class.php 第 296 行.
+
+[ 2018-06-05T09:24:01+08:00 ] 127.0.0.1 /Wcat/Jssdk/users_account
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000269s ]
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.000694s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001301s ]
+NOTIC: [2] Missing argument 5 for Wcat\Controller\JssdkController::appReturn(), called in D:\wwwroot\bjlongxingtang\wwwroot\Wcat\Controller\JssdkController.class.php on line 154 and defined D:\wwwroot\bjlongxingtang\wwwroot\Wcat\Controller\JssdkController.class.php 第 280 行.
+NOTIC: [8] Undefined index: deviceType D:\wwwroot\bjlongxingtang\wwwroot\Wcat\Controller\JssdkController.class.php 第 296 行.
+
+[ 2018-06-05T09:24:02+08:00 ] 127.0.0.1 /Wcat/Jssdk/order_payment
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000305s ]
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.000721s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001759s ]
+SQL: SHOW COLUMNS FROM `orders` [ RunTime:0.0229s ]
+SQL: SELECT `charge_id`,`code_id`,`order_status` FROM `orders` WHERE `order_sn` = 'null' LIMIT 1   [ RunTime:0.0236s ]
+SQL: SHOW COLUMNS FROM `charge` [ RunTime:0.0209s ]
+SQL: SELECT `charging_code` FROM `charge` WHERE `id` = null LIMIT 1   [ RunTime:0.0200s ]
+SQL: SHOW COLUMNS FROM `charge_code` [ RunTime:0.0208s ]
+SQL: SELECT `number` FROM `charge_code` WHERE `id` = null LIMIT 1   [ RunTime:0.0208s ]
+NOTIC: [2] Missing argument 4 for Wcat\Controller\JssdkController::appReturn(), called in D:\wwwroot\bjlongxingtang\wwwroot\Wcat\Controller\JssdkController.class.php on line 231 and defined D:\wwwroot\bjlongxingtang\wwwroot\Wcat\Controller\JssdkController.class.php 第 280 行.
+NOTIC: [2] Missing argument 5 for Wcat\Controller\JssdkController::appReturn(), called in D:\wwwroot\bjlongxingtang\wwwroot\Wcat\Controller\JssdkController.class.php on line 231 and defined D:\wwwroot\bjlongxingtang\wwwroot\Wcat\Controller\JssdkController.class.php 第 280 行.
+NOTIC: [8] Undefined index: deviceType D:\wwwroot\bjlongxingtang\wwwroot\Wcat\Controller\JssdkController.class.php 第 296 行.
+
+[ 2018-06-05T09:24:03+08:00 ] 127.0.0.1 /Wcat/Wechat/payment
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000267s ]
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.000662s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001272s ]
+SQL: SHOW COLUMNS FROM `orders` [ RunTime:0.0268s ]
+SQL: SELECT * FROM `orders` WHERE `order_sn` = 'null' LIMIT 1   [ RunTime:0.0271s ]
+NOTIC: [2] Missing argument 4 for Wcat\Controller\WechatController::appReturn(), called in D:\wwwroot\bjlongxingtang\wwwroot\Wcat\Controller\WechatController.class.php on line 32 and defined D:\wwwroot\bjlongxingtang\wwwroot\Wcat\Controller\WechatController.class.php 第 159 行.
+NOTIC: [2] Missing argument 5 for Wcat\Controller\WechatController::appReturn(), called in D:\wwwroot\bjlongxingtang\wwwroot\Wcat\Controller\WechatController.class.php on line 32 and defined D:\wwwroot\bjlongxingtang\wwwroot\Wcat\Controller\WechatController.class.php 第 159 行.
+NOTIC: [8] Undefined index: deviceType D:\wwwroot\bjlongxingtang\wwwroot\Wcat\Controller\WechatController.class.php 第 175 行.
+
+[ 2018-06-05T09:26:20+08:00 ] 127.0.0.1 /Wcat/Jssdk/orders
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000402s ]
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.000916s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001837s ]
+SQL: SHOW COLUMNS FROM `charge_code` [ RunTime:0.0215s ]
+SQL: SELECT `charge_status` FROM `charge_code` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0241s ]
+SQL: SHOW COLUMNS FROM `orders` [ RunTime:0.0218s ]
+SQL: SELECT `charge_status` FROM `orders` WHERE `user_id` = 11  [ RunTime:0.0213s ]
+ERR: 1366:Incorrect string value: '\xF0\x9F\x92\x9E\xE5\x85...' for column 'user_name' at row 1
+ [ SQL语句 ] : INSERT INTO `orders` (`user_id`,`charge_id`,`code_id`,`power`,`charge_time`,`order_sn`,`user_name`,`phone`,`order_status`,`create_time`) VALUES ('11','1','1','75','1','76584380969','💞全世界最好ｄｅ武姑娘','','1','1528161980')
+ERR: 1366:Incorrect string value: '\xF0\x9F\x92\x9E\xE5\x85...' for column 'user_name' at row 1
+ [ SQL语句 ] : INSERT INTO `orders` (`user_id`,`charge_id`,`code_id`,`power`,`charge_time`,`order_sn`,`user_name`,`phone`,`order_status`,`create_time`) VALUES ('11','1','1','75','1','76584380969','💞全世界最好ｄｅ武姑娘','','1','1528161980')
+
+[ 2018-06-05T09:26:20+08:00 ] 127.0.0.1 /Wcat/Jssdk/users_account
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000359s ]
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.000800s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001589s ]
+NOTIC: [2] Missing argument 5 for Wcat\Controller\JssdkController::appReturn(), called in D:\wwwroot\bjlongxingtang\wwwroot\Wcat\Controller\JssdkController.class.php on line 154 and defined D:\wwwroot\bjlongxingtang\wwwroot\Wcat\Controller\JssdkController.class.php 第 280 行.
+NOTIC: [8] Undefined index: deviceType D:\wwwroot\bjlongxingtang\wwwroot\Wcat\Controller\JssdkController.class.php 第 296 行.
+
+[ 2018-06-05T09:26:21+08:00 ] 127.0.0.1 /Wcat/Jssdk/order_payment
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000252s ]
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.000678s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001390s ]
+SQL: SHOW COLUMNS FROM `orders` [ RunTime:0.0281s ]
+SQL: SELECT `charge_id`,`code_id`,`order_status` FROM `orders` WHERE `order_sn` = 'null' LIMIT 1   [ RunTime:0.0202s ]
+SQL: SHOW COLUMNS FROM `charge` [ RunTime:0.0224s ]
+SQL: SELECT `charging_code` FROM `charge` WHERE `id` = null LIMIT 1   [ RunTime:0.0201s ]
+SQL: SHOW COLUMNS FROM `charge_code` [ RunTime:0.0212s ]
+SQL: SELECT `number` FROM `charge_code` WHERE `id` = null LIMIT 1   [ RunTime:0.0217s ]
+NOTIC: [2] Missing argument 4 for Wcat\Controller\JssdkController::appReturn(), called in D:\wwwroot\bjlongxingtang\wwwroot\Wcat\Controller\JssdkController.class.php on line 231 and defined D:\wwwroot\bjlongxingtang\wwwroot\Wcat\Controller\JssdkController.class.php 第 280 行.
+NOTIC: [2] Missing argument 5 for Wcat\Controller\JssdkController::appReturn(), called in D:\wwwroot\bjlongxingtang\wwwroot\Wcat\Controller\JssdkController.class.php on line 231 and defined D:\wwwroot\bjlongxingtang\wwwroot\Wcat\Controller\JssdkController.class.php 第 280 行.
+NOTIC: [8] Undefined index: deviceType D:\wwwroot\bjlongxingtang\wwwroot\Wcat\Controller\JssdkController.class.php 第 296 行.
+
+[ 2018-06-05T09:26:21+08:00 ] 127.0.0.1 /Wcat/Wechat/payment
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000453s ]
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.000983s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002133s ]
+SQL: SHOW COLUMNS FROM `orders` [ RunTime:0.0222s ]
+SQL: SELECT * FROM `orders` WHERE `order_sn` = 'null' LIMIT 1   [ RunTime:0.0208s ]
+NOTIC: [2] Missing argument 4 for Wcat\Controller\WechatController::appReturn(), called in D:\wwwroot\bjlongxingtang\wwwroot\Wcat\Controller\WechatController.class.php on line 32 and defined D:\wwwroot\bjlongxingtang\wwwroot\Wcat\Controller\WechatController.class.php 第 159 行.
+NOTIC: [2] Missing argument 5 for Wcat\Controller\WechatController::appReturn(), called in D:\wwwroot\bjlongxingtang\wwwroot\Wcat\Controller\WechatController.class.php on line 32 and defined D:\wwwroot\bjlongxingtang\wwwroot\Wcat\Controller\WechatController.class.php 第 159 行.
+NOTIC: [8] Undefined index: deviceType D:\wwwroot\bjlongxingtang\wwwroot\Wcat\Controller\WechatController.class.php 第 175 行.
+
+[ 2018-06-05T09:29:33+08:00 ] 127.0.0.1 /Wcat/Jssdk/makeSign
+ERR: 无法加载控制器:Jssdk
+
+[ 2018-06-05T09:40:58+08:00 ] 127.0.0.1 /Wcat/Jssdk/users_account
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000553s ]
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.001336s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002650s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0214s ]
+SQL: SELECT `integral` FROM `users` WHERE `id` = 11 LIMIT 1   [ RunTime:0.0206s ]
+NOTIC: [2] Missing argument 5 for Wcat\Controller\JssdkController::appReturn(), called in D:\wwwroot\bjlongxingtang\wwwroot\Wcat\Controller\JssdkController.class.php on line 134 and defined D:\wwwroot\bjlongxingtang\wwwroot\Wcat\Controller\JssdkController.class.php 第 280 行.
+NOTIC: [8] Undefined index: deviceType D:\wwwroot\bjlongxingtang\wwwroot\Wcat\Controller\JssdkController.class.php 第 296 行.
+
+[ 2018-06-05T09:40:58+08:00 ] 127.0.0.1 /Wcat/Jssdk/orders
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000508s ]
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.001140s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002323s ]
+SQL: SHOW COLUMNS FROM `charge_code` [ RunTime:0.0223s ]
+SQL: SELECT `charge_status` FROM `charge_code` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0222s ]
+SQL: SHOW COLUMNS FROM `orders` [ RunTime:0.0217s ]
+SQL: SELECT `charge_status` FROM `orders` WHERE `user_id` = 11  [ RunTime:0.0214s ]
+SQL: INSERT INTO `orders` (`user_id`,`charge_id`,`code_id`,`power`,`charge_time`,`order_sn`,`user_name`,`phone`,`order_status`,`create_time`) VALUES ('11','1','1','75','1','76585258773','1212','','1','1528162858') [ RunTime:0.0212s ]
+SQL: SELECT `order_sn` FROM `orders` ORDER BY id desc LIMIT 1   [ RunTime:0.0218s ]
+NOTIC: [2] Missing argument 5 for Wcat\Controller\JssdkController::appReturn(), called in D:\wwwroot\bjlongxingtang\wwwroot\Wcat\Controller\JssdkController.class.php on line 272 and defined D:\wwwroot\bjlongxingtang\wwwroot\Wcat\Controller\JssdkController.class.php 第 280 行.
+NOTIC: [8] Undefined index: deviceType D:\wwwroot\bjlongxingtang\wwwroot\Wcat\Controller\JssdkController.class.php 第 296 行.
+
+[ 2018-06-05T09:42:02+08:00 ] 127.0.0.1 /Wcat/Jssdk/orders
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000309s ]
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.000794s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001486s ]
+SQL: SHOW COLUMNS FROM `charge_code` [ RunTime:0.0283s ]
+SQL: SELECT `charge_status` FROM `charge_code` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0277s ]
+SQL: SHOW COLUMNS FROM `orders` [ RunTime:0.0278s ]
+SQL: SELECT `charge_status` FROM `orders` WHERE `user_id` = 11  [ RunTime:0.0272s ]
+NOTIC: [8] Undefined index: charge_statuss D:\wwwroot\bjlongxingtang\wwwroot\Wcat\Controller\JssdkController.class.php 第 258 行.
+SQL: INSERT INTO `orders` (`user_id`,`charge_id`,`code_id`,`power`,`charge_time`,`order_sn`,`user_name`,`phone`,`order_status`,`create_time`) VALUES ('11','1','1','75','1','76585322622','\"\\ud83d\\udc9e\\u5168\\u4e16\\u754c\\u6700\\u597d\\uff44\\uff45\\u6b66\\u59d1\\u5a18\"','','1','1528162922') [ RunTime:0.0276s ]
+SQL: SELECT `order_sn` FROM `orders` ORDER BY id desc LIMIT 1   [ RunTime:0.0274s ]
+NOTIC: [2] Missing argument 5 for Wcat\Controller\JssdkController::appReturn(), called in D:\wwwroot\bjlongxingtang\wwwroot\Wcat\Controller\JssdkController.class.php on line 272 and defined D:\wwwroot\bjlongxingtang\wwwroot\Wcat\Controller\JssdkController.class.php 第 280 行.
+NOTIC: [8] Undefined index: deviceType D:\wwwroot\bjlongxingtang\wwwroot\Wcat\Controller\JssdkController.class.php 第 296 行.
+
+[ 2018-06-05T09:42:03+08:00 ] 127.0.0.1 /Wcat/Jssdk/users_account
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000415s ]
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.001126s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002135s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0290s ]
+SQL: SELECT `integral` FROM `users` WHERE `id` = 11 LIMIT 1   [ RunTime:0.0284s ]
+NOTIC: [2] Missing argument 5 for Wcat\Controller\JssdkController::appReturn(), called in D:\wwwroot\bjlongxingtang\wwwroot\Wcat\Controller\JssdkController.class.php on line 134 and defined D:\wwwroot\bjlongxingtang\wwwroot\Wcat\Controller\JssdkController.class.php 第 280 行.
+NOTIC: [8] Undefined index: deviceType D:\wwwroot\bjlongxingtang\wwwroot\Wcat\Controller\JssdkController.class.php 第 296 行.
+
+[ 2018-06-05T09:42:43+08:00 ] 127.0.0.1 /Wcat/Jssdk/users_account
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000283s ]
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.000735s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001462s ]
+NOTIC: [2] Missing argument 5 for Wcat\Controller\JssdkController::appReturn(), called in D:\wwwroot\bjlongxingtang\wwwroot\Wcat\Controller\JssdkController.class.php on line 154 and defined D:\wwwroot\bjlongxingtang\wwwroot\Wcat\Controller\JssdkController.class.php 第 280 行.
+NOTIC: [8] Undefined index: deviceType D:\wwwroot\bjlongxingtang\wwwroot\Wcat\Controller\JssdkController.class.php 第 296 行.
+
+[ 2018-06-05T09:42:48+08:00 ] 127.0.0.1 /Wcat/Jssdk/order_payment
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000415s ]
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.001222s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002294s ]
+SQL: SHOW COLUMNS FROM `orders` [ RunTime:0.0215s ]
+SQL: SELECT `charge_id`,`code_id`,`order_status` FROM `orders` WHERE `order_sn` = '76585322622' LIMIT 1   [ RunTime:0.0205s ]
+SQL: SHOW COLUMNS FROM `charge` [ RunTime:0.0209s ]
+SQL: SELECT `charging_code` FROM `charge` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0206s ]
+SQL: SHOW COLUMNS FROM `charge_code` [ RunTime:0.0208s ]
+SQL: SELECT `number` FROM `charge_code` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0206s ]
+NOTIC: [2] Missing argument 4 for Wcat\Controller\JssdkController::appReturn(), called in D:\wwwroot\bjlongxingtang\wwwroot\Wcat\Controller\JssdkController.class.php on line 231 and defined D:\wwwroot\bjlongxingtang\wwwroot\Wcat\Controller\JssdkController.class.php 第 280 行.
+NOTIC: [2] Missing argument 5 for Wcat\Controller\JssdkController::appReturn(), called in D:\wwwroot\bjlongxingtang\wwwroot\Wcat\Controller\JssdkController.class.php on line 231 and defined D:\wwwroot\bjlongxingtang\wwwroot\Wcat\Controller\JssdkController.class.php 第 280 行.
+NOTIC: [8] Undefined index: deviceType D:\wwwroot\bjlongxingtang\wwwroot\Wcat\Controller\JssdkController.class.php 第 296 行.
+
+[ 2018-06-05T09:42:49+08:00 ] 127.0.0.1 /Wcat/Wechat/payment
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000272s ]
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.000670s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001352s ]
+SQL: SHOW COLUMNS FROM `orders` [ RunTime:0.0305s ]
+SQL: SELECT * FROM `orders` WHERE `order_sn` = '76585322622' LIMIT 1   [ RunTime:0.0662s ]
+NOTIC: [2] fopen(../logs/2018-06-05.log): failed to open stream: No such file or directory D:\wwwroot\bjlongxingtang\wwwroot\Wcat\wxpay\payment\log.php 第 16 行.
+NOTIC: [2] Missing argument 5 for Wcat\Controller\WechatController::appReturn(), called in D:\wwwroot\bjlongxingtang\wwwroot\Wcat\Controller\WechatController.class.php on line 48 and defined D:\wwwroot\bjlongxingtang\wwwroot\Wcat\Controller\WechatController.class.php 第 159 行.
+NOTIC: [8] Undefined index: deviceType D:\wwwroot\bjlongxingtang\wwwroot\Wcat\Controller\WechatController.class.php 第 175 行.
+
+[ 2018-06-05T09:43:02+08:00 ] 127.0.0.1 /Wcat/Charge/now_charge_json
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000256s ]
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.000664s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001271s ]
+SQL: SHOW COLUMNS FROM `orders` [ RunTime:0.0278s ]
+SQL: SELECT `code_id`,`order_sn`,`start_time`,`charge_time`,`charge_status` FROM `orders` WHERE `user_id` = 11 AND `order_status` = 2 LIMIT 1   [ RunTime:0.0261s ]
+NOTIC: [2] Missing argument 5 for Wcat\Controller\PublicController::appReturn(), called in D:\wwwroot\bjlongxingtang\wwwroot\Wcat\Controller\ChargeController.class.php on line 138 and defined D:\wwwroot\bjlongxingtang\wwwroot\Wcat\Controller\PublicController.class.php 第 17 行.
+NOTIC: [8] Undefined index: deviceType D:\wwwroot\bjlongxingtang\wwwroot\Wcat\Controller\PublicController.class.php 第 33 行.
+
+[ 2018-06-05T14:57:04+08:00 ] 101.226.233.158 /Wcat/Wcat/index?signature=ab8fd39c81b4191e41a0711021fd8ed6c381d89b&timestamp=1528181824&nonce=1737827015&openid=oh09Y1AMk3-BaZMsCWKQeHpOr4wc
+ERR: 无法加载控制器:Wcat
+
+[ 2018-06-05T14:57:16+08:00 ] 101.226.233.146 /Wcat/Wcat/index?signature=171ebbca32420f97bbb37031e2563db47ef97eeb&timestamp=1528181836&nonce=1943015291&openid=oh09Y1AMk3-BaZMsCWKQeHpOr4wc
+ERR: 无法加载控制器:Wcat
+
+[ 2018-06-05T14:57:21+08:00 ] 101.226.233.146 /Wcat/Wcat/index?signature=bf6aae0772292f4468ffcbe51a162efe546f29d7&timestamp=1528181841&nonce=589271238&openid=oh09Y1AMk3-BaZMsCWKQeHpOr4wc
+ERR: 无法加载控制器:Wcat
+
+[ 2018-06-05T15:00:54+08:00 ] 101.226.233.141 /Wcat/Wcat/index?signature=4ce0217e31b3153d5cef4a7edd7699fb19da1143&timestamp=1528182054&nonce=363127931&openid=oh09Y1AMk3-BaZMsCWKQeHpOr4wc
+ERR: 无法加载控制器:Wcat
+
+[ 2018-06-05T15:05:55+08:00 ] 101.226.233.151 /Wcat/Wcat/index?signature=71d5c6e39476edcf5ae70234a9c5753840d4b936&timestamp=1528182354&nonce=1760645458&openid=oh09Y1AMk3-BaZMsCWKQeHpOr4wc
+ERR: 无法加载控制器:Wcat
+
+[ 2018-06-05T15:15:22+08:00 ] 101.226.233.156 /Wcat/Wcat/index?signature=525a580c3c628a3c7a9beb1a58c37cfc097fbe22&timestamp=1528182922&nonce=1950443572&openid=oh09Y1AMk3-BaZMsCWKQeHpOr4wc
+ERR: 无法加载控制器:Wcat
+
+[ 2018-06-05T15:22:49+08:00 ] 101.226.233.151 /Wcat/Wcat/index?signature=36d077e39526a4d3d38891bd222848c309810b1d&timestamp=1528183369&nonce=1144560048&openid=oh09Y1AMk3-BaZMsCWKQeHpOr4wc
+ERR: 无法加载控制器:Wcat
+
+[ 2018-06-05T15:22:58+08:00 ] 101.226.233.141 /Wcat/Wcat/index?signature=cb714d32cdc91b90e5a6d11cf5d563db1cde9308&timestamp=1528183378&nonce=1664760846&openid=oh09Y1AMk3-BaZMsCWKQeHpOr4wc
+ERR: 无法加载控制器:Wcat
+
+[ 2018-06-05T15:24:22+08:00 ] 101.226.233.146 /Wcat/Wcat/index?signature=c125493bfd0e2f60fdc61e1e1be40b0ad4842dc8&timestamp=1528183462&nonce=1062284696&openid=oh09Y1AMk3-BaZMsCWKQeHpOr4wc
+ERR: 无法加载控制器:Wcat
+
+[ 2018-06-05T15:25:28+08:00 ] 101.226.233.146 /Wcat/Wcat/index?signature=651e3f950e98d59dd06e046261f4a8e6b6074f13&timestamp=1528183528&nonce=848836709&openid=oh09Y1AMk3-BaZMsCWKQeHpOr4wc
+ERR: 无法加载控制器:Wcat
+
+[ 2018-06-05T15:25:35+08:00 ] 101.226.233.156 /Wcat/Wcat/index?signature=a540daf7c9ee9cbc171056ddfeaf97c8df899d84&timestamp=1528183535&nonce=699872833&openid=oh09Y1AMk3-BaZMsCWKQeHpOr4wc
+ERR: 无法加载控制器:Wcat
+
+[ 2018-06-05T15:25:47+08:00 ] 101.226.233.146 /Wcat/Wcat/index?signature=bdc022cb6b820e6b15345094b14c2e4f7f3583ac&timestamp=1528183547&nonce=1968280914&openid=oh09Y1AMk3-BaZMsCWKQeHpOr4wc
+ERR: 无法加载控制器:Wcat
+
+[ 2018-06-05T15:26:50+08:00 ] 101.226.233.143 /Wcat/Wcat/index?signature=4e168c7e98637e812af7e7f96a6e856e4886ef3d&timestamp=1528183610&nonce=1586845215&openid=oh09Y1AMk3-BaZMsCWKQeHpOr4wc
+ERR: 无法加载控制器:Wcat
+
+[ 2018-06-05T15:40:03+08:00 ] 115.171.225.203 /Wcat/Index/getcode?code=071e9Kid1klHGs0oxnid1TS9jd1e9KiJ&state=STATE
+ERR: 1048:Column 'openid' cannot be null
+ [ SQL语句 ] : INSERT INTO `users` (`openid`,`user_name`,`sex`,`province`,`city`,`country`,`user_img`,`subscribe`,`creation_time`,`user_type`) VALUES (NULL,'null',NULL,NULL,NULL,NULL,NULL,'1','1528184403','1')
+
+[ 2018-06-05T15:40:09+08:00 ] 115.171.225.203 /Wcat/Index/getcode?code=071zrM5a0Vglkx1cDP8a0QAN5a0zrM5G&state=STATE
+ERR: 1048:Column 'openid' cannot be null
+ [ SQL语句 ] : INSERT INTO `users` (`openid`,`user_name`,`sex`,`province`,`city`,`country`,`user_img`,`subscribe`,`creation_time`,`user_type`) VALUES (NULL,'null',NULL,NULL,NULL,NULL,NULL,'1','1528184409','1')
+
+[ 2018-06-05T15:40:16+08:00 ] 115.171.225.203 /Wcat/Index/getcode?code=061YXURj1JG8Dl0izbSj1WFXRj1YXUR3&state=STATE
+ERR: 1048:Column 'openid' cannot be null
+ [ SQL语句 ] : INSERT INTO `users` (`openid`,`user_name`,`sex`,`province`,`city`,`country`,`user_img`,`subscribe`,`creation_time`,`user_type`) VALUES (NULL,'null',NULL,NULL,NULL,NULL,NULL,'1','1528184416','1')
+
+[ 2018-06-05T15:41:00+08:00 ] 101.226.233.141 /Wcat/Index/getcode
+ERR: 1048:Column 'openid' cannot be null
+ [ SQL语句 ] : INSERT INTO `users` (`openid`,`user_name`,`sex`,`province`,`city`,`country`,`user_img`,`subscribe`,`creation_time`,`user_type`) VALUES (NULL,'null',NULL,NULL,NULL,NULL,NULL,'1','1528184460','1')
+
+[ 2018-06-05T15:45:13+08:00 ] 115.171.225.203 /Wcat/Index/getcode?code=011WO7vP1R82A21jHPvP1cyavP1WO7v1&state=STATE
+ERR: 1048:Column 'openid' cannot be null
+ [ SQL语句 ] : INSERT INTO `users` (`openid`,`user_name`,`sex`,`province`,`city`,`country`,`user_img`,`subscribe`,`creation_time`,`user_type`) VALUES (NULL,'null',NULL,NULL,NULL,NULL,NULL,'1','1528184713','1')
+
+[ 2018-06-05T15:46:43+08:00 ] 115.171.225.203 /Wcat/Index/getcode?code=0711PZJl15Kfol0eNIMl1Ue2Kl11PZJV&state=STATE
+ERR: 1048:Column 'openid' cannot be null
+ [ SQL语句 ] : INSERT INTO `users` (`openid`,`user_name`,`sex`,`province`,`city`,`country`,`user_img`,`subscribe`,`creation_time`,`user_type`) VALUES (NULL,'null',NULL,NULL,NULL,NULL,NULL,'1','1528184803','1')
+
+[ 2018-06-05T17:15:08+08:00 ] 101.226.233.153 /Wcat/Wcat/index?signature=a30d338841cf580e268572ad959c19cd21858565&timestamp=1528190108&nonce=1972635413&openid=oh09Y1AMk3-BaZMsCWKQeHpOr4wc
+ERR: 1054:Unknown column 'oh09Y1AMk3' in 'where clause'
+ [ SQL语句 ] : SELECT `from_user_name`,`create_time` FROM `wechat_log` WHERE `from_user_name` = oh09Y1AMk3-BaZMsCWKQeHpOr4wc AND `create_time` = oh09Y1AMk3-BaZMsCWKQeHpOr4wc LIMIT 1  
+
+[ 2018-06-05T17:19:51+08:00 ] 101.226.233.141 /Wcat/Wcat/index?signature=1bc2d64a242b3b49009ab354c58fbf638a14ccc7&timestamp=1528190390&nonce=132866218&openid=oh09Y1AMk3-BaZMsCWKQeHpOr4wc
+ERR: 1364:Field 'from_user_name' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `wechat_log` () VALUES ()
+
+[ 2018-06-05T17:20:46+08:00 ] 101.226.233.152 /Wcat/Wcat/index?signature=84c78fb0b27c6bad9f8b920c182744516499b53e&timestamp=1528190446&nonce=1860525326&openid=oh09Y1AMk3-BaZMsCWKQeHpOr4wc
+ERR: 1364:Field 'from_user_name' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `wechat_log` () VALUES ()
+
+[ 2018-06-05T18:07:56+08:00 ] 101.226.233.141 /Wcat/Wcat/index?signature=b635720e50f0d27165282f29c943fc53cd812186&timestamp=1528193276&nonce=948432026&openid=oh09Y1AMk3-BaZMsCWKQeHpOr4wc
+ERR: 1364:Field 'from_user_name' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `wechat_log` () VALUES ()
+
+[ 2018-06-05T18:09:04+08:00 ] 101.226.233.146 /Wcat/Wcat/index?signature=3761878d320a92bc46e354cb2affc4b7d7f0bdd5&timestamp=1528193343&nonce=575822918&openid=oh09Y1AMk3-BaZMsCWKQeHpOr4wc
+ERR: 1364:Field 'from_user_name' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `wechat_log` () VALUES ()
+
+[ 2018-06-05T18:19:51+08:00 ] 115.171.225.203 /Wcat/Jssdk/orders
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000726s ]
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.000539s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001855s ]
+SQL: SHOW COLUMNS FROM `charge_code` [ RunTime:0.0187s ]
+SQL: SELECT `charge_status` FROM `charge_code` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0180s ]
+SQL: SHOW COLUMNS FROM `orders` [ RunTime:0.0194s ]
+SQL: SELECT `charge_status` FROM `orders` WHERE `user_id` = 19  [ RunTime:0.0185s ]
+NOTIC: [8] Undefined index: charge_statuss /home/bjlongxingtang1b3jkl1oan2g9x6ixnjgktiatn3g/wwwroot/Wcat/Controller/JssdkController.class.php 第 258 行.
+NOTIC: [8] Undefined index: charge_statuss /home/bjlongxingtang1b3jkl1oan2g9x6ixnjgktiatn3g/wwwroot/Wcat/Controller/JssdkController.class.php 第 258 行.
+NOTIC: [8] Undefined index: charge_statuss /home/bjlongxingtang1b3jkl1oan2g9x6ixnjgktiatn3g/wwwroot/Wcat/Controller/JssdkController.class.php 第 258 行.
+NOTIC: [8] Undefined index: charge_statuss /home/bjlongxingtang1b3jkl1oan2g9x6ixnjgktiatn3g/wwwroot/Wcat/Controller/JssdkController.class.php 第 258 行.
+NOTIC: [8] Undefined index: charge_statuss /home/bjlongxingtang1b3jkl1oan2g9x6ixnjgktiatn3g/wwwroot/Wcat/Controller/JssdkController.class.php 第 258 行.
+NOTIC: [8] Undefined index: charge_statuss /home/bjlongxingtang1b3jkl1oan2g9x6ixnjgktiatn3g/wwwroot/Wcat/Controller/JssdkController.class.php 第 258 行.
+NOTIC: [8] Undefined index: charge_statuss /home/bjlongxingtang1b3jkl1oan2g9x6ixnjgktiatn3g/wwwroot/Wcat/Controller/JssdkController.class.php 第 258 行.
+NOTIC: [8] Undefined index: charge_statuss /home/bjlongxingtang1b3jkl1oan2g9x6ixnjgktiatn3g/wwwroot/Wcat/Controller/JssdkController.class.php 第 258 行.
+NOTIC: [8] Undefined index: charge_statuss /home/bjlongxingtang1b3jkl1oan2g9x6ixnjgktiatn3g/wwwroot/Wcat/Controller/JssdkController.class.php 第 258 行.
+NOTIC: [8] Undefined index: charge_statuss /home/bjlongxingtang1b3jkl1oan2g9x6ixnjgktiatn3g/wwwroot/Wcat/Controller/JssdkController.class.php 第 258 行.
+NOTIC: [8] Undefined index: charge_statuss /home/bjlongxingtang1b3jkl1oan2g9x6ixnjgktiatn3g/wwwroot/Wcat/Controller/JssdkController.class.php 第 258 行.
+NOTIC: [8] Undefined index: charge_statuss /home/bjlongxingtang1b3jkl1oan2g9x6ixnjgktiatn3g/wwwroot/Wcat/Controller/JssdkController.class.php 第 258 行.
+NOTIC: [8] Undefined index: charge_statuss /home/bjlongxingtang1b3jkl1oan2g9x6ixnjgktiatn3g/wwwroot/Wcat/Controller/JssdkController.class.php 第 258 行.
+NOTIC: [8] Undefined index: charge_statuss /home/bjlongxingtang1b3jkl1oan2g9x6ixnjgktiatn3g/wwwroot/Wcat/Controller/JssdkController.class.php 第 258 行.
+NOTIC: [8] Undefined index: charge_statuss /home/bjlongxingtang1b3jkl1oan2g9x6ixnjgktiatn3g/wwwroot/Wcat/Controller/JssdkController.class.php 第 258 行.
+NOTIC: [8] Undefined index: charge_statuss /home/bjlongxingtang1b3jkl1oan2g9x6ixnjgktiatn3g/wwwroot/Wcat/Controller/JssdkController.class.php 第 258 行.
+NOTIC: [8] Undefined index: charge_statuss /home/bjlongxingtang1b3jkl1oan2g9x6ixnjgktiatn3g/wwwroot/Wcat/Controller/JssdkController.class.php 第 258 行.
+SQL: INSERT INTO `orders` (`user_id`,`charge_id`,`code_id`,`power`,`charge_time`,`order_sn`,`user_name`,`phone`,`order_status`,`create_time`) VALUES ('19','1','2','0','1','76616391313','\"\\u732a\\u4e8c\\u53d4\"','','1','1528193991') [ RunTime:0.0203s ]
+SQL: SELECT `order_sn` FROM `orders` ORDER BY id desc LIMIT 1   [ RunTime:0.0186s ]
+NOTIC: [2] Missing argument 5 for Wcat\Controller\JssdkController::appReturn(), called in /home/bjlongxingtang1b3jkl1oan2g9x6ixnjgktiatn3g/wwwroot/Wcat/Controller/JssdkController.class.php on line 272 and defined /home/bjlongxingtang1b3jkl1oan2g9x6ixnjgktiatn3g/wwwroot/Wcat/Controller/JssdkController.class.php 第 280 行.
+NOTIC: [8] Undefined index: deviceType /home/bjlongxingtang1b3jkl1oan2g9x6ixnjgktiatn3g/wwwroot/Wcat/Controller/JssdkController.class.php 第 296 行.
+
+[ 2018-06-05T18:19:51+08:00 ] 115.171.225.203 /Wcat/Jssdk/users_account
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000875s ]
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.000575s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001991s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0261s ]
+SQL: SELECT `integral` FROM `users` WHERE `id` = 19 LIMIT 1   [ RunTime:0.0274s ]
+NOTIC: [2] Missing argument 5 for Wcat\Controller\JssdkController::appReturn(), called in /home/bjlongxingtang1b3jkl1oan2g9x6ixnjgktiatn3g/wwwroot/Wcat/Controller/JssdkController.class.php on line 131 and defined /home/bjlongxingtang1b3jkl1oan2g9x6ixnjgktiatn3g/wwwroot/Wcat/Controller/JssdkController.class.php 第 280 行.
+NOTIC: [8] Undefined index: deviceType /home/bjlongxingtang1b3jkl1oan2g9x6ixnjgktiatn3g/wwwroot/Wcat/Controller/JssdkController.class.php 第 296 行.
+
+[ 2018-06-05T18:19:52+08:00 ] 115.171.225.203 /Wcat/Jssdk/users_account
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001108s ]
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.000722s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002658s ]
+NOTIC: [2] Missing argument 5 for Wcat\Controller\JssdkController::appReturn(), called in /home/bjlongxingtang1b3jkl1oan2g9x6ixnjgktiatn3g/wwwroot/Wcat/Controller/JssdkController.class.php on line 154 and defined /home/bjlongxingtang1b3jkl1oan2g9x6ixnjgktiatn3g/wwwroot/Wcat/Controller/JssdkController.class.php 第 280 行.
+NOTIC: [8] Undefined index: deviceType /home/bjlongxingtang1b3jkl1oan2g9x6ixnjgktiatn3g/wwwroot/Wcat/Controller/JssdkController.class.php 第 296 行.
+

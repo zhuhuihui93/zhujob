@@ -1,0 +1,55 @@
+body {
+    background: url(./login_bg.png) no-repeat center center fixed;
+    background-size:cover;
+    background-color: #ffffff;
+    min-height: 1000px;
+    min-width: 1280px;
+    height: 100%;
+overflow: hidden;
+    
+}
+
+.login-header {
+    background: url(./login_left.png) no-repeat;
+    width: 450px;
+    height: 290px;
+    float: left;
+}
+.login-header h1{ display: none;}
+.login-from{
+    background: url(./long_form_gb.png) no-repeat;
+    height: 290px;
+    float: right;
+    padding-top: 133px;
+    padding-left: 120px;
+    margin-left: -169px;
+}
+.login-input{
+    width: 250px !important;
+}
+.login-input input { 
+    height: 43px;
+    text-align: center;
+    font-size: 16px; 
+    border-radius: 10px;
+    background: #c5c5c5 no-repeat;
+    border: none;
+}
+input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
+    color: #303030;
+}
+input:-moz-placeholder, textarea:-moz-placeholder {
+    color:#303030;
+}
+input::-moz-placeholder, textarea::-moz-placeholder {
+    color:#303030;
+}
+input:-ms-input-placeholder, textarea:-ms-input-placeholder {
+    color:#303030;
+}
+.login-but{
+    background: url(./but-1.png) no-repeat;
+    height: 45px;
+    width: 115px;
+    font-size: 16px; 
+}

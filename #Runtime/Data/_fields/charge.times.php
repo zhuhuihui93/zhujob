@@ -1,0 +1,1 @@
+a:7:{i:0;s:8:"username";i:1;s:2:"ip";i:2;s:4:"time";i:3;s:4:"type";i:4;s:5:"times";s:3:"_pk";a:2:{i:0;s:8:"username";i:1;s:4:"type";}s:5:"_type";a:5:{s:8:"username";s:8:"char(40)";s:2:"ip";s:8:"char(15)";s:4:"time";s:16:"int(10) unsigned";s:4:"type";s:10:"tinyint(1)";s:5:"times";s:19:"tinyint(1) unsigned";}}

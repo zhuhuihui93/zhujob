@@ -1,0 +1,433 @@
+[ 2018-06-30T14:43:52+08:00 ] 111.63.3.187 /admin/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.004187s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004825s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000754s ]
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.000521s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001350s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000103s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000204s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015673s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015777s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000881s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000967s ]
+
+[ 2018-06-30T15:34:34+08:00 ] 116.243.198.39 /Admin/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.004186s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004801s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000698s ]
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.000487s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001257s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000108s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000190s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010841s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010889s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000338s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000389s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001144s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001207s ]
+
+[ 2018-06-30T15:34:40+08:00 ] 111.63.3.187 /admin/index/code/code_len/4/font_size/15/width/120/height/40/code/1530344074.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.004520s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005356s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000756s ]
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.000485s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001321s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001123s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001196s ]
+
+[ 2018-06-30T15:35:30+08:00 ] 116.243.198.39 /admin/index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.004018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004580s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000693s ]
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.000472s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001232s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0327s ]
+SQL: SHOW COLUMNS FROM `times` [ RunTime:0.0327s ]
+SQL: SELECT * FROM `admin` WHERE `username` = '安徽亳州01' AND `status` = 1 LIMIT 1   [ RunTime:0.0325s ]
+SQL: SELECT * FROM `times` WHERE `username` = '安徽亳州01' AND `type` = 0 LIMIT 1   [ RunTime:0.0327s ]
+NOTIC: [2] Illegal offset type in isset or empty /home/bjlongxingtang1b3jkl1oan2g9x6ixnjgktiatn3g/wwwroot/ThinkPHP/Library/Think/Model.class.php 第 511 行.
+SQL: DELETE FROM `times` WHERE `username` = '安徽亳州01' AND `type` = 0 [ RunTime:0.0321s ]
+SQL: UPDATE `admin` SET `lastloginip`='116.243.198.39',`lastlogintime`='1530344130' WHERE `userid` = 5 [ RunTime:0.0320s ]
+SQL: SHOW COLUMNS FROM `admin_log` [ RunTime:0.0330s ]
+SQL: INSERT INTO `admin_log` (`userid`,`username`,`httpuseragent`,`ip`,`time`,`type`,`sessionid`) VALUES ('5','安徽亳州01','Mozilla/5.0 (Linux; Android 8.0; MI 6 Build/OPR1.170623.027; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/57.0.2987.132 MQQBrowser/6.2 TBS/044109 Mobile Safari/537.36 MicroMessenger/6.6.7.1320(0x26060734) NetType/WIFI Language/zh_CN','116.243.198.39','2018-06-30 15:35:30','login','5ikidgmsluciqc9h8sa8o7ef51') [ RunTime:0.0320s ]
+SQL: SHOW COLUMNS FROM `admin_role` [ RunTime:0.0324s ]
+SQL: SELECT `rolename`,`roleid` FROM `admin_role` WHERE `roleid` = 4 AND `status` = 1 LIMIT 1   [ RunTime:0.0323s ]
+
+[ 2018-06-30T15:35:31+08:00 ] 116.243.198.39 /admin/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.005199s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006212s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001118s ]
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.000741s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001987s ]
+SQL: SHOW COLUMNS FROM `log` [ RunTime:0.0331s ]
+SQL: INSERT INTO `log` (`username`,`userid`,`controller`,`action`,`querystring`,`time`,`ip`) VALUES ('安徽亳州01','5','Index','index','array (
+  \'GET\' => 
+  array (
+  ),
+)','2018-06-30 15-35-30','116.243.198.39') [ RunTime:0.0317s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0323s ]
+SQL: SELECT * FROM `menu` WHERE `parentid` = 0 AND `display` = 1 ORDER BY listorder ASC LIMIT 1000   [ RunTime:0.0321s ]
+SQL: SHOW COLUMNS FROM `admin_role_priv` [ RunTime:0.0321s ]
+SQL: SELECT * FROM `admin_role_priv` WHERE `c` = 'Quick' AND `a` = 'menu1' AND `roleid` = 4 LIMIT 1   [ RunTime:0.0343s ]
+SQL: SELECT * FROM `admin_role_priv` WHERE `c` = 'Panel' AND `a` = 'menu1' AND `roleid` = 4 LIMIT 1   [ RunTime:0.0318s ]
+SQL: SELECT * FROM `admin_role_priv` WHERE `c` = 'System' AND `a` = 'menu1' AND `roleid` = 4 LIMIT 1   [ RunTime:0.0324s ]
+SQL: SELECT * FROM `admin_role_priv` WHERE `c` = 'Content' AND `a` = 'menu1' AND `roleid` = 4 LIMIT 1   [ RunTime:0.0319s ]
+SQL: SELECT * FROM `admin_role_priv` WHERE `c` = 'Member' AND `a` = 'menu1' AND `roleid` = 4 LIMIT 1   [ RunTime:0.0330s ]
+SQL: SELECT * FROM `admin_role_priv` WHERE `c` = 'Extend' AND `a` = 'menu1' AND `roleid` = 4 LIMIT 1   [ RunTime:0.0317s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000140s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000238s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.036072s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036661s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000568s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001224s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001289s ]
+
+[ 2018-06-30T15:35:35+08:00 ] 116.243.198.39 /admin/index/public_welcome.html?_=1530344133778
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.005015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005897s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000731s ]
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.000486s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001307s ]
+SQL: SHOW COLUMNS FROM `admin_log` [ RunTime:0.0260s ]
+SQL: SELECT * FROM `admin_log` WHERE `userid` = 5 ORDER BY time desc LIMIT 5   [ RunTime:0.0252s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000097s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000186s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.045765s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.045852s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000459s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000516s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001337s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001445s ]
+
+[ 2018-06-30T15:35:35+08:00 ] 116.243.198.39 /admin/index/public_left/menuid/63.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.006348s ]
+INFO: [ app_init ] --END-- [ RunTime:0.007272s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000740s ]
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.000588s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001407s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0332s ]
+SQL: SELECT * FROM `menu` WHERE `parentid` = 63 AND `display` = 1 ORDER BY listorder ASC LIMIT 1000   [ RunTime:0.0325s ]
+SQL: SHOW COLUMNS FROM `admin_role_priv` [ RunTime:0.0329s ]
+SQL: SELECT * FROM `admin_role_priv` WHERE `c` = 'Statistics' AND `a` = 'menu63' AND `roleid` = 4 LIMIT 1   [ RunTime:0.0326s ]
+SQL: SELECT * FROM `admin_role_priv` WHERE `c` = 'Charge' AND `a` = 'menu63' AND `roleid` = 4 LIMIT 1   [ RunTime:0.0328s ]
+SQL: SELECT * FROM `admin_role_priv` WHERE `c` = 'Order' AND `a` = 'menu63' AND `roleid` = 4 LIMIT 1   [ RunTime:0.0323s ]
+SQL: SELECT * FROM `admin_role_priv` WHERE `c` = 'Quick' AND `a` = 'menu63' AND `roleid` = 4 LIMIT 1   [ RunTime:0.0325s ]
+SQL: SELECT * FROM `admin_role_priv` WHERE `c` = 'Quick' AND `a` = 'menu63' AND `roleid` = 4 LIMIT 1   [ RunTime:0.0328s ]
+SQL: SELECT * FROM `admin_role_priv` WHERE `c` = 'Ad' AND `a` = 'menu63' AND `roleid` = 4 LIMIT 1   [ RunTime:0.0323s ]
+
+[ 2018-06-30T15:35:36+08:00 ] 116.243.198.39 /admin/index/public_leftdefault/id/64.html?_=1530344133779
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.004212s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004824s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000745s ]
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.000468s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001292s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0354s ]
+SQL: SELECT * FROM `menu` WHERE `parentid` = 64 AND `display` = 1 ORDER BY listorder ASC LIMIT 1000   [ RunTime:0.0350s ]
+SQL: SHOW COLUMNS FROM `admin_role_priv` [ RunTime:0.0355s ]
+SQL: SELECT * FROM `admin_role_priv` WHERE `c` = 'Statistics' AND `a` = 'index' AND `roleid` = 4 LIMIT 1   [ RunTime:0.0376s ]
+SQL: SELECT * FROM `admin_role_priv` WHERE `c` = 'Statistics' AND `a` = 'orders' AND `roleid` = 4 LIMIT 1   [ RunTime:0.0351s ]
+SQL: SELECT * FROM `admin_role_priv` WHERE `c` = 'Statistics' AND `a` = 'gains' AND `roleid` = 4 LIMIT 1   [ RunTime:0.0347s ]
+SQL: SELECT * FROM `admin_role_priv` WHERE `c` = 'Statistics' AND `a` = 'monthcard' AND `roleid` = 4 LIMIT 1   [ RunTime:0.0347s ]
+SQL: SELECT * FROM `admin_role_priv` WHERE `c` = 'Statistics' AND `a` = 'users' AND `roleid` = 4 LIMIT 1   [ RunTime:0.0348s ]
+SQL: SELECT * FROM `admin_role_priv` WHERE `c` = 'Statistics' AND `a` = 'recharge' AND `roleid` = 4 LIMIT 1   [ RunTime:0.0349s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000088s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000195s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032793s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032948s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000505s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000564s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001407s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001495s ]
+
+[ 2018-06-30T15:35:36+08:00 ] 116.243.198.39 /admin/index/public_leftdefault/id/70.html?_=1530344133780
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.006556s ]
+INFO: [ app_init ] --END-- [ RunTime:0.007438s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001139s ]
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.000717s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001972s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0207s ]
+SQL: SELECT * FROM `menu` WHERE `parentid` = 70 AND `display` = 1 ORDER BY listorder ASC LIMIT 1000   [ RunTime:0.0184s ]
+SQL: SHOW COLUMNS FROM `admin_role_priv` [ RunTime:0.0183s ]
+SQL: SELECT * FROM `admin_role_priv` WHERE `c` = 'Charge' AND `a` = 'index' AND `roleid` = 4 LIMIT 1   [ RunTime:0.0178s ]
+SQL: SELECT * FROM `admin_role_priv` WHERE `c` = 'Charge' AND `a` = 'paytype' AND `roleid` = 4 LIMIT 1   [ RunTime:0.0181s ]
+SQL: SELECT * FROM `admin_role_priv` WHERE `c` = 'Power' AND `a` = 'PowerList' AND `roleid` = 4 LIMIT 1   [ RunTime:0.0184s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000060s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000144s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009721s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009778s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000349s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000388s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000878s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000928s ]
+
+[ 2018-06-30T15:35:37+08:00 ] 116.243.198.39 /admin/index/public_leftdefault/id/76.html?_=1530344133782
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.005973s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006832s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001109s ]
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.000717s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001931s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0261s ]
+SQL: SELECT * FROM `menu` WHERE `parentid` = 76 AND `display` = 1 ORDER BY listorder ASC LIMIT 1000   [ RunTime:0.0255s ]
+SQL: SHOW COLUMNS FROM `admin_role_priv` [ RunTime:0.0257s ]
+SQL: SELECT * FROM `admin_role_priv` WHERE `c` = 'Cduser' AND `a` = 'cduser' AND `roleid` = 4 LIMIT 1   [ RunTime:0.0256s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000080s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000147s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.261603s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.261687s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000431s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000479s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001383s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001444s ]
+
+[ 2018-06-30T15:35:37+08:00 ] 116.243.198.39 /admin/index/public_leftdefault/id/77.html?_=1530344133783
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.006742s ]
+INFO: [ app_init ] --END-- [ RunTime:0.007749s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001199s ]
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.000757s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002087s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0334s ]
+SQL: SELECT * FROM `menu` WHERE `parentid` = 77 AND `display` = 1 ORDER BY listorder ASC LIMIT 1000   [ RunTime:0.0327s ]
+SQL: SHOW COLUMNS FROM `admin_role_priv` [ RunTime:0.0328s ]
+SQL: SELECT * FROM `admin_role_priv` WHERE `c` = 'Fault' AND `a` = 'Index' AND `roleid` = 4 LIMIT 1   [ RunTime:0.0329s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000101s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000184s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011894s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011954s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000374s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000432s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001141s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001476s ]
+
+[ 2018-06-30T15:35:38+08:00 ] 116.243.198.39 /admin/index/public_leftdefault/id/75.html?_=1530344133781
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.006570s ]
+INFO: [ app_init ] --END-- [ RunTime:0.007508s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001115s ]
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.000798s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002033s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0262s ]
+SQL: SELECT * FROM `menu` WHERE `parentid` = 75 AND `display` = 1 ORDER BY listorder ASC LIMIT 1000   [ RunTime:0.0266s ]
+SQL: SHOW COLUMNS FROM `admin_role_priv` [ RunTime:0.0255s ]
+SQL: SELECT * FROM `admin_role_priv` WHERE `c` = 'Order' AND `a` = 'orderlist' AND `roleid` = 4 LIMIT 1   [ RunTime:0.0259s ]
+SQL: SELECT * FROM `admin_role_priv` WHERE `c` = 'Order' AND `a` = 'reorderlist' AND `roleid` = 4 LIMIT 1   [ RunTime:0.0255s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000069s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000168s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010488s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010546s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000327s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000364s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000848s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000888s ]
+
+[ 2018-06-30T15:35:40+08:00 ] 116.243.198.39 /admin/statistics/index/menuid/117.html?_=1530344133784
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.004173s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004791s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000709s ]
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.000483s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001259s ]
+SQL: SHOW COLUMNS FROM `admin_role_priv` [ RunTime:0.0335s ]
+SQL: SELECT * FROM `admin_role_priv` WHERE `c` = 'Statistics' AND `a` = 'index' AND `roleid` = 4 LIMIT 1   [ RunTime:0.0330s ]
+SQL: SHOW COLUMNS FROM `log` [ RunTime:0.0347s ]
+SQL: INSERT INTO `log` (`username`,`userid`,`controller`,`action`,`querystring`,`time`,`ip`) VALUES ('安徽亳州01','5','Statistics','index','array (
+  \'GET\' => 
+  array (
+    \'menuid\' => \'117\',
+    \'_\' => \'1530344133784\',
+  ),
+)','2018-06-30 15-35-40','116.243.198.39') [ RunTime:0.0331s ]
+SQL: SHOW COLUMNS FROM `charge` [ RunTime:0.0335s ]
+SQL: SELECT `id` FROM `charge` WHERE `admin_id` = 5  [ RunTime:0.0330s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0336s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `users` LIMIT 1   [ RunTime:0.0331s ]
+SQL: SHOW COLUMNS FROM `orders` [ RunTime:0.0365s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `orders` WHERE `charge_id` IN ('81') LIMIT 1   [ RunTime:0.0332s ]
+SQL: SELECT SUM(money) AS tp_sum FROM `orders` WHERE `charge_id` IN ('81') LIMIT 1   [ RunTime:0.0331s ]
+SQL: SELECT SUM(power*charge_time) AS tp_sum FROM `orders` WHERE `charge_id` IN ('81') LIMIT 1   [ RunTime:0.0341s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0339s ]
+SQL: SELECT * FROM `menu` WHERE `id` = 117 LIMIT 1   [ RunTime:0.0341s ]
+SQL: SELECT * FROM `menu` WHERE `id` = 64 LIMIT 1   [ RunTime:0.0344s ]
+SQL: SELECT * FROM `menu` WHERE `id` = 63 LIMIT 1   [ RunTime:0.0330s ]
+SQL: SELECT * FROM `menu` WHERE `parentid` = 117 AND `display` = 1 AND `toolbar` = 1 ORDER BY listorder ASC LIMIT 1000   [ RunTime:0.0334s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000094s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000192s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016718s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016810s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000434s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000498s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001066s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001127s ]
+
+[ 2018-06-30T15:35:41+08:00 ] 116.243.198.39 /admin/statistics/index/grid/datagrid.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.004447s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005549s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000743s ]
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.000479s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001292s ]
+SQL: SHOW COLUMNS FROM `admin_role_priv` [ RunTime:0.0266s ]
+SQL: SELECT * FROM `admin_role_priv` WHERE `c` = 'Statistics' AND `a` = 'index' AND `roleid` = 4 LIMIT 1   [ RunTime:0.0261s ]
+SQL: SHOW COLUMNS FROM `log` [ RunTime:0.0265s ]
+SQL: INSERT INTO `log` (`username`,`userid`,`controller`,`action`,`querystring`,`time`,`ip`) VALUES ('安徽亳州01','5','Statistics','index','array (
+  \'GET\' => 
+  array (
+    \'grid\' => \'datagrid\',
+  ),
+  \'POST\' => 
+  array (
+    \'page\' => \'1\',
+    \'rows\' => \'20\',
+  ),
+)','2018-06-30 15-35-41','116.243.198.39') [ RunTime:0.0261s ]
+SQL: SHOW COLUMNS FROM `orders` [ RunTime:0.0266s ]
+SQL: SHOW COLUMNS FROM `charge` [ RunTime:0.0266s ]
+SQL: SELECT `id` FROM `charge` WHERE `admin_id` = 5  [ RunTime:0.0276s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `orders` WHERE `charge_id` IN ('81') LIMIT 1   [ RunTime:0.0273s ]
+NOTIC: [8] Undefined variable: id /home/bjlongxingtang1b3jkl1oan2g9x6ixnjgktiatn3g/wwwroot/Admin/Controller/StatisticsController.class.php 第 62 行.
+SQL: SELECT * FROM `orders` WHERE `charge_id` IN ('81') ORDER BY `create_time` desc LIMIT 0,20   [ RunTime:0.0270s ]
+SQL: SELECT * FROM `charge`  [ RunTime:0.0264s ]
+NOTIC: [8] A non well formed numeric value encountered /home/bjlongxingtang1b3jkl1oan2g9x6ixnjgktiatn3g/wwwroot/Admin/Controller/StatisticsController.class.php 第 79 行.
+NOTIC: [8] A non well formed numeric value encountered /home/bjlongxingtang1b3jkl1oan2g9x6ixnjgktiatn3g/wwwroot/Admin/Controller/StatisticsController.class.php 第 79 行.
+NOTIC: [8] A non well formed numeric value encountered /home/bjlongxingtang1b3jkl1oan2g9x6ixnjgktiatn3g/wwwroot/Admin/Controller/StatisticsController.class.php 第 79 行.
+NOTIC: [8] A non well formed numeric value encountered /home/bjlongxingtang1b3jkl1oan2g9x6ixnjgktiatn3g/wwwroot/Admin/Controller/StatisticsController.class.php 第 79 行.
+NOTIC: [8] A non well formed numeric value encountered /home/bjlongxingtang1b3jkl1oan2g9x6ixnjgktiatn3g/wwwroot/Admin/Controller/StatisticsController.class.php 第 79 行.
+NOTIC: [8] A non well formed numeric value encountered /home/bjlongxingtang1b3jkl1oan2g9x6ixnjgktiatn3g/wwwroot/Admin/Controller/StatisticsController.class.php 第 79 行.
+NOTIC: [8] A non well formed numeric value encountered /home/bjlongxingtang1b3jkl1oan2g9x6ixnjgktiatn3g/wwwroot/Admin/Controller/StatisticsController.class.php 第 79 行.
+NOTIC: [8] A non well formed numeric value encountered /home/bjlongxingtang1b3jkl1oan2g9x6ixnjgktiatn3g/wwwroot/Admin/Controller/StatisticsController.class.php 第 79 行.
+NOTIC: [8] A non well formed numeric value encountered /home/bjlongxingtang1b3jkl1oan2g9x6ixnjgktiatn3g/wwwroot/Admin/Controller/StatisticsController.class.php 第 79 行.
+NOTIC: [8] A non well formed numeric value encountered /home/bjlongxingtang1b3jkl1oan2g9x6ixnjgktiatn3g/wwwroot/Admin/Controller/StatisticsController.class.php 第 79 行.
+NOTIC: [8] A non well formed numeric value encountered /home/bjlongxingtang1b3jkl1oan2g9x6ixnjgktiatn3g/wwwroot/Admin/Controller/StatisticsController.class.php 第 79 行.
+NOTIC: [8] A non well formed numeric value encountered /home/bjlongxingtang1b3jkl1oan2g9x6ixnjgktiatn3g/wwwroot/Admin/Controller/StatisticsController.class.php 第 79 行.
+NOTIC: [8] A non well formed numeric value encountered /home/bjlongxingtang1b3jkl1oan2g9x6ixnjgktiatn3g/wwwroot/Admin/Controller/StatisticsController.class.php 第 79 行.
+NOTIC: [8] A non well formed numeric value encountered /home/bjlongxingtang1b3jkl1oan2g9x6ixnjgktiatn3g/wwwroot/Admin/Controller/StatisticsController.class.php 第 79 行.
+NOTIC: [8] A non well formed numeric value encountered /home/bjlongxingtang1b3jkl1oan2g9x6ixnjgktiatn3g/wwwroot/Admin/Controller/StatisticsController.class.php 第 79 行.
+NOTIC: [8] A non well formed numeric value encountered /home/bjlongxingtang1b3jkl1oan2g9x6ixnjgktiatn3g/wwwroot/Admin/Controller/StatisticsController.class.php 第 79 行.
+NOTIC: [8] A non well formed numeric value encountered /home/bjlongxingtang1b3jkl1oan2g9x6ixnjgktiatn3g/wwwroot/Admin/Controller/StatisticsController.class.php 第 79 行.
+NOTIC: [8] A non well formed numeric value encountered /home/bjlongxingtang1b3jkl1oan2g9x6ixnjgktiatn3g/wwwroot/Admin/Controller/StatisticsController.class.php 第 79 行.
+NOTIC: [8] A non well formed numeric value encountered /home/bjlongxingtang1b3jkl1oan2g9x6ixnjgktiatn3g/wwwroot/Admin/Controller/StatisticsController.class.php 第 79 行.
+NOTIC: [8] A non well formed numeric value encountered /home/bjlongxingtang1b3jkl1oan2g9x6ixnjgktiatn3g/wwwroot/Admin/Controller/StatisticsController.class.php 第 79 行.
+NOTIC: [8] Undefined variable: id /home/bjlongxingtang1b3jkl1oan2g9x6ixnjgktiatn3g/wwwroot/Admin/Controller/StatisticsController.class.php 第 113 行.
+
+[ 2018-06-30T15:35:50+08:00 ] 116.243.198.39 /admin/index/public_sessionlife.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.004936s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005785s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001026s ]
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.000751s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001898s ]
+
+[ 2018-06-30T15:36:05+08:00 ] 116.243.198.39 /admin/index/public_sessionlife.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.005691s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006356s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000758s ]
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.000497s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001347s ]
+
+[ 2018-06-30T23:45:29+08:00 ] 120.92.11.191 /admin/index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.006445s ]
+INFO: [ app_init ] --END-- [ RunTime:0.007292s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001051s ]
+INFO: Run Common\Behavior\SettingBehavior [ RunTime:0.000841s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002008s ]
+SQL: SELECT UUID() AS uuid; [ RunTime:0.0234s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000106s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000211s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012034s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012087s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000379s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000436s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001158s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001224s ]
+
